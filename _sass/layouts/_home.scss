@@ -1,0 +1,103 @@
+/**
+ * Copyright (c) 2017 MvvmCross
+ */
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .home {
+  > section {
+    padding-top: $home-section-padding;
+    padding-bottom: $home-section-padding;
+    text-align: center;
+    color: var(--text-color);
+
+    &:nth-child(2n) {
+      background-color: var(--zebra-color);
+    }
+
+    h1,
+    h2,
+    p {
+      margin-top: $home-text-margin;
+      margin-bottom: $home-text-margin;
+    }
+
+    h1,
+    h2 {
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 1.875rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
+  > .landing {
+    color: var(--text-color);
+    padding-top: $home-landing-padding;
+    padding-bottom: $home-landing-padding;
+  }
+
+  > .backers {
+    img {
+      max-width: 100%;
+    }
+
+    .opencollective object {
+      max-width: 1140px;
+    }
+  }
+}
+
+@include media-query-max($on-mobile) {
+  .home {
+    > section {
+      padding-left: $base-mobile-padding;
+      padding-right: $base-mobile-padding;
+      padding-top: $home-section-padding - 20;
+      padding-bottom: $home-section-padding - 20;
+    }
+
+    .company-gallerys {
+      .gallery {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $on-mobile + 1) and (max-width: $on-desktop - 1) {
+  .home {
+    > section {
+      padding-left: $base-tablet-padding;
+      padding-right: $base-tablet-padding;
+    }
+
+    .company-gallerys {
+      .gallery {
+        width: (100% / 2);
+      }
+    }
+  }
+}
+
+@include media-query-min($on-desktop) {
+  .home {
+    > section {
+      padding-left: $base-desktop-padding;
+      padding-right: $base-desktop-padding;
+    }
+
+    .company-gallerys {
+      .gallery {
+        width: (100% / 3);
+      }
+    }
+  }
+}

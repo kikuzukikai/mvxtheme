@@ -1,0 +1,115 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 駆逐艦菊月会
+tagline: Association of Kikuzuki
+description: 当会は、駆逐艦菊月に所縁のある旧軍人軍属、戦歿者並びに物故者の遺族、有志によって組織され、その全てに交流の場を提供する会です。一切の政治的思想に関与せず、菊月元乗組員であり戦歿または物故された方々に対する慰霊、会員相互の親睦や情報共有、そして次の世代への菊月の記憶や資料の継承を行なっています。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.kikuzukikai.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+repository: kikuzukikai/kikuzuki-blueprint
+
+timezone: Asia/Tokyo
+
+google_site_verification: p8zEhEVzQxtHFKy0QJlzy3Li0t5Ptxar3bp6Y18bTmY
+google_analytics: UA-71602879-1
+
+keywords: 菊月,戦友会
+corporate_number: 5700150090575
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+# parse_block_html: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+assets:
+  compression: false # true on JEKYLL_ENV=production
+  gzip: true
+  defaults:
+    js: { integrity: false } # true on JEKYLL_ENV=production
+    css: { integrity: false } # true on JEKYLL_ENV=production
+  precompile: all
+  raw_precompile: all
+
+include:
+  - _docs
+
+paginate: 3
+paginate_path: "/blog/page:num/"
+
+# Gem settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-redirect-from
+  - jekyll-octicons
+  - jekyll-gist
+  - jekyll-paginate-v2
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+# End
+
+# Date format settings
+date_format: "%-d %b %Y"
+# End
+
+# Site permalink settings
+permalink: /blog/:title.html
+# End
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path.html
+# End
+
+# Site menu settings
+menu:
+  - title: "ブログ記事"
+    url: "/blog/"
+  - title: "文書化資料"
+    url: "/docs/"
+# End
+
+# # Breadcrumb Settings
+# breadcrumb:
+#     image: breadcrumb-image.jpg
+#Content Repo for static site.
+# Used for the edit on github include
+edit-on-github:
+    enabled: true
+# End

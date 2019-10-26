@@ -1,0 +1,47 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width:100%;
+}
+  
+.scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar{
+    height: 2px;
+}
+
+.scroll::-webkit-scrollbar-track{
+    background: var(--zebra-color);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--zebra-color);
+}
+
+table tr:nth-child(2n-1) {
+    background-color: var(--bg-color);
+}
+ 
+table tr:nth-child(2n) {
+    background-color: var(--zebra-color);
+}
+
+table tr th {
+    font-weight: bold;
+    background-color: var(--zebra-color);
+}
+
+table tr th,
+table tr td {
+    text-align: left;
+    padding: 5px 10px;
+}

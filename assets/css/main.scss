@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+/**
+ * Copyright (c) 2017 MvvmCross
+ */
+
+// Please do not change this file, it should be kept clean.
+// Please edit the _sass folder if there are any changes.
+$baseurl: "{{ site.baseurl }}";
+// colors
+:root {
+    --bg-color: #fff;
+    --text-color: #333;
+    --link-color: #39c;
+    --zebra-color: #fafbfc;
+    --theme-color: #008;
+    --alpha-color: rgba(0,0,0,.1);
+    --header-border-color: #008;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #333;
+    --text-color: #fff;
+    --link-color: #39c;
+    --zebra-color: #3a3b3c;
+    --theme-color: #008;
+    --alpha-color: rgba(0,0,0,.1);
+    --header-border-color: rgba(255,255,255,.1);
+  }
+}
+@import "min";
+@import "mvxtheme";
