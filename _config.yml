@@ -101,7 +101,7 @@ collections:
 menu:
   - title: "ブログ記事"
     url: "/blog/"
-  - title: "文書化資料"
+  - title: "団体概要"
     url: "/docs/"
 # End
 
