@@ -2,7 +2,7 @@
 layout: docs
 title: よくある質問
 ---
-## 駆逐艦菊月会慰霊祭(靖國神社)について
+## 駆逐艦菊月会慰霊祭(靖國神社)について
 開催日時「11月の第1日曜日または連休の一部たる文化の日」を表で示します。
 
 <div class="scroll" markdown="block">
@@ -40,6 +40,8 @@ title: よくある質問
 <object data="{{ '/assets/svg/guide.svg' | relative_url }}" type="image/svg+xml"></object>
 
 赤道を挟む二つの島国、日本とソロモン諸島の交流を表現したこの旗章は、グラフィックデザイナーの加納偉智さんによる作品です。
+
+「駆逐艦菊月会」を受け継ぐ前の当会の起源である群青財団設立準備会の旗章を引き続き使用しています。
 
 ## 菊月の英文表記について
 菊月の英文表記がKiku&quot;du&quot;kiやKiku&quot;dzu&quot;kiではなくKiku&quot;zu&quot;kiになっている理由については以下のリンクをご参照ください。
