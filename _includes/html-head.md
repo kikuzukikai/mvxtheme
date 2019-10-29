@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{% if site.google_site_verification %}}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
-    <meta name="keywords" content="{{ site.keywords }}">
     {{% endif %}}
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta property="fb:app_id" content="{{ site.app_id }}">
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com/">
