@@ -6,8 +6,6 @@ layout: compress
 <!-- head -->
 {% include html-head.md %}
 <body class="body">
-<div id="fb-root"></div>
-<script src="//connect.facebook.net/ja_JP/sdk.js" async defer crossorigin></script>
     <!-- header -->
     {% include header.md %}
     <!-- main content -->
