@@ -6,8 +6,8 @@ layout: compress
 <!-- head -->
 {% include html-head.md %}
 <body class="body">
-    <div id="fb-root"></div>
-    <script src="//connect.facebook.net/ja_JP/sdk.js" async defer crossorigin></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&autoLogAppEvents=1&version=v4.0&appId=2448247268557394"></script>
     <!-- header -->
     {% include header.md %}
     <!-- main content -->
