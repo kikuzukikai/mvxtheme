@@ -19,5 +19,6 @@ layout: article
 <div class="post-content" itemprop="articleBody">
 {{ content }}
 </div>
+<div class="fb-comments"></div>
 </article>
 {% include deeplink.md %}
