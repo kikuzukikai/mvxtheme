@@ -19,6 +19,6 @@ layout: article
 <div class="post-content" itemprop="articleBody">
 {{ content }}
 </div>
-<div class="fb-comments" data-href="{{ page.url }}" data-width="100%" data-numposts="10"></div>
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="10"></div>
 </article>
 {% include deeplink.md %}
