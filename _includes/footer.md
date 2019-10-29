@@ -23,7 +23,7 @@
             <li role="menuitem" aria-label="Connect" class="item">
 <h2>リンク集</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
-<li role="listitem" aria-label="Connect link item"><a href="https://github.com/kikuzukikai/website" target="_blank" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="https://github.com/kikuzukikai/mvxtheme" target="_blank" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="{{ site.github.repository_url }}" target="_blank" role="link">菊月「復元図」一次配布場所</a>&nbsp;(&nbsp;<a href="{{ site.github.repository_url }}/archive/{{ site.github.latest_release.tag_name }}.zip" target="_blank" role="link">ZIP</a>&nbsp;&bull;&nbsp;<a href="{{ site.github.repository_url }}/archive/{{ site.github.latest_release.tag_name }}.tar.gz" target="_blank" role="link">TAR.GZ</a>&nbsp;)</li>
 <li role="listitem" aria-label="Connect link item"><a href="https://ddmlabo014.wixsite.com/ddmlabo" target="_blank" role="link">駆逐艦模型研究室</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://web.q4.org/" target="_blank" role="link">QUESTFOR</a></li>
