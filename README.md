@@ -1,4 +1,17 @@
-# mvx
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef23c3ce-6909-47fe-b124-cb4174530259/deploy-status)](https://app.netlify.com/sites/kikuzukikai/deploys)
+# About Mvxtheme
+
+Mvxtheme is the Jekyll theme written for MvvmCross, using a responsive design to optimize the display of mobile devices.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [MvvmCross](https://github.com/MvvmCross/MvvmCross/).
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Then run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using this theme.
+
 ## License
-[Microsoft Public License](http://opensource.org/licenses/ms-pl.html)
+
+The theme is available as open source under the terms of the [Microsoft Public License](https://github.com/MvvmCross/MvvmCross/blob/master/LICENSE).
