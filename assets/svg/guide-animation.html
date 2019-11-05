@@ -1,3 +1,44 @@
+<html>
+<head>
+<style>
+  path {
+    fill: none;
+    stroke: #f0f;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    -webkit-animation: hello 3s ease-in forwards;
+    animation: hello 3s ease-in forwards;
+  }
+  @-webkit-keyframes hello {
+    0% {
+      stroke-dashoffset: 2000;
+      fill:transparent;
+    }
+    50% {
+      stroke-dashoffset: 0;
+      fill:transparent;
+    }
+    100% {
+      stroke:transparent;
+    }
+  }
+  @keyframes hello {
+    0% {
+      stroke-dashoffset: 2000;
+      fill:transparent;
+    }
+    50% {
+      stroke-dashoffset: 0;
+      fill:transparent;
+    }
+    100% {
+      stroke:transparent;
+    }
+  }
+</style>
+</head>
+<body>
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 400 250">
@@ -91,41 +132,6 @@
              99.10,225.42 300.93,225.42 300.93,225.42
              300.93,225.42 300.93,23.71 300.93,23.71
              300.93,23.71 99.10,23.71 99.10,23.71 Z" />
-  <style>
-    path {
-      fill: none;
-      stroke: #f0f;
-      stroke-dasharray: 2000;
-      stroke-dashoffset: 0;
-      stroke-width: 1;
-      -webkit-animation: hello 3s ease-in forwards;
-      animation: hello 3s ease-in forwards;
-    }
-    @-webkit-keyframes hello {
-      0% {
-        stroke-dashoffset: 2000;
-        fill:transparent;
-      }
-      50% {
-        stroke-dashoffset: 0;
-        fill:transparent;
-      }
-      100% {
-        stroke:transparent;
-      }
-    }
-    @keyframes hello {
-      0% {
-        stroke-dashoffset: 2000;
-        fill:transparent;
-      }
-      50% {
-        stroke-dashoffset: 0;
-        fill:transparent;
-      }
-      100% {
-        stroke:transparent;
-      }
-    }
-  </style>
 </svg>
+</body>
+</html>
