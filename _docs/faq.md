@@ -32,7 +32,6 @@ title: よくある質問
 
 ## 旗章の色と名称について
 旗章の色は群青色で、名称は「財団旗」です。
-<object data="{{ '/assets/svg/guide-animation.svg' | relative_url }}" type="image/svg+xml"></object>
 
 ## インターネットサービスの利用方針について
 当会では、私達の取り組みをより多くの皆様に知って頂くため、インターネットでの広報を行っています。
