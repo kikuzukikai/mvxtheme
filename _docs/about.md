@@ -10,7 +10,7 @@ title: 運営者情報
 堀江仁貴
 
 ## 所在地
-〒489-0984 愛知県瀬戸市北山町8
+〒489-0984 愛知県瀬戸市北山町80
 
 ## お問合せ先
 メール: contact@kikuzuki<span class="obfuscate">-</span>kai.org
