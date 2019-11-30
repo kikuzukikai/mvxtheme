@@ -7,8 +7,10 @@ layout: article
 <p class="meta">
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
 {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-{{ page.date | date: date_format }}
+投稿: {{ page.date | date: date_format }}
 </time>
+&nbsp;
+更新: {% last_modified_at %b %-d, %Y %}
 &nbsp;
 <i class="fa fa-pencil fa-fw"></i>
 <a href="https://github.com/kikuzukikai/mvx/blob/master/{{ page.path }}" alt="Edit">
