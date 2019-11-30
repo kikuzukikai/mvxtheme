@@ -5,12 +5,9 @@ layout: article
 <header class="post-header">
 <h1 itemprop="name headline">{{ page.title | escape }}</h1>
 <p class="meta">
-<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-{% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-投稿: {{ page.date | date: date_format }}
+投稿: {{ page.date | date: "%b %-d, %Y" }}
 &nbsp;
 更新: {{ page.last_modified_at | date: "%b %-d, %Y" }}
-</time>
 &nbsp;
 <i class="fa fa-pencil fa-fw"></i>
 <a href="https://github.com/kikuzukikai/mvx/blob/master/{{ page.path }}" alt="Edit">
