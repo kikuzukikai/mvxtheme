@@ -5,9 +5,7 @@ layout: article
 <header class="post-header">
 <h1 itemprop="name headline">{{ page.title | escape }}</h1>
 <p class="meta">
-投稿: {{ page.date | date: "%b %-d, %Y" }}
-&nbsp;
-更新: {{ page.last_modified_at | date: "%b %-d, %Y" }}
+{{ page.date | date: "%Y年%-m月%-d日" }}投稿
 &nbsp;
 <i class="fa fa-pencil fa-fw"></i>
 <a href="https://github.com/kikuzukikai/mvx/blob/master/{{ page.path }}" alt="Edit">
