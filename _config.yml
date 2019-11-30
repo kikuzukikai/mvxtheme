@@ -79,7 +79,6 @@ plugins:
   - jekyll-octicons
   - jekyll-gist
   - jekyll-paginate-v2
-  - jekyll-last-modified-at
 
 exclude:
   - Gemfile
