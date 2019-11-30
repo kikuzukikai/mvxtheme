@@ -10,7 +10,7 @@ layout: article
 投稿: {{ page.date | date: date_format }}
 </time>
 &nbsp;
-更新: {% last_modified_at %b %-d, %Y %}
+更新: {{ page.last_modified_at | date: '%b %-d, %Y' }}
 &nbsp;
 <i class="fa fa-pencil fa-fw"></i>
 <a href="https://github.com/kikuzukikai/mvx/blob/master/{{ page.path }}" alt="Edit">
