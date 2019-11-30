@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: 駆逐艦菊月会
 tagline: Association of Kikuzuki
-description: 当会は、駆逐艦菊月に所縁のある旧軍人軍属、戦歿者並びに物故者の遺族、有志によって組織され、その全てに交流の場を提供する会です。一切の政治的思想に関与せず、菊月元乗組員であり戦歿または物故された方々に対する慰霊、会員相互の親睦や情報共有、そして次の世代への菊月の記憶や資料の継承を行なっています。
+description: 当会は、駆逐艦菊月に所縁のある旧軍人軍属、戦歿者並びに物故者の遺族、有志によって組織され、その全てに交流の場を提供する会です。駆逐艦菊月の顕彰に主眼を置き、一切の政治的思想に関与せず、菊月元乗組員であり戦歿または物故された方々に対する慰霊、会員相互の親睦や情報共有、そして次の世代への菊月の記憶や資料の継承を行なっています。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kikuzukikai.org" # the base hostname & protocol for your site, e.g. http://example.com
 
