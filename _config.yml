@@ -88,7 +88,7 @@ exclude:
 # End
 
 # Date format settings
-date_format: "%-d %b, %Y"
+date_format: "%Y年%-m月%-d日"
 # End
 
 # Site permalink settings
