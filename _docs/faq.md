@@ -6,7 +6,7 @@ title: よくある質問
 - TOC
 {:toc}
 
-## 令和2年度以降の靖國神社での当会慰霊祭について
+## 令和2年度以降の靖國神社での当会慰霊祭について
 会則に定める開催予定日時「11月の第1日曜日または連休の一部たる文化の日」は以下の表をご参照ください。
 
 <div class="scroll" markdown="block">
@@ -38,7 +38,8 @@ title: よくある質問
 
 * プレスリリース
 
-    [PR TIMES](https://prtimes.jp/main/html/searchrlp/company_id/31198)
+    - [PR TIMES](https://prtimes.jp/main/html/searchrlp/company_id/31198)
+    - [note](https://note.com/kikuzukikai)
     
 * ソーシャルネットワーク(非常用)
 
