@@ -43,7 +43,7 @@ title: よくある質問
     
 * ソーシャルネットワーク(非常用)
 
-    <a rel="me" href="https://mastodon.social/@{{ site.github.owner_name }}" target="_blank">Mastodon</a>
+    - <a rel="me" href="https://mastodon.social/@{{ site.github.owner_name }}" target="_blank">Mastodon</a>
 
 ## Q4.org について
 このサイトの開発を行うユニット [QUESTFOR](https://web.q4.org) が提供する短縮URLまたはそのドメインです。
