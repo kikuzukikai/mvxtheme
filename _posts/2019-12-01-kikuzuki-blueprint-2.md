@@ -1,5 +1,5 @@
 ---
-title: 菊月復元図v2.0を公開しました。
+title: 菊月復元図v2.0を公開しました
 ---
 ## 駆逐艦菊月最終時復元図
 最新版のダウンロードは[こちら](https://github.com/kikuzukikai/kikuzuki-blueprint/releases/latest)です。
