@@ -8,7 +8,7 @@ layout: article
 {{ page.date | date: "%Y年%-m月%-d日" }}投稿
 &nbsp;
 <i class="fa fa-pencil fa-fw"></i>
-<a href="https://github.com/kikuzukikai/mvx/blob/master/{{ page.path }}" alt="Edit">
+<a href="https://github.com/kikuzukikai/mvxtheme/blob/master/{{ page.path }}" alt="Edit">
 編集する
 </a>
 </p>
