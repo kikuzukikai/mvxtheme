@@ -13,8 +13,10 @@ title: 令和2年度当会慰霊祭のお誘い
 
 何方様もご参列頂けますので、ご不明な点がございましたらお気軽にお問い合わせ下さい。
 
-また、SNSアカウントをお持ちでない等の事情がある方向けに、[こちらからもご参列お申込みいただけるようになりました。](https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html)
-こちらの電子チケットは無料です。
+また、SNSアカウントをお持ちでない等の事情がある方向けに、こちらからもご参列お申込みいただけるようになりました。
+電子チケットの取得は無料です。
 よろしくお願いいたします。
 
 ※メール、リプライ、メッセージなどで直接ご参列表明いただいた方は不要です。
+
+[https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html](https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html)
