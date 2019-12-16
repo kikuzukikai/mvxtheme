@@ -17,8 +17,7 @@ title: 令和2年度当会慰霊祭のお誘い
 
 [https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html](https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html)
 
-こちらの電子チケットは無料で取得できます。
-Yahoo! JAPAN IDの登録、ログインは任意です。
+こちらの電子チケットは無料で取得でき、Yahoo! JAPAN IDの登録、ログインは任意です。
 是非ご利用ください。
 
 ※メール、リプライ、メッセージなどで直接ご参列表明いただいた方は不要です。
