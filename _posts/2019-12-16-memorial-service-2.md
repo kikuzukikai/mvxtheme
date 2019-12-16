@@ -15,7 +15,7 @@ title: 令和2年度当会慰霊祭のお誘い
 
 また、SNSアカウントをお持ちでない等の事情がある方向けに、以下のリンクからもご参列お申込みいただけるようになりました。
 
-[https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html](https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html)
+[令和2年度 駆逐艦菊月会慰霊祭 - パスマーケット](https://passmarket.yahoo.co.jp/event/show/detail/01g8fv10pmv2w.html)
 
 こちらの電子チケットは無料で取得でき、Yahoo! JAPAN IDの登録、ログインは任意です。
 是非ご利用ください。
