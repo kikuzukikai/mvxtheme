@@ -1,11 +1,13 @@
 <svg
    xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 1600 1600">
+   width="40" height="40"
+   viewBox="0 0 900 900">
   <path
      fill="none" stroke="#fb0" stroke-width="100"
-     stroke-linecap="round" stroke-linejoin="round"
-     d="m 1200,800
-        c 0,-200 -150,-400 -400,-400 -250,0 -400,200 -400,400 250,0 400,200 400,400 0,-200 130,-320 250,-370" />
+     stroke-linejoin="round" stroke-linecap="round"
+     d="M 850,450
+        C 850,-80  50,-80  50,450 300,450 450,650
+          450,850 450,650 580,530 700,480" />
   <style>
     path {
       stroke-dasharray: 3000;
