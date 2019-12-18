@@ -21,8 +21,8 @@
     path {
       stroke-dasharray: 3000;
       stroke-dashoffset: 0;
-      -webkit-animation: path 3s forwards;
-      animation: path 3s forwards;
+      -webkit-animation: path 3s infinite;
+      animation: path 3s infinite;
     }
     @-webkit-keyframes path {
       0% {
