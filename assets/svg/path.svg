@@ -1,14 +1,23 @@
 <svg
    xmlns="http://www.w3.org/2000/svg"
-   width="40" height="40"
    viewBox="0 0 900 900">
   <path
-     fill="none" stroke="#fb0" stroke-width="100"
+     fill="none" stroke="#880" stroke-width="100"
      stroke-linejoin="round" stroke-linecap="round"
      d="M 850,450
         C 850,-80  50,-80  50,450 300,450 450,650
           450,850 450,650 580,530 700,480" />
   <style>
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background-color: #333;
+      }
+    }
+    svg {
+      transform: scale(0.2);
+      background: var(--background-color);
+
+    }
     path {
       stroke-dasharray: 3000;
       stroke-dashoffset: 0;
