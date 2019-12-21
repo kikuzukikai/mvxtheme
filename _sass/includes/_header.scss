@@ -26,14 +26,14 @@
     flex-flow: row nowrap;
     text-decoration: none;
     color: var(--text-color);
-    background-size: 40px 40px;
+    background-size: 30px 30px;
     background-position: left center;
     background-image: url('/assets/svg/logo.svg');
     @media (prefers-color-scheme: dark){	
       background-image: url('/assets/svg/logo-white.svg');	
     }
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   > .navigation {
