@@ -26,14 +26,11 @@
     flex-flow: row nowrap;
     text-decoration: none;
     color: var(--text-color);
-    background-size: 30px 30px;
+    background-size: 40px 40px;
     background-position: left center;
     background-image: url('/assets/svg/logo.svg');
-    @media (prefers-color-scheme: dark){	
-      background-image: url('/assets/svg/logo-white.svg');	
-    }
     background-repeat: no-repeat;
-    padding-left: 30px;
+    padding-left: 40px;
   }
 
   > .navigation {
@@ -73,14 +70,11 @@
 
     > .logo {
       margin: 0 auto;
-      background-size: 30px 30px;
+      background-size: 40px 40px;
       background-position: left center;
       background-image: url('/assets/svg/logo.svg');
-      @media (prefers-color-scheme: dark){	
-      background-image: url('/assets/svg/logo-white.svg');	
-      }
       background-repeat: no-repeat;
-      padding-left: 30px;
+      padding-left: 40px;
     }
 
     > .navigation {
