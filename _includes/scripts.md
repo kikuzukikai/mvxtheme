@@ -5,7 +5,9 @@
 <script src="{{ '/assets/js/popper.min.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}" async defer></script>
 <script>
-if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-  changeFavicon("{{ '/favicon-white.ico' | relative_url }}");
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  changeFavicon("{{ '/favicon-white.ico' | relative_url }}")
+} else {
+  changeFavicon("{{ '/favicon.ico' | relative_url }}")
 }
 </script>
