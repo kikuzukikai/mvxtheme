@@ -6,8 +6,6 @@
 <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}" async defer></script>
 <script>
 if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-  function changeFavicon(){
-    favicon.href = "favicon-white.ico";
-  }
+  changeFavicon("{{ '/favicon-white.ico' | relative_url }}");
 }
 </script>
