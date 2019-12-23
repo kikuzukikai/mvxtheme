@@ -67,6 +67,7 @@ assets:
 
 include:
   - _docs
+  - _special
 
 paginate: 10
 paginate_path: "/blog/page:num/"
@@ -108,6 +109,8 @@ menu:
     url: "/blog/"
   - title: "団体概要"
     url: "/docs/"
+  - title: "特設ページ"
+    url: "/special/"
 # End
 
 # # Breadcrumb Settings
