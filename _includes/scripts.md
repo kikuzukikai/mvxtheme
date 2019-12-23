@@ -7,6 +7,7 @@
 <script>
 function changeFavicon(){
   if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-  favicon.href = "favicon-white.ico";
+    favicon.href = "favicon-white.ico";
+  }
 }
 </script>
