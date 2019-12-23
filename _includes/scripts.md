@@ -15,10 +15,10 @@ const changeFavicon = link => {
     $favicon.href = link;
     document.head.appendChild($favicon);
   }
-}
+};
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
   changeFavicon("{{ site.url }}/favicon-white.ico");
 } else {
   changeFavicon("{{ site.url }}/favicon.ico");
-}
+};
 </script>
