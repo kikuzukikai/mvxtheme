@@ -103,7 +103,7 @@ collections:
     permalink: /:collection/:path.html
   special:
     output: true
-    permalink: /:collection/:path.html
+    permalink: /:collection/:title.html
 # End
 
 # Site menu settings
