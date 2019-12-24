@@ -15,7 +15,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
     <link rel="dns-prefetch" href="//connect.facebook.net/">
     <!-- favicon -->
-    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" id="favicon">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- stylesheets -->
