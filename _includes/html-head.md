@@ -25,7 +25,7 @@
     {% include google-analytics.md %}
     <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
   <script>
-  function(){
+  (function(){
     function checkStatus(){
       if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         changeFavicon("{{ site.url }}/favicon-white.ico");
@@ -46,6 +46,6 @@
 	m.href = url;
 	document.getElementsByTagName("head")[0].appendChild(m);
     }
-  }();
+  })();
   </script>
 </head>
