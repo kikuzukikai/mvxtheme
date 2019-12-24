@@ -15,7 +15,7 @@ layout: default
         {% endfor %}
         </ul>
     </div>
-  <article>
+  <article class="documentation">
     <section>
       {{ content }}
       <ul class="list">
