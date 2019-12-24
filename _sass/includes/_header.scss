@@ -118,13 +118,13 @@
       }
 
       ol {
-        font-weight: bold;
         list-style-type: none;
         margin-top: 0;
         padding: 0;
       }
 
       ol a {
+        font-weight: bold;
         color: var(--text-color);
         text-decoration: none;
         display: inline-block;
