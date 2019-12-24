@@ -24,28 +24,4 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {% include google-analytics.md %}
     <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
-  <script>
-  (function(){
-    function checkStatus(){
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        changeFavicon("{{ site.url }}/favicon-white.ico");
-      } else {
-        changeFavicon("{{ site.url }}/favicon.ico");
-      }
-    }
-    function changeFavicon(url){
-	var l = document.getElementsByTagName("link");
-	for(var i = 0; i < l.length; i++) {
-	  if(l[i].getAttribute("rel") == "shortcut icon"){
-	    l[i].parentNode.removeChild(l[i]);
-	    break;
-	  }
-	}
-	var m = document.createElement("link");
-	m.rel = "shortcut icon";
-	m.href = url;
-	document.getElementsByTagName("head")[0].appendChild(m);
-    }
-  })();
-  </script>
 </head>
