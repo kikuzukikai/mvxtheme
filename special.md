@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: special
 title: 特設ページ
 permalink: /special/
 pagination: 
