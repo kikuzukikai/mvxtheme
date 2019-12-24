@@ -16,7 +16,7 @@ layout: default
         </ul>
     </div>
   <article class="documentation">
-    <section>
+    <section class="blog">
       {{ content }}
       <ul class="list">
       {% for item in site.special %}
