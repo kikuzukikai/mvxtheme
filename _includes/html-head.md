@@ -24,11 +24,4 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {% include google-analytics.md %}
     <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
-    <script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      changeFavicon("{{ site.url }}/favicon-white.ico");
-    } else {
-      changeFavicon("{{ site.url }}/favicon.ico");
-    }
-    </script>
 </head>
