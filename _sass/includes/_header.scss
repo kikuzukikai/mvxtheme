@@ -111,19 +111,18 @@
     transition: .2s ease-in-out;
 
     > .doc-nav {
-      p {
+      ul {
         margin-bottom: 0;
         padding-left: 15px;
       }
 
-      ul {
+      ol {
         font-weight: bold;
-        list-style-type: none;
         margin-top: 0;
         padding: 0;
       }
 
-      ul a {
+      ol a {
         color: var(--text-color);
         text-decoration: none;
         display: inline-block;
@@ -134,7 +133,7 @@
         width: 100%;
       }
 
-      ul a:hover {
+      ol a:hover {
         color: var(--bg-color);
         background-color: var(--link-color);
       }
