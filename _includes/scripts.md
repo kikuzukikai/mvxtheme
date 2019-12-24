@@ -4,10 +4,3 @@
 <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/popper.min.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}" async defer></script>
-<script>
-if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  changeFavicon("{{ site.url }}/favicon-white.ico");
-} else {
-  changeFavicon("{{ site.url }}/favicon.ico");
-}
-</script>
