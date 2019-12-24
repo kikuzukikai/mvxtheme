@@ -1,5 +1,5 @@
 ---
-layout: special
+layout: blog
 title: 特設ページ
 permalink: /special/
 ---
