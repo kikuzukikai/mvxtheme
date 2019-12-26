@@ -1,6 +1,41 @@
+defaults: &defaults
+  working_directory: ~/repo
 version: 2
 jobs:
-  deploy_dev: # ジョブ名
+  build: # ジョブ名
+    docker:
+      - image: circleci/ruby:2.5
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+      - run:
+          name: HTMLProofer tests
+          command: |
+            bundle exec htmlproofer ./_site \
+              --allow-hash-href \
+              --check-favicon  \
+              --check-html \
+              --disable-external
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
+  deploy:
     docker:
       - image: circleci/node:10.7 # ジョブ実行環境のDockerイメージを記述
     steps:
@@ -14,7 +49,6 @@ jobs:
       - run:
           name: deploy to Firebase Hosting
           command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN # プロジェクト上のfirebase-toolsでデプロイします
-
 workflows:
   version: 2
   deploy_dev: # ワークフローの名前
