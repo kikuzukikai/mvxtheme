@@ -28,10 +28,10 @@ jobs:
         command: npm install firebase-tools
     - run:
         name: Project Alias
-        command: firebase use default
+        command: node_modules/.bin/firebase use default
     - run:
         name: Deploy to Firebase
-        command: firebase deploy --token=$FIREBASE_TOKEN
+        command: node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
 workflows:
   version: 2
   workflow:
