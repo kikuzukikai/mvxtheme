@@ -24,6 +24,9 @@ jobs:
           name: Build Jekyll Site
           command: bundle exec jekyll build --verbose
       - run:
+          name: Set Project Alias
+          command: firebase use default
+      - run:
           name: Deploy to Firebase
           command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive
 
