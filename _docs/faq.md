@@ -46,7 +46,7 @@ title: よくある質問
     - <a rel="me" href="https://mastodon.social/@{{ site.github.owner_name }}" target="_blank">Mastodon</a>
 
 ## Q4.org について
-このサイトの開発を行う [Medjed Co.](https://corp.medjed.com/ja/) が提供する短縮URL、またはそのドメインです。
+このサイトの開発を行う [Medjed Web](https://web.medjed.com/ja/) が提供する短縮URL、またはそのドメインです。
 
 ## 寄付について
 今のところ、受け付ける予定はございません。
