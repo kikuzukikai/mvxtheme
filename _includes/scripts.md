@@ -1,5 +1,3 @@
-{% include google-analytics.md %}
-<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8" async defer></script>
 <script src="{{ '/assets/js/back-to-top.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/elevator.min.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/hamburger-menu.js' | relative_url }}" async defer></script>
