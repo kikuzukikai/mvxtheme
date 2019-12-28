@@ -22,13 +22,10 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
   changeFavicon("{{ site.url }}/favicon.ico");
 };
 </script>
-
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.6.1/firebase-app.js"></script>
-
+<script src="/__/firebase/7.6.1/firebase-app.js" async defer></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
-
+<script src="/__/firebase/7.6.1/firebase-analytics.js" async defer></script>
 <!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+<script src="/__/firebase/init.js" async defer></script>
