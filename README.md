@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef23c3ce-6909-47fe-b124-cb4174530259/deploy-status)](https://app.netlify.com/sites/kikuzukikai/deploys)
-
 # About Mvxtheme
 
 Mvxtheme is the Jekyll theme written for MvvmCross, using a responsive design to optimize the display of mobile devices.
