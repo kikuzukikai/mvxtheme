@@ -23,6 +23,5 @@
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif+JP:300|Noto+Sans+JP:300|Roboto:300|Ubuntu:300&display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    {% include google-analytics.md %}
-    <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8" async defer></script>
+    </script>
 </head>
