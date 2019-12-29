@@ -12,6 +12,9 @@ h6 {
   font-family: "Noto Serif JP";
 }
 
+pre,
+code,
+.highlight,
 .highlighter-rouge {
   font-family: Ubuntu;
 }
