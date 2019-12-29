@@ -21,7 +21,11 @@
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- css -->
-    <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+    <style>
+    .logo {
+        font-family: HanaBotan-DB, serif;
+    }
+    </style>
     <!-- js -->
     {% include google-analytics.md %}
     <script src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
