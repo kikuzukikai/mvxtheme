@@ -6,6 +6,7 @@ pre,
 code,
 .highlight,
 .highlighter-rouge {
+    font-family: $code-font-family;
     background-color: $syntax-background-color !important;
 }
 
