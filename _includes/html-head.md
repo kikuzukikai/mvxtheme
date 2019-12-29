@@ -23,7 +23,7 @@
     <!-- css -->
     <style>
     .logo {
-        font-family: HanaBotan-DB, serif;
+        font-family: HanaBotan-DB;
     }
     </style>
     <!-- js -->
