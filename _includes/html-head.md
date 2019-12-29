@@ -20,7 +20,9 @@
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
-    <!-- javascript -->
+    <!-- css -->
+    <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+    <!-- js -->
     {% include google-analytics.md %}
     <script src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
 </head>
