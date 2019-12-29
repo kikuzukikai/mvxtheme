@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 h1,
@@ -9,16 +9,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Serif JP";
+  font-family: "Noto Serif JP", serif;
 }
 
 pre,
 code,
 .highlight,
 .highlighter-rouge {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
 }
 
 .logo {
-  font-family: HanaBotan-DB;
+  font-family: HanaBotan-DB, serif;
 }
