@@ -14,6 +14,7 @@
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com/">
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="//typesquare.com/">
     <link rel="dns-prefetch" href="//connect.facebook.net/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
@@ -24,5 +25,5 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif+JP:300|Noto+Sans+JP:300|Roboto:300|Ubuntu:300&display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {% include google-analytics.md %}
-    <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8" async defer></script>
+    <script src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
 </head>
