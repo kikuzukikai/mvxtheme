@@ -5,19 +5,9 @@
 html,
 body {
   height: 100%;
-  font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
   background-color: var(--bg-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $head-font-family;
 }
 
 a {
