@@ -18,7 +18,7 @@ requestAnimationFrame(function(e) {
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
-  e.href = '//fonts.googleapis.com/css?family=Noto+Serif+JP:300|Noto+Sans+JP:300|Roboto:300|Ubuntu:300';
+  e.href = '//fonts.googleapis.com/css?family=Noto+Serif+JP:300|Noto+Sans+JP:300|Roboto:300|Ubuntu:300&display=swap';
   document.head.appendChild(e);
 });
 </script>
