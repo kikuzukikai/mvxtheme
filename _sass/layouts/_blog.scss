@@ -54,19 +54,21 @@
 }
 
 .pagination a, .pagination span {
-    padding: 7px 18px;
-    margin-left: -2px;
-    margin-right: -2px;
-    display: inline-block;
-  }
+  padding: 7px 18px;
+  margin-left: -2px;
+  margin-right: -2px;
+  display: inline-block;
+}
 
 .pagination a {
-    &:hover {
-        background-color: var(--text-color);
-        color: var(--bg-color);
-    }
- }
+  &:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+  }
+}
 
 .pagination {
-    text-align: center;
- }
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: $post-bottom-margin;
+}
