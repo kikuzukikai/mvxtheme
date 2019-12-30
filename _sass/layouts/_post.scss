@@ -3,10 +3,8 @@
  */
 
 .post {
-  span {
-    color: var(--text-color);
-    margin-bottom: $post-bottom-margin;
-  }
+  color: var(--text-color);
+  margin-bottom: $post-bottom-margin;
 
   img {
     max-width: 100%;
