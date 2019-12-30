@@ -14,10 +14,10 @@
             <li role="menuitem" aria-label="Organization" class="item">
 <h2>団体概要</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Organization link">
-<li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/about.html' | relative_url }}" role="link" aria-label="About">運営者情報</a></li>
 <li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/faq.html' | relative_url }}" role="link" aria-label="FAQ">よくある質問</a></li>
 <li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/rules.html' | relative_url }}" role="link" aria-label="Rules">会則</a></li>
 <li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/' | relative_url }}" role="link" aria-label="Docs">団体概要</a></li>
+<li role="listitem" aria-label="Organization link item"><a href="{{ '/special/' | relative_url }}" role="link" aria-label="Special">特設ページ</a></li>
                 </ul>
             </li>
             <li role="menuitem" aria-label="Connect" class="item">
