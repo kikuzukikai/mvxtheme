@@ -2,8 +2,10 @@
 layout: default
 ---
 <section class="blog">
-  {{ content }}
   <ul class="list">
+  <li>
+  {{ content }}
+  </li>
   {% for item in site.special %}
     <li>
       <time class="time">
