@@ -1,15 +1,15 @@
 <!-- Call To Action -->
-<ul class="pagination">
+<div class="pagination">
 {% if page.previous %}
-<li class="prev"><a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">&laquo; 前の記事</a></li>
+<a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">&laquo; 前の記事</a>
 {% else %}
-<li class="prev disabled"><a>&laquo; 前の記事</a></li>
+<span>&laquo; 前の記事</span>
 {% endif %}
-<li><a href="{{ '/blog/' | relative_url }}">記事一覧</a></li>
+&nbsp;&bull;&nbsp;
 {% if page.next %}
-<li class="next"><a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">次の記事 &raquo;</a></li>
+<a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">次の記事 &raquo;</a>
 {% else %}
-<li class="next disabled"><a>次の記事 &raquo;</a>
+<span>次の記事 &raquo;</span>
 {% endif %}
-</ul>
+</div>
 <!-- End Call To Action -->
