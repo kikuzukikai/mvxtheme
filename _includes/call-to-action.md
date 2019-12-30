@@ -1,21 +1,15 @@
 <!-- Call To Action -->
-<section class="g-pa-30" style="background: rgba(0, 0, 0, .1);">
-<div class="d-md-flex justify-content-md-center text-center">
-<div class="align-self-md-center">
-<p class="lead g-font-weight-400 g-mr-20--md g-mb-0--md" style="margin-bottom: 0px; color: #fff;">
+<ul class="pagination">
 {% if page.previous %}
-<a href="{{ page.previous.url }}">前のページ: {{ page.previous.title }}</a>
+<li class="prev"><a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">&laquo; 前の記事</a></li>
+{% else %}
+<li class="prev disabled"><a>&laquo; 前の記事</a></li>
 {% endif %}
-{% if page.previous %}
+<li><a href="{{ '/blog/' | relative_url }}">記事一覧</a></li>
 {% if page.next %}
-&bull;
+<li class="next"><a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">次の記事 &raquo;</a></li>
+{% else %}
+<li class="next disabled"><a>次の記事 &raquo;</a>
 {% endif %}
-{% endif %}
-{% if page.next %}
-<a href="{{ page.next.url }}">次のページ: {{ page.next.title }}</a>
-{% endif %}
-</p>
-</div>
-</div>
-</section>
+</ul>
 <!-- End Call To Action -->

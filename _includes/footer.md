@@ -14,16 +14,15 @@
             <li role="menuitem" aria-label="Organization" class="item">
 <h2>団体概要</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Organization link">
-<li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/faq.html' | relative_url }}" role="link" aria-label="FAQ">よくある質問</a></li>
-<li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/rules.html' | relative_url }}" role="link" aria-label="Rules">会則</a></li>
-<li role="listitem" aria-label="Organization link item"><a href="{{ '/docs/' | relative_url }}" role="link" aria-label="Docs">団体概要</a></li>
-<li role="listitem" aria-label="Organization link item"><a href="{{ '/special/' | relative_url }}" role="link" aria-label="Special">特設ページ</a></li>
+<li role="listitem" aria-label="Organization link item"><a href="{{ site.url }}{{ '/docs/rules.html' | relative_url }}" role="link" aria-label="Rules">会則</a></li>
+<li role="listitem" aria-label="Organization link item"><a href="https://kikuzukikai.booth.pm" target="_blank" role="link" aria-label="Store">オンラインストア</a></li>
+<li role="listitem" aria-label="Organization link item"><a href="{{ site.url }}{{ '/docs/faq.html' | relative_url }}" role="link" aria-label="FAQ">よくある質問</a></li>
+<li role="listitem" aria-label="Organization link item"><a href="https://github.com/kikuzukikai/mvxtheme" target="_blank" role="link" aria-label="GitHub">ソースコード</a></li>
                 </ul>
             </li>
             <li role="menuitem" aria-label="Connect" class="item">
 <h2>リンク集</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
-<li role="listitem" aria-label="Connect link item"><a href="https://github.com/kikuzukikai/mvxtheme" target="_blank" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="{{ site.github.repository_url }}" target="_blank" role="link">菊月「復元図」一次配布場所</a>&nbsp;(&nbsp;<a href="{{ site.github.repository_url }}/archive/{{ site.github.latest_release.tag_name }}.zip" target="_blank" role="link">ZIP</a>&nbsp;&bull;&nbsp;<a href="{{ site.github.repository_url }}/archive/{{ site.github.latest_release.tag_name }}.tar.gz" target="_blank" role="link">TAR.GZ</a>&nbsp;)</li>
 <li role="listitem" aria-label="Connect link item"><a href="https://ddmlabo014.wixsite.com/ddmlabo" target="_blank" role="link">駆逐艦模型研究室</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://web.medjed.com/ja/" target="_blank" role="link">Medjed Web</a></li>
@@ -33,7 +32,6 @@
     </div>
     <div class="socials"  role="navigation" aria-label="Social links">
         <ul role="menu" aria-hidden="true" aria-label="Social link">
-<li role="listitem" aria-label="Social link item"><a href="https://{{ site.github.owner_name }}.booth.pm" target="_blank" role="link" aria-label="BOOTH"><i class="fa fa-shopping-cart fa-fw fa-2x" aria-hidden="true"></i></a></li>
 <li role="listitem" aria-label="Social link item"><a href="https://www.facebook.com/{{ site.github.owner_name }}" target="_blank" role="link" daria-label="Facebook"><i class="fa fa-facebook fa-fw fa-2x" aria-hidden="true"></i></a></li>
 <li role="listitem" aria-label="Social link item"><a href="https://twitter.com/{{ site.github.owner_name }}" target="_blank" role="link" aria-label="Twitter"><i class="fa fa-twitter fa-fw fa-2x" aria-hidden="true"></i></a></li>
 <li role="listitem" aria-label="Social link item"><a href="https://www.instagram.com/{{ site.github.owner_name }}" target="_blank" role="link" aria-label="Instagram"><i class="fa fa-instagram fa-fw fa-2x" aria-hidden="true"></i></a></li>
