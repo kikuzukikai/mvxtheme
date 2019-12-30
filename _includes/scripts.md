@@ -2,7 +2,7 @@
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
-  e.href = '{{ '/assets/css/main.css' | relative_url }}';
+  e.href = '{{ '/assets/css/style.min.css' | relative_url }}';
   document.head.appendChild(e);
 });
 </script>
