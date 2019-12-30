@@ -27,7 +27,6 @@ requestAnimationFrame(function(e) {
 <script src="{{ '/assets/js/hamburger-menu.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" async defer></script>
 <script src="{{ '/assets/js/popper.min.js' | relative_url }}" async defer></script>
-<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}" async defer></script>
 <script>
 const changeFavicon = link => {
   let $favicon = document.querySelector('link[rel="icon"]');
