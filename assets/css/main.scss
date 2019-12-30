@@ -29,5 +29,16 @@ $baseurl: "{{ site.baseurl }}";
     --header-border-color: rgba(255,255,255,.1);
   }
 }
-@import "min";
-@import "mvxtheme";
+@import 'bootstrap/bootstrap';
+@import 'mixins/mixins';
+@import 'includes/header';
+@import 'includes/footer';
+@import 'includes/code';
+@import 'includes/sticky';
+@import 'includes/table';
+@import 'layouts/default';
+@import 'layouts/home';
+@import 'layouts/post';
+@import 'layouts/blog';
+@import 'layouts/docs';
+@import 'layouts/page-not-found';
