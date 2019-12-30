@@ -21,7 +21,7 @@
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- css -->
-    <link rel="stylesheet" href="{{ '/assets/css/min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <style>
     .logo {
         font-family: HanaBotan-DB;
