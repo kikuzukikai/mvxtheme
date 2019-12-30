@@ -5,7 +5,7 @@
 {% else %}
 <span>&laquo; 前の記事</span>
 {% endif %}
-&nbsp;&bull;&nbsp;
+<span>&nbsp;&bull;&nbsp;</span>
 {% if page.next %}
 <a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">次の記事 &raquo;</a>
 {% else %}

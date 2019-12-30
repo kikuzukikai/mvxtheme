@@ -6,15 +6,12 @@
   margin-top: $blog-margin;
   margin-bottom: $blog-margin;
   color: var(--text-color);
+  margin-bottom: $blog-list-margin;
 
   > .list {
     list-style-type: none;
     padding: 0;
     margin: 0;
-
-    li {
-      margin-bottom: $blog-list-margin;
-    }
 
     .time,
     .meta {
