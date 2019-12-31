@@ -11,11 +11,10 @@
     <meta name="keywords" content="{{ site.keywords }}">
     <meta property="fb:app_id" content="{{ site.app_id }}">
     <!-- dns prefetch -->
+    <link rel="dns-prefetch" href="//typesquare.com/">
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com/">
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
-    <link rel="dns-prefetch" href="//typesquare.com/">
-    <link rel="dns-prefetch" href="//connect.facebook.net/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <!-- rss -->
