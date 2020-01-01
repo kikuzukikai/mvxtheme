@@ -75,6 +75,7 @@ paginate_path: "/blog/page:num/"
 # Gem settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-paginate-v2
 
