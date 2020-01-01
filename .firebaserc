@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "kikuzukikai",
-    "kikuzukikai": "kikuzukikai"
+    "default": "kikuzukikai"
   }
 }
