@@ -22,13 +22,13 @@ jobs:
           command: sudo npm install -g firebase-tools
       - run:
           name: Build Jekyll Site
-          command: bundle exec jekyll build --verbose
+          command: jekyll build
       - run:
           name: Set Project Alias
           command: firebase use default
       - run:
           name: Deploy to Firebase
-          command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive
+          command: firebase deploy --token=$FIREBASE_TOKEN
 
 workflows:
   version: 2
