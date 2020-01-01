@@ -9,7 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    faraday (1.0.0)
+    faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.3)
     forwardable-extended (2.6.0)
