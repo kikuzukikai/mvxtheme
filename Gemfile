@@ -22,11 +22,7 @@ gem "jekyll", ">= 3.6.3"
 group :jekyll_plugins do
    gem 'jekyll-feed', '~> 0.6'
    gem 'jekyll-seo-tag'
-   gem 'jekyll-sitemap'
-   gem 'jekyll-avatar'
    gem 'jekyll-github-metadata'
-   gem 'jekyll-octicons'
-   gem 'jekyll-gist'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
