@@ -77,7 +77,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-github-metadata
-  - jekyll-paginate-v2
 
 exclude:
   - Gemfile
