@@ -81,6 +81,7 @@ DEPENDENCIES
   jekyll-github-metadata
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-paginate-v2
   tzinfo-data
 
 RUBY VERSION
