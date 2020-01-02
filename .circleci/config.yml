@@ -19,7 +19,7 @@ jobs:
           command: bundle check || bundle install
       - run:
           name: Install Firebase Tools
-          command: npm install -g firebase-tools
+          command: sudo npm install --global firebase-tools
       - run:
           name: Build Jekyll Site
           command: bundle exec jekyll build --verbose
