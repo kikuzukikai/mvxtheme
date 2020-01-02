@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 第3期の初めに
 ---
 

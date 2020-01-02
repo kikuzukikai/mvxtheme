@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 「ンボラ鉄片」の報告書
 ---
 
