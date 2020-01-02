@@ -1,7 +1,7 @@
 {
   "name": "mvxtheme",
   "version": "1.0.0",
-  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/ef23c3ce-6909-47fe-b124-cb4174530259/deploy-status)](https://app.netlify.com/sites/kikuzukikai/deploys)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/kikuzukikai/mvxtheme.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MsPL",
   "bugs": {
     "url": "https://github.com/kikuzukikai/mvxtheme/issues"
   },
