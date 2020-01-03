@@ -7,7 +7,6 @@ layout: default
 <p>{{ site.description }}</p>
 <p>お問合せはこちらへどうぞ: contact@kikuzuki<span class="obfuscate">-</span>kai.org</p>
     </section>
-</article>
 
 <div class="github-component d-flex flex-column flex-justify-between height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
   <div>
@@ -38,3 +37,5 @@ layout: default
     {% endif %}
   </div>
 </div>
+
+</article>
