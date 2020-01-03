@@ -79,8 +79,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-github-metadata
-  - jekyll-octicons
-  - jemoji
 
 exclude:
   - Gemfile
