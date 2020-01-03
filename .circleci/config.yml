@@ -22,7 +22,7 @@ jobs:
           command: sudo npm install --global firebase-tools
       - run:
           name: Build Jekyll Site
-          command: bundle exec jekyll build --verbose
+          command: bundle exec jekyll build --verbose --trace
       - run:
           name: Deploy to Firebase
           command: firebase deploy --token=$FIREBASE_TOKEN
