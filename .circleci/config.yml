@@ -15,11 +15,8 @@ jobs:
           name: Install Bundler
           command: gem install bundler:2.0.1
       - run:
-          name: Bundle Doctor
-          command: bundle doctor
-      - run:
           name: Install Bundle
-          command: bundle check || bundle install
+          command: bundle install
       - run:
           name: Install Firebase Tools
           command: sudo npm install --global firebase-tools
