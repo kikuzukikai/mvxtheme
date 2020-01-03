@@ -18,6 +18,9 @@ jobs:
           name: Install Bundle
           command: bundle check || bundle install
       - run:
+          name: Bundle Doctor
+          command: bundle doctor
+      - run:
           name: Install Firebase Tools
           command: sudo npm install --global firebase-tools
       - run:
