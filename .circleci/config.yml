@@ -13,16 +13,16 @@ jobs:
           command: npm install
       - run:
           name: Install Bundler
-          command: gem install bundler:2.0.1
+          command: gem install bundler
       - run:
           name: Install Bundle
-          command: bundle install
+          command: bundle update
       - run:
           name: Install Firebase Tools
           command: sudo npm install --global firebase-tools
       - run:
           name: Build Jekyll Site
-          command: bundle exec jekyll build --verbose --trace
+          command: bundle exec jekyll build --verbose
       - run:
           name: Deploy to Firebase
           command: firebase deploy --token=$FIREBASE_TOKEN
