@@ -48,7 +48,6 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.11.1)
-      gemoji (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     kramdown (2.1.0)
     kramdown-parser-gfm (1.1.0)
