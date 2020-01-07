@@ -29,7 +29,7 @@
         "value": "max-age=604800"
       } ]
     }, {
-      "source": "404.html",
+      "source": "**/@(404).*",
       "headers": [ {
         "key": "Cache-Control",
         "value": "max-age=31536000"
