@@ -6,10 +6,11 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ {
+    "redirects": [ {
       "source": "/*",
-      "function": "*"
-    } ],
+      "destination": "https://www.kikuzukikai.org/*",
+      "type": 301
+    } ]
     "headers": [ {
       "source": "**/*.@(css|js|gif|jpg|jpeg|png|webp|svg|ico)",
       "headers": [ {
