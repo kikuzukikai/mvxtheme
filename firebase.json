@@ -7,8 +7,8 @@
       "**/node_modules/**"
     ],
     "rewrites": [ {
-      "source": "/*.*",
-      "function": "*.*"
+      "source": "/*",
+      "function": "*"
     } ],
     "headers": [ {
       "source": "**/*.@(css|js|gif|jpg|jpeg|png|webp|svg|ico)",
