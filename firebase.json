@@ -11,7 +11,7 @@
       "function": "*.*"
     } ],
     "headers": [ {
-      "source": "**/*.@(css|js|gif|jpe?g|png|webp|svg|ico)",
+      "source": "**/*.@(css|js|gif|jpg|jpeg|png|webp|svg|ico)",
       "headers": [ {
         "key": "Cache-Control",
         "value": "max-age=2592000"
@@ -23,7 +23,7 @@
         "value": "max-age=31536000"
       } ]
     }, {
-      "source": "**/@(?!404).*",
+      "source": "**/@(404).*",
       "headers": [ {
         "key": "Cache-Control",
         "value": "max-age=604800"
