@@ -7,13 +7,13 @@
       "**/node_modules/**"
     ],
     "redirects": [ {
-      "source": "https://kikuzukikai.firebaseapp.com/*",
-      "destination": "https://www.kikuzukikai.org/*",
+      "source": "kikuzukikai.firebaseapp.com/:**",
+      "destination": "https://www.kikuzukikai.org/:**",
       "type": 301
     } ],
     "redirects": [ {
-      "source": "https://kikuzukikai.web.app/*",
-      "destination": "https://www.kikuzukikai.org/*",
+      "source": "kikuzukikai.web.app/:**",
+      "destination": "https://www.kikuzukikai.org/:**",
       "type": 301
     } ],
     "headers": [ {
