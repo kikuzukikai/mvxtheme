@@ -5,11 +5,11 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
     "rewrites": [
       "source": "/*.*",
       "function": "*.*"
-    ]
+    ],
     "headers": {
       "source": "**/*.@(css|js|gif|jpe?g|png|webp|svg|ico)",
       "headers": [
