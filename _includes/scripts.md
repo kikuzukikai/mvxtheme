@@ -22,23 +22,8 @@ requestAnimationFrame(function(e) {
   document.head.appendChild(e);
 });
 </script>
-<script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/back-to-top.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
-<script>
-var hamburgerMenu=openMenu("hamburger-menu");
-function openMenu(id){
-  var element = document.getElementById(id);
-  return function(){
-    with(element.style){
-      display = (display === "block") ? "none" : "block";
-    };
-  };
-};
-$(document).click(function(){
-  $('#hamburger-menu').hide();
-});
-</script>
 <script src="{{ '/assets/js/popper.min.js' | relative_url }}" defer></script>
 <script>
 const changeFavicon = link => {
@@ -56,6 +41,24 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
   changeFavicon("{{ site.url }}/favicon-white.ico");
 } else {
   changeFavicon("{{ site.url }}/favicon.ico");
+};
+</script>
+<script>
+var hamburgerMenu=openMenu("hamburger-menu");
+function openMenu(id){
+  var element = document.getElementById(id);
+  return function(){
+    with(element.style){
+      left = (left === "0px") ? "-284px" : "0px";
+    };
+  };
+};
+</script>
+<script>
+window.onload = function(){
+  var elevator = new Elevator({
+  element: document.querySelector('#back-to-top'), duration: 1000
+  });
 };
 </script>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
