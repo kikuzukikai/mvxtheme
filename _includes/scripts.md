@@ -22,11 +22,11 @@ requestAnimationFrame(function(e) {
   document.head.appendChild(e);
 });
 </script>
-<script src="{{ '/assets/js/back-to-top.js' | relative_url }}" async defer></script>
-<script src="{{ '/assets/js/elevator.min.js' | relative_url }}" async defer></script>
-<script src="{{ '/assets/js/hamburger-menu.js' | relative_url }}" async defer></script>
-<script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" async defer></script>
-<script src="{{ '/assets/js/popper.min.js' | relative_url }}" async defer></script>
+<script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/back-to-top.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/hamburger-menu.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/popper.min.js' | relative_url }}" defer></script>
 <script>
 const changeFavicon = link => {
   let $favicon = document.querySelector('link[rel="icon"]');
@@ -46,9 +46,9 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 };
 </script>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.6.1/firebase-app.js"></script>
+<script src="/__/firebase/7.6.1/firebase-app.js" defer></script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
+<script src="/__/firebase/7.6.1/firebase-analytics.js" defer></script>
 <!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+<script src="/__/firebase/init.js" defer></script>
