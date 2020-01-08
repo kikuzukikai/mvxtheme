@@ -9,7 +9,7 @@ layout: compress
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  url('{{ "/assets/woff2/fontawesome-webfont.woff2?v=4.7.0" | relative_url }}') format('woff2');
+  url('/assets/woff2/fontawesome-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
