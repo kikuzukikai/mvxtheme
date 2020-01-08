@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      height="40"
      viewBox="0 0 6250 890">
-  <g fill="#000">
+  <g fill="#333">
   <path d="M 5636.98,-0.00
            C 5652.24,-0.00 5661.42,1.69 5671.45,6.35
              5673.85,7.48 5677.66,8.75 5679.92,9.32
@@ -2581,4 +2581,19 @@
              3660.18,641.36 3665.26,625.83 3668.23,623.85
              3669.22,623.29 3678.12,622.72 3688.00,622.72 Z" />
   </g>
+  <style>	
+    @media (prefers-color-scheme: light) {	
+      :root {	
+       --fill-color: #333;	
+      }	
+    }	
+    @media (prefers-color-scheme: dark) {	
+      :root {	
+        --fill-color: #fff;	
+      }	
+    }	
+    g {	
+      fill: var(--fill-color);	
+    }
+  </style>
 </svg>
