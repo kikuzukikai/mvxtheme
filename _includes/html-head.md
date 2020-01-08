@@ -1,5 +1,9 @@
 <head>
     <link rel="canonical" href="{{ site.url }}">
+    <link rel="preload" as="font" href="{{ site.url }}/assets/woff2/noto-sans-jp-v24-japanese-300.woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ site.url }}/assets/woff2/noto-serif-jp-v7-japanese-300.woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ site.url }}/assets/woff2/roboto-v20-latin-300.woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ site.url }}/assets/woff2/ubuntu-v14-latin-300.woff2" crossorigin>
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% if page.title %}{% else %} | {{ site.tagline }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta charset="UTF-8">
@@ -13,8 +17,6 @@
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//typesquare.com/">
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
-    <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com/">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <!-- rss -->
