@@ -8,18 +8,23 @@ jobs:
 
     steps:
       - checkout
-#     - run:
-#         name: Install npm
-#         command: npm install
-#     - run:
-#         name: Install Bundler
-#         command: gem install bundler:2.0.1
-#     - run:
-#         name: Install Bundle
-#         command: bundle check || bundle install
-#     - run:
-#         name: Install Firebase Tools
-#         command: sudo npm install --global firebase-tools
+      - run:
+          name: Install npm
+          command: npm install
+      - restore_cache:
+          keys: gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install Bundler
+          command: gem install bundler:2.0.1
+      - run:
+          name: Install Bundle
+          command: bundle install --path vendor/bundle
+      - save_cache:
+          key: gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths: vendor/bundle
+      - run:
+          name: Install Firebase Tools
+          command: sudo npm install --global firebase-tools
       - run:
           name: Build Jekyll Site
           command: bundle exec jekyll build --verbose --trace
