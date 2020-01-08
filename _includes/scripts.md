@@ -1,7 +1,8 @@
 <script defer>
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
-  e.rel = 'stylesheet';
+  e.rel = 'preload';
+  e.as = 'style';
   e.href = '{{ "/assets/css/main.css" | relative_url }}';
   document.head.appendChild(e);
 });
@@ -9,14 +10,22 @@ requestAnimationFrame(function(e) {
 <script defer>
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
-  e.rel = 'stylesheet';
-  e.href = '{{ "/assets/css/font-awesome.css" | relative_url }}';
+  e.rel = 'preload';
+  e.as = 'style';
+  e.href = '//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+  document.head.appendChild(e);
+});
+</script>
+<script defer>
+requestAnimationFrame(function(e) {
+  e = document.createElement('link');
+  e.rel = 'preload';
+  e.as = 'style';
+  e.href = '//fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300|Roboto:300|Ubuntu:300&display=swap';
   document.head.appendChild(e);
 });
 </script>
 <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/popper.min.js' | relative_url }}" defer></script>
 <script defer>
 const changeFavicon = link => {
   let $favicon = document.querySelector('link[rel="icon"]');
