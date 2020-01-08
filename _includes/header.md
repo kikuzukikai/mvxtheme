@@ -1,10 +1,10 @@
 <div id="wrap">
 <header class="header" role="banner" aria-label="Header">
-<a href="javascript:void(0);" onclick="hamburgerMenu();" class="logo" role="link" aria-label="Hamburger menu button">{{ site.logo }}</a>
+<a href="javascript:void(0);" onclick="hamburgerMenu();" class="logo" role="link" aria-label="Hamburger menu button"><object data="{{ '/assets/svg/title.svg' | relative_url }}" type="image/svg+xml"></object></a>
     <nav class="navigation" role="navigation" aria-label="Navigation">
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="menuitem" aria-label="Navigation menu item">
-                <a href="{{ '/' | relative_url }}" class="logo" role="menuitem" aria-label="Home">{{ site.logo }}</a>
+                <a href="{{ '/' | relative_url }}" class="logo" role="menuitem" aria-label="Home"><object data="{{ '/assets/svg/title.svg' | relative_url }}" type="image/svg+xml"></object></a>
             </li>
             {% for item in site.menu %}
             <li role="menuitem"><a href="{{ item.url | relative_url }}" role="menuitem" aria-label="{{ item.title | escape }}">{{ item.title | escape }}</a></li>
