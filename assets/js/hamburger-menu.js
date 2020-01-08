@@ -1,1 +1,1 @@
-$(document).click(function(){$('#hamburger-menu').toggle(false);});
+$(document).click(function(){$('#hamburger-menu').toggle();});
