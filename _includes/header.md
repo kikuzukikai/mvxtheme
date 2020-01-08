@@ -1,13 +1,13 @@
 <div id="wrap">
 <header class="header" role="banner" aria-label="Header">
 <a href="javascript:void(0);" onclick="hamburgerMenu();" class="logo" role="link" aria-label="Hamburger menu button">
-    <font size="5">{{ site.title }}</font>
+    <font size="5">&nbsp;{{ site.title }}</font>
 </a>
     <nav class="navigation" role="navigation" aria-label="Navigation">
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="menuitem" aria-label="Navigation menu item">
                 <a href="{{ '/' | relative_url }}" class="logo" role="menuitem" aria-label="Home">
-                    <font size="5">{{ site.title }}</font>
+                    <font size="5">&nbsp;{{ site.title }}</font>
                 </a>
             </li>
             {% for item in site.menu %}
