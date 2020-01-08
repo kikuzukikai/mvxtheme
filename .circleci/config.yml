@@ -8,16 +8,16 @@ jobs:
 
     steps:
       - checkout
-      - run:
+#     - run:
           name: Install npm
           command: npm install
-      - run:
+#     - run:
           name: Install Bundler
           command: gem install bundler:2.0.1
-      - run:
+#     - run:
           name: Install Bundle
           command: bundle check || bundle install
-      - run:
+#     - run:
           name: Install Firebase Tools
           command: sudo npm install --global firebase-tools
       - run:
