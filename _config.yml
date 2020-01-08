@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 駆逐艦菊月会
-logo: 驅逐艦菊月會
 tagline: Association of Kikuzuki
 description: > # this means to ignore newlines until "baseurl:"
   当会は、駆逐艦菊月に所縁のある旧軍人軍属、戦歿者並びに物故者の遺族、有志によって組織され、その全てに交流の場を提供する戦友会です。
