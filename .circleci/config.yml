@@ -9,17 +9,17 @@ jobs:
     steps:
       - checkout
 #     - run:
-          name: Install npm
-          command: npm install
+#         name: Install npm
+#         command: npm install
 #     - run:
-          name: Install Bundler
-          command: gem install bundler:2.0.1
+#         name: Install Bundler
+#         command: gem install bundler:2.0.1
 #     - run:
-          name: Install Bundle
-          command: bundle check || bundle install
+#         name: Install Bundle
+#         command: bundle check || bundle install
 #     - run:
-          name: Install Firebase Tools
-          command: sudo npm install --global firebase-tools
+#         name: Install Firebase Tools
+#         command: sudo npm install --global firebase-tools
       - run:
           name: Build Jekyll Site
           command: bundle exec jekyll build --verbose --trace
