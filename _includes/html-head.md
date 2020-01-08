@@ -27,5 +27,5 @@
     </style>
     <!-- js -->
     {% include google-analytics.md %}
-    <script src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8"></script>
+    <script src="//typesquare.com/3/tsst/script/ja/typesquare.js?5ccd4bc22e0841d784d862ecac1e02ec" charset="utf-8" defer></script>
 </head>
