@@ -25,9 +25,9 @@
     flex-flow: row nowrap;
     text-decoration: none;
     color: var(--text-color);
-    background-size: 40px 40px;
+    background-size: auto;
     background-position: left center;
-    background-image: url('/assets/svg/logo.svg');
+    background-image: url('/assets/svg/logo-black.svg');
     @media (prefers-color-scheme: dark){
       background-image: url('/assets/svg/logo-white.svg');
     }
@@ -72,9 +72,9 @@
 
     > .logo {
       margin: 0 auto;
-      background-size: 40px 40px;
+      background-size: auto;
       background-position: left center;
-      background-image: url('/assets/svg/logo.svg');
+      background-image: url('/assets/svg/logo-black.svg');
       @media (prefers-color-scheme: dark){
         background-image: url('/assets/svg/logo-white.svg');
       }
