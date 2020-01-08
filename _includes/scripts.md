@@ -1,4 +1,4 @@
-<script>
+<script defer>
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
@@ -6,7 +6,7 @@ requestAnimationFrame(function(e) {
   document.head.appendChild(e);
 });
 </script>
-<script>
+<script defer>
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
@@ -14,11 +14,10 @@ requestAnimationFrame(function(e) {
   document.head.appendChild(e);
 });
 </script>
-</script>
 <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/popper.min.js' | relative_url }}" defer></script>
-<script>
+<script defer>
 const changeFavicon = link => {
   let $favicon = document.querySelector('link[rel="icon"]');
   if ($favicon !== null) {
@@ -36,7 +35,7 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
   changeFavicon("{{ site.url }}/favicon.ico");
 };
 </script>
-<script>
+<script defer>
 var hamburgerMenu=openMenu("hamburger-menu");
 function openMenu(id){
   var element = document.getElementById(id);
@@ -47,7 +46,7 @@ function openMenu(id){
   };
 };
 </script>
-<script>
+<script defer>
 window.onload = function(){
   var elevator = new Elevator({
   element: document.querySelector('#back-to-top'), duration: 1000
