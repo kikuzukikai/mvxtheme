@@ -12,7 +12,10 @@ jobs:
           name: Install npm
           command: npm install
       - restore_cache:
-          keys: gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}
+            - gem-cache-v1
       - run:
           name: Install Bundler
           command: gem install bundler:2.0.1
@@ -20,8 +23,9 @@ jobs:
           name: Install Bundle
           command: bundle install --path vendor/bundle
       - save_cache:
-          key: gem-cache-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
-          paths: vendor/bundle
+          key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
       - run:
           name: Install Firebase Tools
           command: sudo npm install --global firebase-tools
