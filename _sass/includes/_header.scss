@@ -19,6 +19,21 @@
   img {
     height: $header-logo-height;
   }
+  
+  .logo {
+    @include flex-valign(center);
+    flex-flow: row nowrap;
+    text-decoration: none;
+    color: var(--text-color);
+    background-size: 40px 40px;
+    background-position: left center;
+    background-image: url('/assets/svg/logo.svg');
+    @media (prefers-color-scheme: dark){
+      background-image: url('/assets/svg/logo-white.svg');
+    }
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
 
   > .navigation {
     ul {
@@ -55,6 +70,18 @@
       background-color: $header-background-color;
     }
 
+    > .logo {
+      margin: 0 auto;
+      background-size: 40px 40px;
+      background-position: left center;
+      background-image: url('/assets/svg/logo.svg');
+      @media (prefers-color-scheme: dark){
+        background-image: url('/assets/svg/logo-white.svg');
+      }
+      background-repeat: no-repeat;
+      padding-left: 40px;
+    }
+    
     > .navigation {
       display: none;
     }
