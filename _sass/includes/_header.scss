@@ -20,21 +20,6 @@
     height: $header-logo-height;
   }
 
-  .logo {
-    @include flex-valign(center);
-    flex-flow: row nowrap;
-    text-decoration: none;
-    color: var(--text-color);
-    background-size: auto;
-    background-position: left center;
-    background-image: url('/assets/svg/logo-black.svg');
-    @media (prefers-color-scheme: dark){
-      background-image: url('/assets/svg/logo-white.svg');
-    }
-    background-repeat: no-repeat;
-    padding-left: 40px;
-  }
-
   > .navigation {
     ul {
       @include flex-valign(center);
@@ -68,18 +53,6 @@
       outline: none;
       cursor: pointer;
       background-color: $header-background-color;
-    }
-
-    > .logo {
-      margin: 0 auto;
-      background-size: auto;
-      background-position: left center;
-      background-image: url('/assets/svg/logo-black.svg');
-      @media (prefers-color-scheme: dark){
-        background-image: url('/assets/svg/logo-white.svg');
-      }
-      background-repeat: no-repeat;
-      padding-left: 40px;
     }
 
     > .navigation {
