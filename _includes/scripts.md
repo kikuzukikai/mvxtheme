@@ -6,6 +6,14 @@ requestAnimationFrame(function(e) {
   document.head.appendChild(e);
 });
 </script>
+<script>
+requestAnimationFrame(function(e) {
+  e = document.createElement('link');
+  e.rel = 'stylesheet';
+  e.href = '{{ "/assets/css/font-awesome.css" | relative_url }}';
+  document.head.appendChild(e);
+});
+</script>
 </script>
 <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
