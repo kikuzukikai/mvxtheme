@@ -36,6 +36,7 @@ $baseurl: "{{ site.baseurl }}";
 $on-mobile: 576px !default;
 $on-tablet: 768px !default;
 $on-desktop: 992px !default;
+
 // fonts
 $head-font-family: "Noto Serif JP", serif !default;	
 $base-font-family: Roboto, "Noto Sans JP", sans-serif !default;	
@@ -43,6 +44,36 @@ $code-font-family: Ubuntu, sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 300 !default;
 $base-line-height: 1.75 !default;
+
+@font-face {
+    font-display: swap;
+    font-family: 'Noto Serif JP';
+    src: url('/assets/woff2/noto-serif-jp-v7-japanese-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    src: url('/assets/woff2/roboto-v20-latin-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Noto Sans JP';
+    src: url('/assets/woff2/noto-sans-jp-v24-japanese-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Ubuntu';
+    src: url('/assets/woff2/ubuntu-v14-latin-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
 // margin and padding
 $base-mobile-padding: 15px !default;
 $base-tablet-padding: 5% !default;
