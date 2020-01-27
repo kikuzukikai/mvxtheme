@@ -6,7 +6,7 @@ title: お問い合わせフォーム
 お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddKcYQka0rpUjLfGIKcMNBxtr9kpNLQ-HUSd0_uDgcd3NtxA/formResponse">
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddKcYQka0rpUjLfGIKcMNBxtr9kpNLQ-HUSd0_uDgcd3NtxA/formResponse" method="POST">
   <div class="form-group">
     <input class="controls" type="email" name="emailAddress" placeholder="メールアドレス *" required />
   </div>
