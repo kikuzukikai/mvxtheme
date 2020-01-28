@@ -14,7 +14,7 @@ title: お問い合わせフォーム
 <div align="center">
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddKcYQka0rpUjLfGIKcMNBxtr9kpNLQ-HUSd0_uDgcd3NtxA/formResponse" method="POST">
   <div class="form-group">
-    <textarea class="controls" name="entry.1328278472" placeholder="お問い合わせ内容 *" rows="3" required></textarea>
+    <textarea class="controls" name="entry.1328278472" placeholder="お問い合わせ内容" rows="3" required></textarea>
   </div>
   <button type="submit" class="button">送信</button>
 </form>
