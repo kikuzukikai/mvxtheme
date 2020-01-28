@@ -14,7 +14,7 @@ title: お問い合わせフォーム
     <input class="controls" type="text" name="entry.1254155107" placeholder="お名前 *" required />
   </div>
   <div class="form-group">
-    <input class="controls" type="text" name="entry-2.836724" placeholder="会社名 (所属している場合)" />
+    <input class="controls" type="text" name="entry.1632758127" placeholder="会社名 (所属している場合)" />
   </div>
   <div class="form-group">
     <input class="controls" type="text" name="entry.1335200293" placeholder="件名 *" required />
