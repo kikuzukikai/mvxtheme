@@ -22,6 +22,6 @@ title: お問い合わせフォーム
   <div class="form-group">
     <textarea class="controls" name="entry.1328278472" placeholder="お問い合わせ内容 *" rows="3" required></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">送信</button>
+  <button type="submit" class="button">送信</button>
 </form>
 </div>
