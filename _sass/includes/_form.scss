@@ -2,16 +2,42 @@
   display: block;
   width: 100%;
   padding: .5rem 1rem;
+  margin: 1rem 0;
   font-size: 1.1rem;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid var(--header-border-color);
   border-radius: .3rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 textarea {
   height: 250px;
+}
+
+.button {
+  height: 40px;
+  border-width: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 1px 1px 0px 1px var(--alpha-color);
+  transition-property: background-color, box-shadow;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  padding: 0;
+  
+  &:focus,
+  &:hover {
+    box-shadow: 1px 4px 5px 1px var(--alpha-color);
+  }
+  
+  &:active {
+    background-color: var(--bg-color);
+    box-shadow: none;
+    transition-duration: 10ms;
+  }
 }
