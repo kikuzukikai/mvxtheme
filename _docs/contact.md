@@ -7,8 +7,8 @@ title: お問い合わせフォーム
 
 <div align="center">
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddKcYQka0rpUjLfGIKcMNBxtr9kpNLQ-HUSd0_uDgcd3NtxA/formResponse" method="POST">
-  <div class="form-group">
-    <input class="controls" type="email" name="emailAddress" placeholder="メールアドレス *" required />
+  <div class="form-group hidden">
+    <input class="controls" type="email" name="emailAddress" placeholder="メールアドレス *" />
   </div>
   <div class="form-group">
     <input class="controls" type="text" name="entry.1254155107" placeholder="お名前 *" required />
