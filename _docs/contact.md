@@ -23,6 +23,6 @@ title: お問い合わせフォーム
     <label for="_formrun_gotcha">If you are a human, ignore this field</label>
     <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
   </div>
-  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+  <button type="submit" class="button" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
 </form>
 </div>
