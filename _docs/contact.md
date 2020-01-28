@@ -16,9 +16,9 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddKcYQka0rpUjLfGIKcMNBxtr9kpNLQ-HUSd0_uDgcd3NtxA/formResponse" method="POST">
+<form class="formrun" action="https://form.run/api/v1/r/29uz5d82akqtro226yqb62gx" method="post">
   <div class="form-group">
-    <textarea class="controls" name="entry.1328278472" placeholder="お問い合わせ内容" rows="3" required></textarea>
+    <textarea class="controls" name="inquiry" placeholder="お問い合わせ内容" rows="3" required></textarea>
   </div>
   <button type="submit" class="button">送信</button>
 </form>
