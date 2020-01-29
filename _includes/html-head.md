@@ -21,4 +21,13 @@
     <!-- js -->
     {% include google-analytics.md %}
     <script src="//sdk.form.run/js/v2/formrun.js" defer></script>
+    <script src="//www.google.com/recaptcha/api.js?render=6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p" defer></script>
+    <script defer>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p', {action: 'homepage'}).then(function(token) {
+            var recaptchaResponse = document.getElementById('recaptchaResponse');
+            recaptchaResponse.value = token;
+        });
+    });
+</script>
 </head>
