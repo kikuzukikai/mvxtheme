@@ -18,9 +18,7 @@ title: お問い合わせフォーム
   <div class="form-group">
     <textarea class="controls" name="inquiry" placeholder="お問い合わせ内容" rows="3" data-formrun-required></textarea>
   </div>
-  <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
   <a href="javascript:void(0)" data-formrun-back-button>戻る</a>
   <button type="submit" class="button" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
-  <small>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</small>
 </form>
 </div>
