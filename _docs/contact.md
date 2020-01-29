@@ -15,8 +15,8 @@ title: お問い合わせフォーム
 
 <div align="center">
 <form class="formrun" action="https://form.run/api/v1/r/29uz5d82akqtro226yqb62gx" method="post" data-formrun-confirm="true">
-<script src="https://www.google.com/recaptcha/api.js?render=6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p"></script>
-<script>
+<script src="//www.google.com/recaptcha/api.js?render=6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p" defer></script>
+<script defer>
 grecaptcha.ready(function() {
     grecaptcha.execute('6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p', {action: 'homepage'}).then(function(token) {
  var recaptchaResponse = document.getElementById('recaptchaResponse');
