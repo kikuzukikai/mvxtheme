@@ -18,6 +18,11 @@ title: お問い合わせフォーム
   <div class="form-group">
     <textarea class="controls" name="inquiry" placeholder="お問い合わせ内容" rows="3" data-formrun-required></textarea>
   </div>
+  <div class="_formrun_gotcha">
+    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+  </div>
   <a href="javascript:void(0)" data-formrun-back-button>戻る</a>
   <button type="submit" class="button" data-formrun-error-text="未入力の項目があります" data-formrun-send-text="送信する" data-formrun-submitting-text="送信中...">確認する</button>
 </form>
