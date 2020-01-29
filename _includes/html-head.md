@@ -20,4 +20,5 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- js -->
     {% include google-analytics.md %}
+    <script src="//sdk.form.run/js/v2/formrun.js" defer></script>
 </head>
