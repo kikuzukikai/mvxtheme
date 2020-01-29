@@ -14,7 +14,7 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<form class="formrun" action="https://form.run/api/v1/r/29uz5d82akqtro226yqb62gx" method="post">
+<form class="formrun" action="https://form.run/api/v1/r/29uz5d82akqtro226yqb62gx" method="post" data-formrun-confirm="true">
 <script src="https://www.google.com/recaptcha/api.js?render=6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p"></script>
 <script>
 grecaptcha.ready(function() {
@@ -28,6 +28,7 @@ grecaptcha.ready(function() {
     <textarea class="controls" name="inquiry" placeholder="お問い合わせ内容" rows="3" data-formrun-required></textarea>
   </div>
   <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
+  <a href="javascript:void(0)" class="button" data-formrun-back-button>戻る</a>
   <button type="submit" class="button" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
 </form>
 </div>
