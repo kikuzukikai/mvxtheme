@@ -23,6 +23,8 @@
             <li role="menuitem" aria-label="Connect" class="item">
 <h2>リンク集</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
+
+<li role="listitem" aria-label="Connect link item"><a href="https://gunkanmusashikai.org/" target="_blank" role="link">軍艦武藏会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://ddmlabo014.wixsite.com/ddmlabo" target="_blank" role="link">駆逐艦模型研究室</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://web.medjed.com/ja/" target="_blank" role="link">Medjed.com</a></li>
                 </ul>
