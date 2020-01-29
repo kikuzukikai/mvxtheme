@@ -15,14 +15,19 @@ title: お問い合わせフォーム
 
 <div align="center">
 <form class="formrun" action="https://form.run/api/v1/r/29uz5d82akqtro226yqb62gx" method="post">
+<script src="https://www.google.com/recaptcha/api.js?render=6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Ldyt9MUAAAAAF-_FcFHQpfYUoaDSn0hz2baf72p', {action: 'homepage'}).then(function(token) {
+ var recaptchaResponse = document.getElementById('recaptchaResponse');
+      recaptchaResponse.value = token;
+    });
+});
+</script>
   <div class="form-group">
     <textarea class="controls" name="inquiry" placeholder="お問い合わせ内容" rows="3" data-formrun-required></textarea>
   </div>
-  <div class="_formrun_gotcha">
-    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-  </div>
+  <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
   <button type="submit" class="button" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
 </form>
 </div>
