@@ -30,6 +30,6 @@ grecaptcha.ready(function() {
   <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
   <a href="javascript:void(0)" class="button" data-formrun-back-button>戻る</a>
   <button type="submit" class="button" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
-  <p class="recaptcha_policy">This site is protected by reCAPTCHA and the Google<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
+  <p class="recaptcha_policy">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
 </form>
 </div>
