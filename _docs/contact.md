@@ -14,7 +14,7 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+<form name="contact" method="POST" netlify-honeypot="bot-field" netlify>
   <div class="form-group hidden">
     <input name="bot-field" />
   </div>
