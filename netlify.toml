@@ -7,19 +7,19 @@ force = true
 [[headers]]
 for = "/*.@(css|js|gif|jpg|jpeg|png|webp|svg|ico)"
 [headers.values]
-cache-control: max-age=2592000
+cache-control = "max-age=2592000"
 
 [[headers]]
 for = "/*.@(eot|ttf|woff|woff2)"
 [headers.values]
-cache-control: max-age=31536000
+cache-control = "max-age=31536000"
 
 [[headers]]
 for = "/!(404).*"
 [headers.values]
-cache-control: max-age=604800
+cache-control = "max-age=604800"
 
 [[headers]]
 for = "/@(404).*"
 [headers.values]
-cache-control: max-age=31536000
+cache-control = "max-age=31536000"
