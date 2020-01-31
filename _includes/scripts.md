@@ -2,14 +2,6 @@
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
-  e.href = '{{ "/assets/css/main.css" | relative_url }}';
-  document.head.appendChild(e);
-});
-</script>
-<script defer>
-requestAnimationFrame(function(e) {
-  e = document.createElement('link');
-  e.rel = 'stylesheet';
   e.href = '//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
   document.head.appendChild(e);
 });
