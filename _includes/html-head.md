@@ -13,13 +13,13 @@
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- stylesheet -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/font-awesome.css" | relative_url }}">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300|Roboto:300|Ubuntu:300&display=swap">
     <!-- js -->
     {% include google-analytics.md %}
