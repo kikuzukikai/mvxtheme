@@ -6,4 +6,4 @@ pagination:
   enabled: true
 ---
 ## このページについて
-過去に実施した[クラウドファンディング](https://crowdfunding.kikuzukikai.org/)などの特設ページの一覧です。
+過去に実施した[クラウドファンディング](https://readyfor.jp/users/409425)などの特設ページの一覧です。
