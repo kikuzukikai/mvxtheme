@@ -13,7 +13,6 @@
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
-    <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
     <!-- rss -->
@@ -21,6 +20,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300|Roboto:300|Ubuntu:300&display=swap">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- js -->
     {% include google-analytics.md %}
 </script>
