@@ -49,7 +49,8 @@ title: よくある質問
 このサイトの開発を行う [Medjed.com](https://web.medjed.com/ja/) が提供する短縮URL、またはそのドメインです。
 
 ## 寄付について
-今のところ、受け付ける予定はございません。
+現金による寄付は、今のところ、受け付ける予定はございません。
+ただし、[ビットコインによる寄付](https://www.blockchain.com/btc/address/{{ site.bitcoin_address }})のみ現在試験的に導入しております。
 
 ## 菊月の英文表記について
 菊月の英文表記がKiku&quot;du&quot;kiやKiku&quot;dzu&quot;kiではなくKiku&quot;zu&quot;kiになっている理由については以下のリンクをご参照ください。
