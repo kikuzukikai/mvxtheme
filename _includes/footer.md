@@ -33,7 +33,8 @@
     </div>
     <div class="socials"  role="navigation" aria-label="Social links">
         <ul role="menu" aria-hidden="true" aria-label="Social link">
-<li role="listitem" aria-label="Social link item"><a href="https://www.facebook.com/{{ site.github.owner_name }}" target="_blank" role="link" daria-label="Facebook"><i class="fa fa-facebook fa-fw fa-2x" aria-hidden="true"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="https://www.blockchain.com/btc/address/{{ site.bitcoin_address }}" target="_blank" role="link" aria-label="Bitcoin"><i class="fa fa-btc fa-fw fa-2x" aria-hidden="true"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="https://www.facebook.com/{{ site.github.owner_name }}" target="_blank" role="link" aria-label="Facebook"><i class="fa fa-facebook fa-fw fa-2x" aria-hidden="true"></i></a></li>
 <li role="listitem" aria-label="Social link item"><a href="https://twitter.com/{{ site.github.owner_name }}" target="_blank" role="link" aria-label="Twitter"><i class="fa fa-twitter fa-fw fa-2x" aria-hidden="true"></i></a></li>
 <li role="listitem" aria-label="Social link item"><a href="https://www.instagram.com/{{ site.github.owner_name }}" target="_blank" role="link" aria-label="Instagram"><i class="fa fa-instagram fa-fw fa-2x" aria-hidden="true"></i></a></li>
 <li role="listitem" aria-label="Social link item"><a href="{{ site.github.owner_url }}" target="_blank" role="link" aria-label="GitHub"><i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i></a></li>
