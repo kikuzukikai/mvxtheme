@@ -106,28 +106,28 @@
   
     > .doc-nav {
     
-      > .menu {
+      .menu {
         list-style-type: none;
         margin-top: 0;
         padding: 0;
       }
       
-      > .sub-menu {
+      .sub-menu {
         list-style-type: none;
         margin-bottom: 0;
         padding-left: 15px;
       }
       
-      > a {
+      ul a {
           color: var(--text-color);
           text-decoration: none;
           display: inline-block;
-          padding: 8px 0 8px 15px;
+          padding: 8px 0;
           box-sizing: border-box;
           width: 100%;
       }
       
-      > a:hover {
+      ul a:hover {
           color: var(--bg-color);
           background-color: var(--link-color);
       }
