@@ -63,13 +63,11 @@
       // hamburger button styles
       width: $hamburger-button-size;
       height: $hamburger-button-size;
-      color: var(--bg-color);
       margin: 0 10px;
-      border: solid;
+      border: solid $header-border-width var(--header-border-color);
       border-radius: .3rem;
       outline: none;
       cursor: pointer;
-      background-color: #ddd;
     }
 
     > .logo {
