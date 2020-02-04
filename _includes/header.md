@@ -1,7 +1,10 @@
 <div id="wrap">
 <header class="header" role="banner" aria-label="Header">
-<a href="javascript:void(0);" onclick="hamburgerMenu();" class="logo" role="link" aria-label="Hamburger menu button">
+<a href="{{ '/' | relative_url }}" class="logo" role="link" aria-label="Home">
     <font size="5">&nbsp;{{ site.title }}</font>
+</a>
+<a href="javascript:void(0);" onclick="hamburgerMenu();" class="hamburger-button" role="link" aria-label="Hamburger menu button">
+    <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
 </a>
     <nav class="navigation" role="navigation" aria-label="Navigation">
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
