@@ -22,7 +22,6 @@
 <nav id="hamburger-menu" role="navigation" aria-label="Hamburger menu">
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
         <ol role="menu" aria-hidden="true" aria-label="Navigation menu">
-        <li role="presentation" aria-label="Category name"><a href="{{ '/' | relative_url }}" class="doc-link" role="link" aria-label="Home">トップページ</a></li>
         <li role="presentation" aria-label="Category name"><a href="{{ '/blog/' | relative_url }}" class="doc-link" role="link" aria-label="Blog">ブログ記事</a></li>
         <li role="presentation" aria-label="Category name"><a href="{{ '/docs/' | relative_url }}" class="doc-link" role="link" aria-label="Docs">団体概要</a></li>
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
