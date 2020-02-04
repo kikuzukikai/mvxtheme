@@ -4,7 +4,7 @@
     <font size="5">&nbsp;{{ site.title }}</font>
 </a>
 <a href="javascript:void(0);" onclick="hamburgerMenu();" class="hamburger-button" role="link" aria-label="Hamburger menu button">
-    <i class="fa fa-bars fa-fw fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
 </a>
     <nav class="navigation" role="navigation" aria-label="Navigation">
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
