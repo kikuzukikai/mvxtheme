@@ -64,6 +64,7 @@
       width: $hamburger-button-size;
       height: $hamburger-button-size;
       margin: 0 10px;
+      color: var(--text-color);
       border: solid $header-border-width var(--header-border-color);
       border-radius: .3rem;
       outline: none;
