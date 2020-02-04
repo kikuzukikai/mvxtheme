@@ -106,30 +106,27 @@
   
     > .doc-nav {
     
-      .menu {
+      ul {
         list-style-type: none;
-        margin-top: 0;
-        padding: 0;
-      }
-      
-      .sub-menu {
-        list-style-type: none;
-        margin-bottom: 0;
-        padding-left: 15px;
+        margin: 0;
       }
       
       ul a {
-          color: var(--text-color);
-          text-decoration: none;
-          display: inline-block;
-          padding: 8px 0 8px 15px;
-          box-sizing: border-box;
-          width: 100%;
+        color: var(--text-color);
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 0;
+        box-sizing: border-box;
+        width: 100%;
+        
+        a {
+          padding-left: 15px;
+        }
       }
       
       ul a:hover {
-          color: var(--bg-color);
-          background-color: var(--link-color);
+        color: var(--bg-color);
+        background-color: var(--link-color);
       }
     }
   }
