@@ -118,7 +118,7 @@
         padding-left: 15px;
       }
       
-      ol, ul > a {
+      ol, ol ul > a {
           color: var(--text-color);
           text-decoration: none;
           display: inline-block;
@@ -127,7 +127,7 @@
           width: 100%;
       }
       
-      ol, ul > a:hover {
+      ol, ol ul > a:hover {
           color: var(--bg-color);
           background-color: var(--link-color);
       }
