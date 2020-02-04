@@ -111,7 +111,7 @@
         margin: 0;
       }
       
-      ul a {
+      .menu a {
         color: var(--text-color);
         text-decoration: none;
         display: inline-block;
@@ -119,7 +119,7 @@
         box-sizing: border-box;
         width: 100%;
         
-        a {
+        .sub-menu a {
           padding-left: 15px;
         }
       }
