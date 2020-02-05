@@ -12,13 +12,12 @@
   color: var(--text-color);
   background-color: var(--bg-color);
   background-clip: padding-box;
-  border: 1px solid #ddd;
+  border: solid var(--header-border-color);
   border-radius: .3rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 textarea {
-  height: 250px;
+  height: 20rem;
 }
 
 .button {
@@ -29,14 +28,4 @@ textarea {
   border-radius: .3rem;
   background: var(--header-border-color);
   color: #fff;
-  white-space: nowrap;
-  box-shadow: 1px 1px 0px 1px var(--alpha-color);
-  transition-property: background-color, box-shadow;
-  transition-duration: 150ms;
-  transition-timing-function: ease-in-out;
-
-  &:active {
-    box-shadow: none;
-    transition-duration: 10ms;
-  }
 }
