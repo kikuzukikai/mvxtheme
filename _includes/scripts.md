@@ -8,9 +8,8 @@ requestAnimationFrame(function(e) {
 </script>
 <script defer>	
 requestAnimationFrame(function(e) {	
-  e = document.createElement('link');	
-  e.rel = 'stylesheet';	
-  e.href = '//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';	
+  e = document.createElement('script');	
+  e.src = '//kit.fontawesome.com/d9f57ff550.js';	
   document.head.appendChild(e);	
 });	
 </script>
