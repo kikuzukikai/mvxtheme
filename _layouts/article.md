@@ -12,7 +12,7 @@ layout: compress
     <main class="container" role="main">
         {{ content }}
         <div id="back-to-top" role="button" aria-label="Back to top">
-            <i class="fa fa-angle-double-up fa-fw" aria-hidden="true"></i>
+            <i class="fas fa-angle-double-up"></i>
         </div>
     </main>
     <!-- footer -->
