@@ -64,8 +64,6 @@ assets:
   precompile: all
   raw_precompile: all
 
-include:
-
 paginate: 10
 paginate_path: "/blog/page:num/"
 
