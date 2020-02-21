@@ -19,7 +19,7 @@
   
   img {
     height: $header-logo-height;
-    
+    margin-left: .5rem;
     @media (prefers-color-scheme: dark){
       filter: brightness(0) invert(1);
     }
