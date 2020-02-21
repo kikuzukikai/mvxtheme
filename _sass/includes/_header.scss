@@ -19,10 +19,9 @@
   
   img {
     height: $header-logo-height;
-    src: url('/assets/svg/logo.svg');
     
     @media (prefers-color-scheme: dark){
-      src: url('/assets/svg/title-white.svg');
+      filter: brightness(0) invert(1);
     }
   }
   
