@@ -12,7 +12,7 @@ title: よくある質問
 * [駆逐艦菊月会慰霊祭]({{ '/special/memorial-service.html' | relative_url }})
 
 ## 旗章について
-<object data="{{ '/assets/svg/guide.svg' | relative_url }}" type="image/svg+xml"></object>
+![]({{ '/assets/svg/guide.svg' | relative_url }})
 
 赤道を挟む二つの島国、日本とソロモン諸島の交流を表現したこの旗章は、グラフィックデザイナーの加納偉智さんによる作品です。
 
