@@ -1,7 +1,7 @@
 <div id="wrap">
 <header class="header" role="banner" aria-label="Header">
 <a href="{{ '/' | relative_url }}" class="logo" role="link" aria-label="Home">
-    <img src="{{ '/assets/svg/title.svg' | relative_url }}" />
+    &nbsp;<img src="{{ '/assets/svg/title.svg' | relative_url }}" />
 </a>
 <a href="javascript:void(0);" onclick="hamburgerMenu();" class="hamburger-button" role="link" aria-label="Hamburger menu button">
     <i class="fas fa-bars"></i>
@@ -10,7 +10,7 @@
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="menuitem" aria-label="Navigation menu item">
                 <a href="{{ '/' | relative_url }}" class="logo" role="menuitem" aria-label="Home">
-                    <img src="{{ '/assets/svg/title.svg' | relative_url }}" />
+                    &nbsp;<img src="{{ '/assets/svg/title.svg' | relative_url }}" />
                 </a>
             </li>
             {% for item in site.menu %}
