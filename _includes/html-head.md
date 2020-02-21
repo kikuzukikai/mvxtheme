@@ -15,11 +15,11 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
     <link rel="dns-prefetch" href="//use.fontawesome.com/">
     <!-- favicon -->
-    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/svg/favicon.svg' | relative_url }}" type="image/svg+xml">
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- js -->
     {% include google-analytics.md %}
 </script>
