@@ -19,6 +19,10 @@
   
   img {
     height: $header-logo-height;
+    
+    @media (prefers-color-scheme: dark){
+      filter: grayscale(100%);
+    }
   }
   
   .logo {
