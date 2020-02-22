@@ -9,9 +9,6 @@
     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
     {{% endif %}}
     <meta name="keywords" content="{{ site.keywords }}">
-    {{% if site.app_id %}}
-    <meta property="fb:app_id" content="{{ site.app_id }}">
-    {{% endif %}}
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <link rel="dns-prefetch" href="//fonts.googleapis.com/">
