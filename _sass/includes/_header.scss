@@ -12,19 +12,24 @@
   @include flex-valign(center);
   flex-flow: row wrap;
   justify-content: space-between;
-  
   > .hamburger-button {
     display: none;
   }
-  
   img {
     height: $header-logo-height;
     margin-left: .5rem;
-    @media (prefers-color-scheme: dark){
-      filter: brightness(0) invert(1);
+    .dark {
+      display: none;
+    }
+    @media (prefers-color-scheme: dark) {
+      .dark {
+        display: inline-block;
+      }
+      .light {
+        display: none;
+      }
     }
   }
-  
   .logo {
     @include flex-valign(center);
     flex-flow: row nowrap;
@@ -32,24 +37,19 @@
     color: var(--text-color);
     background-size: 40px 40px;
     background-position: left center;
-    background-image: url('/assets/svg/logo.svg');
-    
+    background-image: url('/assets/svg/logo.svg');   
     @media (prefers-color-scheme: dark){
       background-image: url('/assets/svg/logo-white.svg');
     }
-    
     background-repeat: no-repeat;
     padding-left: 40px;
   }
-  
   > .navigation {
-    
     ul {
       @include flex-valign(center);
       list-style-type: none;
       padding: 0;
       margin: 0;
-    
       li {
         margin-right: $navigation-margin;
       } 
@@ -62,10 +62,8 @@
 }
 
 @include media-query-max($on-tablet) {
-
   .header {
     padding: 0 1rem;
-  
     > .hamburger-button {
       // hamburger button flex property
       @include flex-valign(center);
@@ -81,12 +79,10 @@
       cursor: pointer;
       text-decoration: none;
     }
-    
     > .navigation {
       display: none;
     }  
   }
-  
   #hamburger-menu {
     display: flex;
     display: -webkit-flex;
@@ -108,14 +104,11 @@
     -moz-transition: .2s ease-in-out; 
     -o-transition: .2s ease-in-out; 
     transition: .2s ease-in-out;
-  
     > .doc-nav {
-    
       ul {
         list-style-type: none;
         margin: 0;
       }
-      
       .menu a {
         color: var(--text-color);
         text-decoration: none;
@@ -123,8 +116,7 @@
         padding: 8px 0 8px 15px;
         box-sizing: border-box;
         width: 100%;
-      }
-        
+      } 
       .sub-menu a {
         color: var(--text-color);
         text-decoration: none;
@@ -133,7 +125,6 @@
         box-sizing: border-box;
         width: 100%;
       }
-      
       ul a:hover {
         color: var(--bg-color);
         background-color: var(--link-color);
@@ -143,22 +134,16 @@
 }
 
 @include media-query-min($on-tablet + 1) {
-  
   .header {
     padding: 0 $base-desktop-padding;
-    
     > .logo {
       display: none;
     }
-  
     > .navigation {
-      
       ul {
-      
         li {
           margin-right: $navigation-margin * 2;
         }
-        
         li:last-child {
           margin-right: 0;
         }
