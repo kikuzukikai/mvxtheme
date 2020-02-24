@@ -15,20 +15,10 @@
   > .hamburger-button {
     display: none;
   }
-  img {
+  svg {
+    fill: currentColor;
     height: $header-logo-height;
     margin-left: .5rem;
-    &.dark {
-      display: none;
-    }
-    @media (prefers-color-scheme: dark) {
-      &.dark {
-        display: inline-block;
-      }
-      &.light {
-        display: none;
-      }
-    }
   }
   .logo {
     @include flex-valign(center);
