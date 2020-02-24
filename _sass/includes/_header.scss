@@ -18,14 +18,14 @@
   img {
     height: $header-logo-height;
     margin-left: .5rem;
-    .dark {
+    &.dark {
       display: none;
     }
     @media (prefers-color-scheme: dark) {
-      .dark {
+      &.dark {
         display: inline-block;
       }
-      .light {
+      &.light {
         display: none;
       }
     }
