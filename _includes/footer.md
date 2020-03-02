@@ -41,7 +41,7 @@
         </ul>
     </div>
     <div class="copyright" role="contentinfo" aria-label="Copyright">
-<p class="copyright">&copy;&nbsp;<script type="text/javascript">document.write(new Date().getFullYear());</script>&nbsp;<a href="{{ site.url }}">{{ site.title }}</a>
+<p class="copyright">&copy;&nbsp;<script defer>document.write(new Date().getFullYear());</script>&nbsp;<a href="{{ site.url }}">{{ site.title }}</a>
         <div class="right">
 <a href="{{ '/sitemap.xml' | relative_url }}" target="_blank" rel="noopener" role="link" aria-label="Site map">サイトマップ</a>
 &nbsp;&bull;&nbsp;
