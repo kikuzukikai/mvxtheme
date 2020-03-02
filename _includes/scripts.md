@@ -37,6 +37,6 @@ window.onload = function(){
 <script defer>
   var fullYear = document.createElement('p');
   fullYear.className = 'copyright';
-  fullYear.textContent = '&copy;&nbsp;' + new Date().getFullYear() + '&nbsp;<a href="{{ site.url }}">{{ site.title }}</a>';
+  fullYear.textContent = new Date().getFullYear();
   document.body.appendChild(fullYear);
 </script>
