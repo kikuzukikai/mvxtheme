@@ -7,6 +7,7 @@ code,
 .highlight,
 .highlighter-rouge {
     font-family: $code-font-family;
+    font-display: swap;
     background-color: $syntax-background-color !important;
 }
 
