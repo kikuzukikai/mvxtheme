@@ -34,9 +34,3 @@ window.onload = function(){
   });
 };
 </script>
-<script defer>
-  var y = document.createElement('p');
-  y.className = 'copyright';
-  y.textContent = new Date().getFullYear();
-  document.copyright.appendChild(y);
-</script>
