@@ -60,7 +60,7 @@
     }
   }
 
-  > .copyright {
+  > copyright {
     // flex
     @include flex-valign(center);
     flex-flow: row wrap;
@@ -89,7 +89,7 @@
       }
     }
 
-    > .copyright {
+    > copyright {
       border: none;
       justify-content: center;
 
@@ -160,6 +160,6 @@
     width: 90%;
 }
 
-.copyright {
+copyright {
   margin: 0;
 }
