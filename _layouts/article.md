@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <!-- head -->
 {% include html-head.md %}
 <body class="body">
