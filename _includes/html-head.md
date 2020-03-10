@@ -21,5 +21,4 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- js -->
     {% include google-analytics.md %}
-</script>
 </head>
