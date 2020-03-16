@@ -2,10 +2,6 @@
  * Copyright (c) 2017 MvvmCross
  */
 
-  h2 {
-    font-size: 1.5rem;
-  }
-
   .home {
   > section {
     padding-top: $home-section-padding;
@@ -22,15 +18,6 @@
     p {
       margin-top: $home-text-margin;
       margin-bottom: $home-text-margin;
-    }
-
-    h1,
-    h2 {
-      font-weight: bold;
-    }
-
-    h2 {
-      font-size: 1.875rem;
     }
 
     p {
