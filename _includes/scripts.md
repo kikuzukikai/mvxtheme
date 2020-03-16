@@ -2,7 +2,7 @@
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
-  e.href = '//fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300|Roboto:300|Ubuntu:300&display=swap';
+  e.href = '//fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300&display=swap';
   document.head.appendChild(e);
 });
 </script>
