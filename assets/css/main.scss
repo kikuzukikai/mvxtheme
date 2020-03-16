@@ -39,7 +39,6 @@ $on-desktop: 992px !default;
 // fonts
 $head-font-family: "Noto Serif JP", serif !default;	
 $base-font-family: "Noto Sans JP", sans-serif !default;	
-$code-font-family: Ubuntu, sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 300 !default;
 $base-line-height: 1.75 !default;
@@ -84,8 +83,6 @@ $header-bottom-margin: 30px !default;
 // Blog.html
 $blog-margin: 50px !default;
 $blog-list-margin: 40px !default;
-// Code
-$syntax-background-color: #f2f2f2 !default;
 
 // Docs.html
 $doc-mobile-padding: 15px !default;
@@ -99,7 +96,6 @@ $documentation-margin: 40px !default;
 @import 'mixins/mixins';
 @import 'includes/header';
 @import 'includes/footer';
-@import 'includes/code';
 @import 'includes/sticky';
 @import 'includes/table';
 @import 'includes/form';
