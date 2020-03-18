@@ -14,7 +14,7 @@ title: VR駆逐艦菊月
 
 ### 共催
 <a href="https://web.medjed.com/" alt="Medjed.com">
-  <span class="fa-stack fa-3x">
+  <span class="fa-stack fa-3x" style="color:#caa846;">
     <i class="fas fa-square-o fa-stack-2x"></i>
     <i class="fas fa-ghost fa-stack-1x"></i>
   </span>
