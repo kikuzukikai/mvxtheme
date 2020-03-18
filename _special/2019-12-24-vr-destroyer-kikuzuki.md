@@ -13,12 +13,12 @@ title: VR駆逐艦菊月
 ## 支援者芳名録(順不同・敬称略)
 
 ### 共催
-- [Medjed.com](https://web.medjed.com)
-
-<span class="fa-stack fa-3x">
-    <i class="fas fa-square fa-stack-2x"></i>
-    <i class="fas fa-ghost fa-stack-1x fa-inverse"></i>
-</span>
+<a href="https://web.medjed.com/" alt="Medjed.com">
+  <span class="fa-stack fa-3x">
+    <i class="fas fa-square-o fa-stack-2x"></i>
+    <i class="fas fa-ghost fa-stack-1x"></i>
+  </span>
+</a>
 
 ### 特別協賛
 - 安田 幸史
