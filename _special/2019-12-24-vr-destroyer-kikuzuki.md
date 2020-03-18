@@ -18,7 +18,7 @@ title: VR駆逐艦菊月
     <i class="far fa-square fa-stack-2x"></i>
     <i class="fas fa-ghost fa-stack-1x"></i>
   </span>
-<p style="font-size:3rem;">Medjed.com</p>
+<p style="color:#caa846;font-size:3rem;">Medjed.com</p>
 </a>
 
 ### 特別協賛
