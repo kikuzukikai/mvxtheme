@@ -25,8 +25,8 @@ title: お問い合わせフォーム
 </form>
 </div>
 
-- 索引
-Ticket.ID: TOC
+- Ticket.ID:
+- TOC
 {:toc}
 
 ### 2020-03-18
