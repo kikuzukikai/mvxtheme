@@ -25,8 +25,7 @@ title: お問い合わせフォーム
 </form>
 </div>
 
-- Ticket ID:
-
+**Ticket ID:**
 - TOC
 {:toc}
 
