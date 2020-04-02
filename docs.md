@@ -3,7 +3,7 @@ layout: docs
 title: 団体概要
 permalink: /docs/
 ---
-## 駆逐艦菊月会の沿革
+## 駆逐艦菊月会のあゆみ
 
 <div class="scroll" markdown="block">
 
