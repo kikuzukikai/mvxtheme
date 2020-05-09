@@ -1,4 +1,3 @@
-  <div id="push"></div>
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
@@ -25,10 +24,11 @@
   ],
   "colorTheme": "light",
   "isTransparent": false,
-  "displayMode": "compact",
+  "displayMode": "adaptive",
   "locale": "en"
 }
   </script>
 </div>
 <!-- TradingView Widget END -->
+<div id="push"></div>
 </div>
