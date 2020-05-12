@@ -34,7 +34,7 @@ permalink: /docs/
   </dl>
 </div>
 
-<h2>駆逐艦菊月会のあゆみ</h2>
+## 駆逐艦菊月会のあゆみ
 
 <div class="scroll" markdown="block">
 
