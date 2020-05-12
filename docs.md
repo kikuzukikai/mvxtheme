@@ -5,24 +5,31 @@ permalink: /docs/
 ---
 
 <div class="about-dl">
-<dl>
-<dt>名称</dt>
-<dd>駆逐艦菊月会<br />Association of Kikuzuki for Veterans and Families</dd>
-<dt>団体種類</dt>
-<dd>任意団体</dd>
-<dt>発足</dt>
-<dd>1982年5月<br />(2017年10月に活動再開)</dd>
-<dt>所在地</dt>
-<dd>〒116-0003<br />東京都荒川区南千住8丁目6番2号1305</dd>
-<dt>役員</dt>
-<dd>会長: 橋本泰邦<br />幹事: 堀江仁貴
-<dt>会員</dt>
-<dd>8世帯<br />(2019年10月現在)</dd>
-<dt>電話番号</dt>
-<dd>090-1299-3019<br />担当: 堀江仁貴</dd>
-<dt>連絡先</dt>
-<dd>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</dd>
-</dl>
+  <dl>
+    <dt>名称</dt>
+    <dd>駆逐艦菊月会<br />Association of Kikuzuki for Veterans and Families</dd>
+    
+    <dt>団体種類</dt>
+    <dd>任意団体</dd>
+    
+    <dt>発足</dt>
+    <dd>1982年5月<br />(2017年10月に活動再開)</dd>
+    
+    <dt>所在地</dt>
+    <dd>〒116-0003<br />東京都荒川区南千住8丁目6番2号1305</dd>
+    
+    <dt>役員</dt>
+    <dd>会長: 橋本泰邦<br />幹事: 堀江仁貴
+    
+    <dt>会員</dt>
+    <dd>8世帯<br />(2019年10月現在)</dd>
+    
+    <dt>電話番号</dt>
+    <dd>090-1299-3019<br />担当: 堀江仁貴</dd>
+    
+    <dt>連絡先</dt>
+    <dd>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</dd>
+  </dl>
 </div>
 
 ## 駆逐艦菊月会のあゆみ
