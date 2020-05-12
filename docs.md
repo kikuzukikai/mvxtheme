@@ -29,7 +29,10 @@ permalink: /docs/
     <dd>090-1299-3019<br />担当: 堀江仁貴</dd>
     
     <dt>連絡先</dt>
-    <dd>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</dd>
+    <dd>
+    <p>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。</p>
+    <p>ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</p>
+    </dd>
   
   </dl>
 </div>
