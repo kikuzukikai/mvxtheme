@@ -3,6 +3,7 @@ layout: docs
 title: 団体概要
 permalink: /docs/
 ---
+<div class="about-dl">
 <dl>
 <dt>名称</dt>
 <dd>駆逐艦菊月会<br />Association of Kikuzuki for Veterans and Families</dd>
@@ -24,6 +25,7 @@ permalink: /docs/
 <p>ご連絡は、[お問い合わせフォーム]({{ '/docs/contact.html' | relative_url }})または[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</p>
 </dd>
 </dl>
+</div>
 
 ## 駆逐艦菊月会のあゆみ
 
