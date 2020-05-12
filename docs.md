@@ -21,10 +21,9 @@ permalink: /docs/
 <dt>電話番号</dt>
 <dd>090-1299-3019<br />担当: 堀江仁貴</dd>
 <dt>連絡先</dt>
-<dd>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。ご連絡は、[お問い合わせフォーム]({{ '/docs/contact.html' | relative_url }})または[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</dd>
+<dd>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</dd>
 </dl>
 </div>
-
 
 ## 駆逐艦菊月会のあゆみ
 
