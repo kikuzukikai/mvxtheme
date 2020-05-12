@@ -45,3 +45,15 @@ table tr td {
     text-align: left;
     padding: 5px 10px;
 }
+
+.about-dl dt {
+    padding-bottom: 5px;
+    float: left;
+    clear: left;
+    width: 20%;
+}
+
+.about-dl dd {
+    padding-bottom: 15px;
+    -webkit-margin-start: 20%;
+}
