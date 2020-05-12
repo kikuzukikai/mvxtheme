@@ -33,9 +33,6 @@ permalink: /docs/
     <p>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。</p>
     <p>ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</p>
     </dd>
-  
-  </dl>
-</div>
 
 ## 駆逐艦菊月会のあゆみ
 
