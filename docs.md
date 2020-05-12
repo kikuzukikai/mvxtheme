@@ -20,7 +20,7 @@ permalink: /docs/
     <dd>〒116-0003<br />東京都荒川区南千住8丁目6番2号1305</dd>
     
     <dt>役員</dt>
-    <dd>会長: 橋本泰邦<br />幹事: 堀江仁貴
+    <dd>会長: 橋本泰邦<br />幹事: 堀江仁貴</dd>
     
     <dt>会員</dt>
     <dd>8世帯<br />(2019年10月現在)</dd>
@@ -33,6 +33,9 @@ permalink: /docs/
     <p>当会には専用の事務所がなく、電話でのご連絡には対応いたしかねます。</p>
     <p>ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</p>
     </dd>
+  
+  </dl>
+</div>
 
 ## 駆逐艦菊月会のあゆみ
 
