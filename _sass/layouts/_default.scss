@@ -72,3 +72,7 @@ p,
 ul {
   margin-bottom:1em;
 }
+
+li:before {
+  content: "\2756";
+}
