@@ -9,7 +9,7 @@ title: よくある質問
 ## 令和2年度以降の靖國神社での当会慰霊祭について
 会則に定める開催予定日時「11月の第1日曜日または連休の一部たる文化の日」は以下のページをご参照ください。
 
-* [駆逐艦菊月会慰霊祭]({{ '/special/memorial-service.html' | relative_url }})
+- [駆逐艦菊月会慰霊祭]({{ '/special/memorial-service.html' | relative_url }})
 
 ## 旗章について
 ![]({{ '/assets/svg/guide.svg' | relative_url }})
@@ -24,14 +24,14 @@ title: よくある質問
 ## インターネットサービスの利用方針について
 当会では、私達の取り組みをより多くの皆様に知って頂くため、インターネットでの広報を行っています。
 
-* プレスリリース
+プレスリリース
 
-    - [PR TIMES](https://prtimes.jp/main/html/searchrlp/company_id/31198)
-    - [note](https://note.com/kikuzukikai)
+- [PR TIMES](https://prtimes.jp/main/html/searchrlp/company_id/31198)
+- [note](https://note.com/kikuzukikai)
     
-* ソーシャルネットワーク(非常用)
+ソーシャルネットワーク(非常用)
 
-    - <a rel="me" href="https://mastodon.social/@{{ site.github.owner_name }}" target="_blank">Mastodon</a>
+- <a rel="me" href="https://mastodon.social/@{{ site.github.owner_name }}" target="_blank">Mastodon</a>
 
 ## Q4.org について
 このサイトの開発を行う [Medjed.com](https://web.medjed.com/ja/) が提供する短縮URL、またはそのドメインです。
@@ -43,6 +43,7 @@ title: よくある質問
 ## 菊月の英文表記について
 菊月の英文表記がKiku&quot;du&quot;kiやKiku&quot;dzu&quot;kiではなくKiku&quot;zu&quot;kiになっている理由については以下のリンクをご参照ください。
 
-* [文部科学省](http://www.mext.go.jp/)  
-    [「現代仮名遣い」に関する内閣告示及び内閣訓令について](http://www.mext.go.jp/b_menu/hakusho/nc/t19860701002/t19860701002.html)  
-    [ローマ字のつづり方](http://www.mext.go.jp/b_menu/hakusho/nc/k19541209001/k19541209001.html)
+[文部科学省](http://www.mext.go.jp/)  
+
+- [「現代仮名遣い」に関する内閣告示及び内閣訓令について](http://www.mext.go.jp/b_menu/hakusho/nc/t19860701002/t19860701002.html)  
+- [ローマ字のつづり方](http://www.mext.go.jp/b_menu/hakusho/nc/k19541209001/k19541209001.html)
