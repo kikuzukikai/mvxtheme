@@ -72,3 +72,14 @@ p,
 ul {
   margin-bottom:1em;
 }
+
+article {
+  ul {
+    list-style: none;
+  }
+
+  li:before {
+    content: "\1f7b4";
+    color: var(--zebra-color);
+  }
+}
