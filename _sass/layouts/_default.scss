@@ -80,6 +80,7 @@ article {
 
   li:before {
     content: "\1f7b4";
-    color: var(--zebra-color);
+    color: var(--text-color);
+    margin-left: .5rem;
   }
 }
