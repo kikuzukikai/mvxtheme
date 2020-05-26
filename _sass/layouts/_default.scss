@@ -78,8 +78,9 @@ article {
     list-style: none;
 
     li:before {
-      content: "\1f7b4";
-      color: #fee;
+      font-family: FontAwesome;
+      content: "\f4d8";
+      color: #82c91e;
       margin-right: .5rem;
     }
   }
