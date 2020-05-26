@@ -7,6 +7,8 @@ layout: article
 <p class="meta">
 {{ page.date | date: "%Y年%-m月%-d日" }}投稿
 &nbsp;
+{{ page.last_modified_at | date: "%Y年%-m月%-d日" }}更新
+&nbsp;
 <i class="fas fa-pencil-alt"></i>
 <a href="https://github.com/kikuzukikai/mvxtheme/blob/master/{{ page.path }}" alt="Edit">
 編集する
