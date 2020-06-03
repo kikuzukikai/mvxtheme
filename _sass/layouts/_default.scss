@@ -78,7 +78,7 @@ article {
     list-style: none;
 
     li:before {
-      content: "&bull;";
+      content: &bull;
       margin-right: .5rem;
     }
   }
