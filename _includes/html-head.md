@@ -21,5 +21,5 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- js -->
     {% include google-analytics.md %}
-    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script async src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
