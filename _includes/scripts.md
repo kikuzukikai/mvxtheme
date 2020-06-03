@@ -34,3 +34,6 @@ window.onload = function(){
   });
 };
 </script>
+<script defer>
+  twemoji.parse(document.body);
+</script>
