@@ -78,7 +78,8 @@ article {
     list-style: none;
 
     li:before {
-      content: &bull;
+      content: "\2022";
+      color: var(--text-color);
       margin-right: .5rem;
     }
   }
