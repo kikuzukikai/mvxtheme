@@ -78,10 +78,7 @@ article {
     list-style: none;
 
     li:before {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      content: "\f186";
-      color: var(--text-color);
+      content: "💠";
       margin-right: .5rem;
     }
   }
