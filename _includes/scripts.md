@@ -2,14 +2,6 @@
 requestAnimationFrame(function(e) {
   e = document.createElement('link');
   e.rel = 'stylesheet';
-  e.href = '//fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300&display=swap';
-  document.head.appendChild(e);
-});
-</script>
-<script defer>
-requestAnimationFrame(function(e) {
-  e = document.createElement('link');
-  e.rel = 'stylesheet';
   e.href = '//use.fontawesome.com/releases/v5.12.0/css/all.css';
   document.head.appendChild(e);
 });
