@@ -37,14 +37,16 @@ $on-mobile: 576px !default;
 $on-tablet: 768px !default;
 $on-desktop: 992px !default;
 // fonts
+$head-font-family: "Noto Serif JP", serif !default;	
 @font-face {
-    $head-font-family: "Noto Serif JP", serif !default;	
+    font-family: $head-font-family;	
     font-weight: 300;
     font-display: swap;
     src: url("/assets/fonts/NotoSerifJP-Light.otf") format("opentype");
 }
+$base-font-family: "Noto Sans JP", sans-serif !default;
 @font-face {
-    $base-font-family: "Noto Sans JP", sans-serif !default;
+    font-family: $base-font-family;
     font-weight: 300;
     font-display: swap;
     src: url("/assets/fonts/NotoSansJP-Light.otf") format("opentype");
