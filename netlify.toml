@@ -5,11 +5,6 @@ status = 301
 force = true
 
 [[headers]]
-for = "*.otf"
-[headers.values]
-cache-control = "public, max-age=2592000"
-
-[[headers]]
 for = "*.js"
 [headers.values]
 cache-control = "public, max-age=2592000"
