@@ -38,6 +38,12 @@ $on-tablet: 768px;
 $on-desktop: 992px;
 // fonts
 $head-font-family: "Noto Serif JP", serif;	
+@font-face {
+    font-family: $head-font-family;
+    font-display: swap;
+    font-weight: $base-font-weight;
+    src: url("/assets/fonts/NotoSerifJP-Light.otf") format("opentype");
+}
 $base-font-family: "Noto Sans JP", sans-serif;
 @font-face {
     font-family: $base-font-family;
@@ -46,12 +52,6 @@ $base-font-family: "Noto Sans JP", sans-serif;
     line-height: $base-line-height;
     background-color: var(--bg-color);
     src: url("/assets/fonts/NotoSansJP-Light.otf") format("opentype");
-}
-@font-face {
-    font-family: $head-font-family;
-    font-display: swap;
-    font-weight: $base-font-weight;
-    src: url("/assets/fonts/NotoSerifJP-Light.otf") format("opentype");
 }
 $base-font-size: 16px;
 $base-font-weight: 300;
