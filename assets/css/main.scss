@@ -41,18 +41,17 @@ $head-font-family: "Noto Serif JP", serif;
 @font-face {
     font-family: $head-font-family;
     font-display: swap;
-    font-weight: $base-font-weight;
+    font-weight: 300;
     src: url("/assets/fonts/NotoSerifJP-Light.otf") format("opentype");
 }
 $base-font-family: "Noto Sans JP", sans-serif;
 @font-face {
     font-family: $base-font-family;
     font-display: swap;
-    font-weight: $base-font-weight;
+    font-weight: 300;
     src: url("/assets/fonts/NotoSansJP-Light.otf") format("opentype");
 }
 $base-font-size: 16px;
-$base-font-weight: 300;
 $base-line-height: 1.75;
 // margin and padding
 $base-mobile-padding: 15px;
