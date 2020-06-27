@@ -38,7 +38,9 @@ $on-tablet: 768px !default;
 $on-desktop: 992px !default;
 // fonts
 $head-font-family: "Noto Serif JP", serif !default;	
+src: url("/assets/fonts/NotoSerifJP-Light.otf') format("opentype");
 $base-font-family: "Noto Sans JP", sans-serif !default;	
+src: url("/assets/fonts/NotoSansJP-Light.otf') format("opentype");
 $base-font-size: 16px !default;
 $base-font-weight: 300 !default;
 $base-line-height: 1.75 !default;
