@@ -5,10 +5,8 @@
 html,
 body {
   font-family: $base-font-family;
-  font-display: swap;
   font-weight: 300;
   font-size: 16px;
-  src: url("/assets/fonts/NotoSansJP-Light.otf") format("opentype");
   height: 100%;
   line-height: $base-line-height;
   background-color: var(--bg-color);
@@ -22,9 +20,7 @@ h4,
 h5,
 h6 {
   font-family: $head-font-family;
-  font-display: swap;
   font-weight: 300;
-  src: url("/assets/fonts/NotoSerifJP-Light.otf") format("opentype");
 }
 
 a {
