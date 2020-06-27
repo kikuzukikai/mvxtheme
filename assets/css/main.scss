@@ -48,9 +48,7 @@ $base-font-family: "Noto Sans JP", sans-serif;
 @font-face {
     font-family: $base-font-family;
     font-display: swap;
-    height: 100%;
-    line-height: $base-line-height;
-    background-color: var(--bg-color);
+    font-weight: $base-font-weight;
     src: url("/assets/fonts/NotoSansJP-Light.otf") format("opentype");
 }
 $base-font-size: 16px;
