@@ -49,9 +49,9 @@ $base-font-family: "Noto Sans JP", sans-serif;
     font-family: $base-font-family;
     font-display: swap;
     font-weight: 300;
+    font-size: 16px;
     src: url("/assets/fonts/NotoSansJP-Light.otf") format("opentype");
 }
-$base-font-size: 16px;
 $base-line-height: 1.75;
 // margin and padding
 $base-mobile-padding: 15px;
