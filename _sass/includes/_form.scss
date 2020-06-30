@@ -20,16 +20,6 @@ label {
   white-space: nowrap;
 }
 
-input[type="checkbox"] {
-  margin: 1rem 0;
-  background-color: var(--bg-color);
-  border: solid var(--header-border-color);
-  border-radius: .3rem;
-  &:checked {
-    background-color: var(--theme-color);
-  }
-}
-
 input[type="email"]:disabled::placeholder {
   color: var(--bg-color);
 }
