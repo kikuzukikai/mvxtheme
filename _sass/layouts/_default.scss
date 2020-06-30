@@ -73,12 +73,10 @@ ul {
 }
 
 .default-footer {
-  white-space: nowrap;
   text-align: center;
   background-color: #6c6;
   color: #fff;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px;
   > a {
     &:hover {
       background-color: var(--text-color);
