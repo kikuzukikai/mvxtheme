@@ -16,10 +16,6 @@
   border-radius: .3rem;
 }
 
-label {
-  white-space: nowrap;
-}
-
 $white: #FFFFFF;
 $beige: #F6F4E8;
 $blue: #22B7EB;
@@ -28,7 +24,7 @@ $text_two: #7F8C8D;
 $checkmark-base: 8px;
 $trans: .3s ease;
 
-li {
+label {
   height: 40px;
   width: 300px;
   line-height: 38px;
