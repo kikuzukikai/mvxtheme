@@ -20,7 +20,12 @@ label {
   white-space: nowrap;
 }
 
-input[type="checkbox"]{
+$white: #FFFFFF;
+$blue: #22B7EB;
+$checkmark-base: 8px;
+$trans: .3s ease;
+
+input[type='checkbox']{
   cursor: pointer;
   outline: none;
   -webkit-appearance: none;
@@ -34,16 +39,16 @@ input[type="checkbox"]{
   background-color: transparent;
   border: 2px solid #BDC3C7;
   border-radius: 2px;
-  transition: background-color .3s ease, border .3s ease;
+  transition: background-color $trans, border $trans;
 
   &:hover {
-    background-color: lighten(#22B7EB, 50%);
+    background-color: lighten($blue, 50%);
   }
   &::before, &::after {
     position: absolute;
     height: 0;
     width: $checkmark-base * .22;
-    background-color: #FFFFFF;
+    background-color: $white;
     display: inline-block;
     -webkit-transform-origin: left top;
     border-radius: 4px;
@@ -61,19 +66,19 @@ input[type="checkbox"]{
     -webkit-transform: rotate(-45deg);
   }
   &:checked {
-    background-color: #22B7EB;
-    border: 8px solid #22B7EB;;
+    background-color: $blue;
+    border: 8px solid $blue;
 
     &::before, &::after {
-      box-shadow: 0 0 0 8px * .05 #FFFFFF;
+      box-shadow: 0 0 0 $checkmark-base * .05 $white;
     }
     &::before {
       height: $checkmark-base * 1;
-      -webkit-animation: animatetop .3s ease;
+      -webkit-animation: animatetop $trans;
     }
     &::after {
       height: $checkmark-base * .5;
-      -webkit-animation: animatebottom .3s ease;
+      -webkit-animation: animatebottom $trans;
     }
   }
   &.select-all-checkbox {
