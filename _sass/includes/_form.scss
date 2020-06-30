@@ -16,8 +16,9 @@
   border-radius: .3rem;
 }
 
-input:disabled {
-  background-color: var(--alpha-color);
+input[type="email"]::placeholder {
+  &:disabled {
+    color: var(--bg-color);
 }
 
 textarea {
