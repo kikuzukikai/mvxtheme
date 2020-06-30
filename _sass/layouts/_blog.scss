@@ -66,8 +66,6 @@
 
 .pagination {
   text-align: center;
-  background-color: var(--alpha-color);
   color: var(--text-color);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-bottom: $post-bottom-margin;
 }
