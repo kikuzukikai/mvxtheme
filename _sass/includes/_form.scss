@@ -16,6 +16,10 @@
   border-radius: .3rem;
 }
 
+label {
+  white-space: nowrap;
+}
+
 input[type="email"]:disabled::placeholder {
   color: var(--bg-color);
 }
