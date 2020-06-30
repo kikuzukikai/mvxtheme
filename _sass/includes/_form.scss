@@ -17,39 +17,19 @@
 }
 
 $white: #FFFFFF;
-$beige: #F6F4E8;
 $blue: #22B7EB;
-$text_one: #9DACAC;
-$text_two: #7F8C8D;
 $checkmark-base: 8px;
 $trans: .3s ease;
 
-label {
-  height: 40px;
-  width: 300px;
-  line-height: 38px;
-  padding: 0;
-  background-color: #FAFAFA;
-  margin: 0 auto;
-  border: 1px solid $beige;
-  border-left: none;
-  box-shadow: -3px 0 $beige;
-  color: $text_one;
-  transition: background-color $trans, box-shadow $trans;
-
-  &:hover {
-    background-color: $white;
-    box-shadow: -3px 0 $blue;
-    color: $text_two;
-
-    input[type='checkbox']{
-      border-color: $blue;
-    }
-  }
-  &.selected {
-    background-color: $white;
-    color: $text_two;
-  }
+@-webkit-keyframes animatetop {
+  0% { height: 0; }
+  50% { height: 0; }
+  100% { height: $checkmark-base * 1; }
+}
+@-webkit-keyframes animatebottom {
+  0% { height: 0; }
+  50% { height: 0; }
+  100% { height: $checkmark-base/1.9; }
 }
 
 input[type='checkbox']{
