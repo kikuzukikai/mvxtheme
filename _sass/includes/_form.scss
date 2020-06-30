@@ -17,7 +17,7 @@
 }
 
 input:disabled {
-  background-color: darken(var(--bg-color), 20%);
+  background-color: var(--alpha-color);
 }
 
 textarea {
