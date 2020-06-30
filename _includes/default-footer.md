@@ -1,3 +1,3 @@
   <div id="push"></div>
-{{ important_message }}
+{{ site.important_message }}
 </div>
