@@ -26,3 +26,8 @@ window.onload = function(){
   });
 };
 </script>
+<script defer>
+function connecttext( textid, ischecked ) {
+  document.getElementById(textid).disabled = !ischecked;
+}
+</script>
