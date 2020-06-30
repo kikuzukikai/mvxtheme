@@ -29,8 +29,12 @@ input[type="checkbox"] {
   width: 100%;
   margin: 1rem 0;
   background-color: var(--bg-color);
-  border: solid var(--header-border-color);
+  border: 2px solid var(--header-border-color);
   border-radius: .3rem;
+  &:checked {
+    background-color: var(--header-border-color);
+    border: 8px solid var(--header-border-color);
+  }
 }
 
 input[type="email"]:disabled::placeholder {
