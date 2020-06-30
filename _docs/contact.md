@@ -7,7 +7,7 @@ title: お問い合わせフォーム
 
 原則、匿名でのお問い合わせとその回答はこのページに公開いたします。
 
-非公開や返信を希望される場合は、「お問い合わせ内容」欄に返信先を記入いただくか、[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)にメールをお送りください。
+非公開や返信を希望される場合は、返信先を記入いただくか、[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)にメールをお送りください。
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
@@ -18,6 +18,10 @@ title: お問い合わせフォーム
   </div>
   <div class="form-group">
     <textarea class="controls" name="inquiry" placeholder="お問い合わせ内容" rows="3" required></textarea>
+  </div>
+  <div class="form-group">
+    <label><input type="checkbox" class="controls" name="checkbox" value="on" onclick="connecttext('email',this.checked);">非公開または返信を希望する</label>:
+    <input type="email" class="controls" name="email" placeholder="返信先メールアドレス" id="email" value="">
   </div>
   <button type="submit" class="button">送信</button>
 </form>
