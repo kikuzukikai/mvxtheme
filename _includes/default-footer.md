@@ -3,6 +3,6 @@
 {% if site.important_message %}
 <div class="default-footer">
   <i class="fas fa-exclamation-triangle"></i>
-  <p>{{ site.important_message }}</p>
+  <strong>{{ site.important_message }}</strong>
 </div>
 {% endif %}
