@@ -75,8 +75,8 @@ ul {
 .default-footer {
   position: relative;
   text-align: center;
-  background-color: var(--link-color);
-  color: var(--bg-color);
+  border-top: solid $header-border-width var(--header-border-color);
+  color: var(--text-color);
   padding: 25px;
   a {
     position: absolute;
