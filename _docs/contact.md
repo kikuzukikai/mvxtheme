@@ -20,8 +20,8 @@ title: お問い合わせフォーム
     <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" rows="3" required></textarea>
   </div>
   <div class="form-group">
-    <label><input type="checkbox" name="非公開または返信を希望する" value="on" onclick="connecttext('email',this.checked);" checked> 非公開または返信を希望する:</label>
-    <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required>
+    <label><input type="checkbox" name="非公開または返信を希望する" value="on" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
+    <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
   </div>
   <button type="submit" class="button">送信</button>
 </form>
