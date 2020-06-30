@@ -19,6 +19,7 @@
 input[type="email"]::placeholder {
   &:disabled {
     color: var(--bg-color);
+  }
 }
 
 textarea {
