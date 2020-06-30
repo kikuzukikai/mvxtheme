@@ -16,7 +16,7 @@
   border-radius: .3rem;
 }
 
-input[disabled] {
+input:disabled {
   background-color: darken(var(--bg-color), 20%);
 }
 
