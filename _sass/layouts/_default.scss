@@ -71,3 +71,17 @@ p,
 ul {
   margin-bottom:1em;
 }
+
+.message {
+  text-align: center;
+  background-color: var(--alpha-color);
+  color: var(--text-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  > a {
+    &:hover {
+      background-color: var(--text-color);
+      color: var(--bg-color);
+    }
+  }
+}
