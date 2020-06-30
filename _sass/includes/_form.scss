@@ -16,6 +16,10 @@
   border-radius: .3rem;
 }
 
+input[disabled] {
+  background-color: darken(var(--bg-color), 20%);
+}
+
 textarea {
   height: 20rem;
 }
