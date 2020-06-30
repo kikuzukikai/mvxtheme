@@ -78,10 +78,12 @@ ul {
   color: var(--text-color);
   padding: 25px;
   > a {
+    color: var(--text-color);
+    padding: 25px;
+    width: 100%;
     &:hover {
       background-color: var(--text-color);
       color: var(--bg-color);
-      width: 100%;
     }
   }
 }
