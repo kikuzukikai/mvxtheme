@@ -1,3 +1,3 @@
   <div id="push"></div>
-{{ site.important_message }}
+<a href="{{ site.baseurl }}/docs/contact.html">{{ site.important_message }}</a>
 </div>
