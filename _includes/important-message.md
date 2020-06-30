@@ -1,6 +1,6 @@
 {% if site.important_message %}
 <div class="default-footer">
   <a href="{{ site.baseurl }}/docs/contact.html"></a>
-  <strong>{{ site.important_message }}</strong>
+  <p>{{ site.important_message }}</p>
 </div>
 {% endif %}
