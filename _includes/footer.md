@@ -34,11 +34,11 @@
     </div>
     <div class="socials"  role="navigation" aria-label="Social links">
         <ul role="menu" aria-hidden="true" aria-label="Social link">
-<li role="listitem" aria-label="Social link item"><a href="https://www.blockchain.com/btc/address/{{ site.bitcoin_address }}" target="_blank" rel="noopener" role="link" aria-label="Bitcoin"><i class="fab fa-bitcoin fa-2x"></i></a></li>
-<li role="listitem" aria-label="Social link item"><a href="https://twitter.com/{{ site.github.owner_name }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a></li>
-<li role="listitem" aria-label="Social link item"><a href="https://www.facebook.com/{{ site.github.owner_name }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a></li>
-<li role="listitem" aria-label="Social link item"><a href="https://www.instagram.com/{{ site.github.owner_name }}" target="_blank" rel="noopener" role="link" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a></li>
-<li role="listitem" aria-label="Social link item"><a href="{{ site.github.owner_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="https://www.blockchain.com/btc/address/{{ site.bitcoin_address }}" target="_blank" rel="noopener" role="link" aria-label="Bitcoin"><i class="fa-bitcoin fa-2x"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="https://twitter.com/{{ site.github.owner_name }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter fa-2x"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="https://www.facebook.com/{{ site.github.owner_name }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fa-facebook fa-2x"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="https://www.instagram.com/{{ site.github.owner_name }}" target="_blank" rel="noopener" role="link" aria-label="Instagram"><i class="fa-instagram fa-2x"></i></a></li>
+<li role="listitem" aria-label="Social link item"><a href="{{ site.github.owner_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub"><i class="fa-github fa-2x"></i></a></li>
         </ul>
     </div>
     <div class="copyright" role="contentinfo" aria-label="Copyright"><p class="copyright">&copy;&nbsp;{{ 'now' | date: "%Y" }}&nbsp;<a href="{{ site.url }}">{{ site.title }}</a></p>
