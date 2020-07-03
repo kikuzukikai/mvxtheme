@@ -11,8 +11,6 @@
     <meta name="keywords" content="{{ site.keywords }}">
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com/">
-    <link rel="dns-prefetch" href="//use.fontawesome.com/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/assets/svg/favicon.svg' | relative_url }}" type="image/svg+xml">
     <!-- rss -->
