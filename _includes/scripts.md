@@ -1,11 +1,3 @@
-<script defer>
-requestAnimationFrame(function(e) {
-  e = document.createElement('link');
-  e.rel = 'stylesheet';
-  e.href = '//use.fontawesome.com/releases/v5.12.0/css/all.css';
-  document.head.appendChild(e);
-});
-</script>
 <script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
 <script defer>
