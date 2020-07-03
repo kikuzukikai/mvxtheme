@@ -22,7 +22,7 @@ important_message: 駆逐艦菊月会では、駆逐艦菊月の元乗組員、�
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kikuzukikai.org" # the base hostname & protocol for your site, e.g. http://example.com
 
-repository: kikuzukikai/jekyll-theme-medjed
+repository: kikuzukikai/jekyll-theme-shangrila
 
 timezone: Asia/Tokyo
 
