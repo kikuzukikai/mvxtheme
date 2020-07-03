@@ -1,5 +1,5 @@
 <script src="/assets/js/jquery-3.2.1.slim.min.js" defer></script>
-<script defer>
+<script>
    $(document).ready(function (){
 
      var scrollPosition = getParameterByName('scroll');
