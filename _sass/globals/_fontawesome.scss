@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'fontawesome';
+  src:
+    url('/assets/svg/fontawesome.svg#fontawesome') format('svg');
+  font-display: swap;
+}
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa-chevron-up:before {
+  content: "\f077";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-bitcoin:before {
+  content: "\f15a";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
