@@ -1,3 +1,6 @@
+[build]
+ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
+
 [[redirects]]
 from = "https://kikuzukikai.netlify.com/*"
 to = "https://www.kikuzukikai.org/:splat"
@@ -5,16 +8,6 @@ status = 301
 force = true
 
 [[headers]]
-for = "*.js"
+for = "/*"
 [headers.values]
 cache-control = "public, max-age=2592000"
-
-[[headers]]
-for = "*.css"
-[headers.values]
-cache-control = "public, max-age=2592000"
-
-[[headers]]
-for = "*.html"
-[headers.values]
-cache-control = "public, max-age=604800"
