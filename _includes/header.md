@@ -2,7 +2,7 @@
 <header class="header" role="banner" aria-label="Header">
 <a href="{{ '/' | relative_url }}" class="logo" role="link" aria-label="Home">{% include svg-title.md %}</a>
 <a href="javascript:void(0);" onclick="hamburgerMenu();" class="hamburger-button" role="link" aria-label="Hamburger menu button">
-    <i class="fas fa-bars"></i>
+    <i class="fa-bars"></i>
 </a>
     <nav class="navigation" role="navigation" aria-label="Navigation">
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
