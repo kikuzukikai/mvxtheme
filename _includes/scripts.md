@@ -1,6 +1,3 @@
-<!--
-<script src="{{ '/assets/js/jquery-3.2.1.slim.min.js' | relative_url }}" defer></script>
--->
 <script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
 <script defer>
 var hamburgerMenu=openMenu("hamburger-menu");
