@@ -10,7 +10,7 @@ layout: article
 {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}更新
 &nbsp;
 <i class="fa-pencil"></i>
-<a href="https://github.com/kikuzukikai/mvxtheme/blob/master/{{ page.path }}" alt="Edit">
+<a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}" alt="Edit">
 編集する
 </a>
 </p>
