@@ -22,11 +22,3 @@ function connecttext( textid, ischecked ) {
   document.getElementById(textid).disabled = !ischecked;
 }
 </script>
-<script>
-function validateRecaptcha ( code ) {
-  if ( !!code ) {
-    var form = document.querySelector(".recaptcha");
-    form.removeAttribute('disabled');
-  }
-}
-</script>
