@@ -24,8 +24,8 @@ title: お問い合わせフォーム
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
     <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
   </div>
-  <div data-netlify-recaptcha="true"></div>
-  <input type="submit" class="button recaptcha" value="送信" disabled />
+  <div data-netlify-recaptcha="true" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
+  <input type="submit" class="recaptcha button" value="送信" disabled />
 </form>
 </div>
 
