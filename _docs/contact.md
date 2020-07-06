@@ -25,7 +25,7 @@ title: お問い合わせフォーム
     <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
   </div>
   <div data-netlify-recaptcha="true" data-callback="verifyCallback" data-expired-callback="expiredCallback"></div>
-  <input type="submit" class="recaptcha button" value="送信" disabled />
+  <input type="submit" class="recaptcha button" value="送信" id="submit" disabled />
 </form>
 </div>
 
