@@ -1,6 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="40" height="40"
-     viewBox="0 0 128 128">
+<svg viewBox="0 0 128 128">
   <path fill="#008"
         d="M 128.08,64.16
            C 128.08,64.16 128.08,64.16 128.08,64.16
