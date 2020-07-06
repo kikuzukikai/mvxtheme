@@ -8,7 +8,6 @@
     {{% if site.google_site_verification %}}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
     {{% endif %}}
-    <meta name="keywords" content="{{ site.keywords }}">
     <!-- dns prefetch -->
     <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <!-- favicon -->
