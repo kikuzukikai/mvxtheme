@@ -22,7 +22,11 @@
         return decodeURIComponent(results[2].replace(/\+/g, " "));
      }
 </script>
-<script src="{{ '/assets/js/elevator.min.js' | relative_url }}" defer></script>
+
+<script src="/assets/js/anchor.min.js" defer></script>
+<script>anchors.add('h1, h2, h3, h4, h5, h6');</script>
+
+<script src="/assets/js/elevator.min.js" defer></script>
 <script>
 var hamburgerMenu=openMenu("hamburger-menu");
 function openMenu(id){
