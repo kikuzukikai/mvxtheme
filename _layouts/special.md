@@ -48,5 +48,3 @@ layout: default
   </div>
   {% endif %}
 </section>
-{% include deeplink.md %}
-{% include doc-scroll.md %}
