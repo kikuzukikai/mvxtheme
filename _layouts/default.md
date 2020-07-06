@@ -4,7 +4,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ja">
 <!-- head -->
-{% include default-html-head.md %}
+{% include html-head.md %}
 <body class="body">
     <!-- header -->
     {% include header.md %}
