@@ -15,19 +15,22 @@
   > .hamburger-button {
     display: none;
   }
-  svg {
+   svg {
+    fill: currentColor;
     height: $header-logo-height;
-    fill: var(--text-color);
     margin-left: .5rem;
   }
   .logo {
     @include flex-valign(center);
     flex-flow: row nowrap;
     text-decoration: none;
-    fill: var(--theme-color);
+    color: var(--text-color);
     background-size: 40px 40px;
     background-position: left center;
-    background-image: url('/assets/svg/logo.svg');
+    background-image: url('/assets/svg/logo.svg');   
+    @media (prefers-color-scheme: dark){
+      background-image: url('/assets/svg/logo-white.svg');
+    }
     background-repeat: no-repeat;
     padding-left: 40px;
   }
