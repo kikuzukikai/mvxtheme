@@ -19,12 +19,4 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- js -->
     {% include google-analytics.md %}
-    <script>
-    function validateRecaptcha ( code ) {
-      if ( !!code ) {
-        var form = document.querySelector(".recaptcha");
-        form.removeAttribute('disabled');
-      }
-    }
-    </script>
 </head>
