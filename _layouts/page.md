@@ -9,4 +9,3 @@ layout: default
     {{ content }}
   </div>
 </article>
-{% include deeplink.md %}
