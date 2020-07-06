@@ -1,5 +1,3 @@
-<script src="/assets/js/jquery-3.2.1.slim.min.js" defer></script>
-
 <script>
 var hamburgerMenu=openMenu("hamburger-menu");
 function openMenu(id){
