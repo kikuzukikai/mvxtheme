@@ -16,9 +16,14 @@
     display: none;
   }
   svg {
-    fill: currentColor;
     height: $header-logo-height;
-    margin-left: .5rem;
+    #logo {
+      fill: var(--theme-color);
+    }
+    #title {
+      fill: currentColor;
+      margin-left: .5rem;
+    }
   }
   .logo {
     @include flex-valign(center);
