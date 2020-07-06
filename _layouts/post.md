@@ -19,4 +19,3 @@ layout: article
 {{ content }}
 </div>
 </article>
-{% include deeplink.md %}
