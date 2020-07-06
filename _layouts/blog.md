@@ -48,4 +48,3 @@ layout: default
 <br />
 <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}" role="link">via RSS</a></p>
 </section>
-{% include deeplink.md %}
