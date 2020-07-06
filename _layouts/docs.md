@@ -24,5 +24,3 @@ layout: default
         </section>
     </article>
 </div>
-{% include deeplink.md %}
-{% include doc-scroll.md %}
