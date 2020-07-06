@@ -12,7 +12,7 @@ function openMenu(id){
 };
 </script>
 
-<script src="/assets/js/anchor.min.js" defer></script>
+<script src="/assets/js/anchor.min.js"></script>
 <script>anchors.add('h1, h2, h3, h4, h5, h6');</script>
 
 <script src="/assets/js/elevator.min.js" defer></script>
