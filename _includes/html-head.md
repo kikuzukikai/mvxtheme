@@ -8,8 +8,6 @@
     {{% if site.google_site_verification %}}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
     {{% endif %}}
-    <!-- dns prefetch -->
-    <link rel="dns-prefetch" href="//www.kikuzukikai.org/">
     <!-- favicon -->
     <link rel="icon" href="{{ '/assets/svg/favicon.svg' | relative_url }}" type="image/svg+xml">
     <!-- rss -->
