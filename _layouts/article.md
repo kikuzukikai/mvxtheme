@@ -4,10 +4,10 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ja">
 <!-- head -->
-{% include html-head.md %}
+{% include_cached html-head.md %}
 <body class="body">
     <!-- header -->
-    {% include header.md %}
+    {% include_cached header.md %}
     <!-- main content -->
     <main class="container" role="main">
         {{ content }}
@@ -16,9 +16,9 @@ layout: compress
         </div>
     </main>
     <!-- footer -->
-    {% include article-footer.md %}
-    {% include footer.md %}
+    {% include_cached article-footer.md %}
+    {% include_cached footer.md %}
     <!-- scripts -->
-    {% include scripts.md %}
+    {% include_cached scripts.md %}
 </body>
 </html>
