@@ -1,3 +1,3 @@
   <div id="push"></div>
 </div>
-{% include important-message.md %}
+{% include_cached important-message.md %}
