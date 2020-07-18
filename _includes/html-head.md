@@ -10,5 +10,10 @@
     <!-- rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% capture main %}
+    {% include main.css %}
+    {% endcapture %}
+    <style>
+    {{ main | scssify }}
+    </style>
 </head>
