@@ -4,7 +4,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ja">
 <!-- head -->
-{% include_cached html-head.md %}
+{% include html-head.md %}
 <body class="body">
     <!-- header -->
     {% include_cached header.md %}
