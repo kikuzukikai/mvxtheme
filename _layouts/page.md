@@ -5,7 +5,7 @@ layout: default
     <header class="post-header">
         <h1 itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="meta">
-{{ page.date | date: "%Y年%-m月%-d日" }}投稿
+{{ page.date | date: "%Y年%-m月%-d日" }}作成
 &nbsp;
 {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}更新
 &nbsp;
