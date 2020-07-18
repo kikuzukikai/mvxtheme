@@ -1,13 +1,13 @@
 <div id="wrap">
 <header class="header" role="banner" aria-label="Header">
-<a href="{{ '/' | relative_url }}" class="logo" role="link" aria-label="Home">{% include svg-title.md %}</a>
+<a href="{{ '/' | relative_url }}" class="logo" role="link" aria-label="Home">{% include_cached svg-title.md %}</a>
 <a href="javascript:void(0);" onclick="hamburgerMenu();" class="hamburger-button" role="link" aria-label="Hamburger menu button">
     <i class="fa-bars"></i>
 </a>
     <nav class="navigation" role="navigation" aria-label="Navigation">
         <ul role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="menuitem" aria-label="Navigation menu item">
-                <a href="{{ '/' | relative_url }}" class="logo" role="menuitem" aria-label="Home">{% include svg-title.md %}</a>
+                <a href="{{ '/' | relative_url }}" class="logo" role="menuitem" aria-label="Home">{% include_cached svg-title.md %}</a>
             </li>
             {% for item in site.menu %}
             <li role="menuitem"><a href="{{ item.url | relative_url }}" role="menuitem" aria-label="{{ item.title | escape }}">{{ item.title | escape }}</a></li>
