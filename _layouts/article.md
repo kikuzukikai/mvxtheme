@@ -17,7 +17,7 @@ layout: compress
         </div>
     </main>
     <!-- footer -->
-    {% include_cached article-footer.md %}
+    {% include article-footer.md %}
     {% include_cached footer.md %}
     <!-- scripts -->
     {% include_cached scripts.md %}
