@@ -71,6 +71,7 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.6.0)
+    jekyll-include-cache (~> 0.2)
 
 PLATFORMS
   ruby
@@ -84,6 +85,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-paginate-v2
   tzinfo-data
+  jekyll-include-cache
 
 RUBY VERSION
    ruby 2.6.0p0
