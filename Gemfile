@@ -28,7 +28,6 @@ group :jekyll_plugins do
    gem 'jekyll-github-metadata'
    gem 'jekyll-last-modified-at'
    gem 'jekyll-include-cache'
-   gem 'jekyll-titles-from-headings'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
