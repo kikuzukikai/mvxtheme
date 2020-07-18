@@ -73,6 +73,7 @@ plugins:
   - jekyll-paginate
   - jekyll-github-metadata
   - jekyll-last-modified-at
+  - jekyll-include-cache
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
