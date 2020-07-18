@@ -121,8 +121,3 @@ menu:
 edit-on-github:
     enabled: true
 # End
-
-titles_from_headings:
-    enabled:     true
-    strip_title: true
-    collections: true
