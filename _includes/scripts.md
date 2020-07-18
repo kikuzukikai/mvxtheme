@@ -11,7 +11,7 @@ function openMenu(id){
 </script>
 
 <script>
-{{ include js/elevator.min.js }}
+{% include js/elevator.min.js %}
 </script>
 <script>
 window.onload = function(){
