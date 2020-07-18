@@ -11,7 +11,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
     <!-- stylesheet -->
     {% capture main %}
-    {% include main.css %}
+    {% include css/main.css %}
     {% endcapture %}
     <style>
     {{ main | scssify }}
