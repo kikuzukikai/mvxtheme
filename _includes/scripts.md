@@ -10,7 +10,9 @@ function openMenu(id){
 };
 </script>
 
-<script src="/assets/js/elevator.min.js" defer></script>
+<script>
+{{ include js/elevator.min.js }}
+</script>
 <script>
 window.onload = function(){
   var elevator = new Elevator({
