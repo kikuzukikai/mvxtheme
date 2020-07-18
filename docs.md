@@ -30,7 +30,7 @@ permalink: /docs/
     
     <dt>連絡先</dt>
     <dd>
-    <p>当会には専用の事務所がなく、電話でのご連絡、特に非通知や国外からの着信には応対いたしかねます。</p>
+    <p>当会には専用の事務所がなく、電話でのご連絡、特に非通知や日本国外からの着信には応対いたしかねます。</p>
     <p>ご連絡は、<a href="{{ '/docs/contact.html' | relative_url }}">お問い合わせフォーム</a>または<a href="{{ site.url }}">トップページ</a>掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお願いいたします。</p>
     </dd>
   
