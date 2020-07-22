@@ -4,7 +4,7 @@ title: お問い合わせを送信しました
 permalink: /docs/contact/success.html
 ---
 
-<div class="success">
+<div class="default-content">
     <h1>お問い合わせを送信しました</h1>
     <p><strong>送信は完了しました。ありがとうございます。</strong></p>
     <p>「非公開または返信を希望する」にチェックを入れられた方で、返信が1週間以上ない場合は、システムの不調が考えられます。</p>
