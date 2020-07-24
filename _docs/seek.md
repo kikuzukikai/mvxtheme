@@ -34,4 +34,4 @@ title: 情報提供のお願い
 
 ---
 
-お心当たりがございます方は、[お問い合わせフォーム]({{ '/docs/contact.html' | relative_url }})または[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までご一報くださいますようお願い申し上げます。
+お心当たりがございます方は、お手数ですが[お問い合わせフォーム]({{ '/docs/contact.html' | relative_url }})または[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までご一報くださいますようお願い申し上げます。
