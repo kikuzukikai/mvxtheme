@@ -31,3 +31,7 @@ title: 情報提供のお願い
 
 - 原図(時期問わず)
 - 進水式の写真
+
+---
+
+お心当たりがございます方は、[お問い合わせフォーム]({{ '/docs/contact.html' | relative_url }})または[トップページ]({{ site.url }})掲載のアドレス(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までご一報よろしくお願いいたします。
