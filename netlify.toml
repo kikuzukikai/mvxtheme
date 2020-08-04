@@ -1,6 +1,8 @@
 [build]
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
-command = "yarn install && yarn run build"
+
+[build]
+command = "yarn build"
 functions = "functions"
 
 [[redirects]]
