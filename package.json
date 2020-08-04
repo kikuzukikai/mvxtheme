@@ -1,12 +1,13 @@
 {
-  "name": "jekyll-theme-mobydick",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:kikuzukikai/jekyll-theme-mobydick.git",
-  "dependencies": {
-    "netlify-lambda": "^2.0.1"
-  },
-  "scripts": {
-    "build": "netlify-lambda build functions/"
+    "scripts": {
+    "build": "rimraf functions && rimraf dist && run-s build:*",
+    "build:fns": "webpack --config webpack/functions.config.js --mode production",
+    "build:front": "webpack --config webpack/front.config.js --mode production",
+    "dev": "run-p dev:*",
+    "dev:front": "webpack-dev-server --config webpack/front.config.js -w",
+    "dev:fns": "rimraf functions && run-p dev:fns:*",
+    "dev:fns:webpack": "webpack --config webpack/functions.config.js -w --mode development",
+    "dev:fns:serve": "netlify-lambda serve .",
+    "deploy": "yarn build && netlify deploy --prod"
   }
 }
