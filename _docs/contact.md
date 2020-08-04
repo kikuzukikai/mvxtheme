@@ -19,7 +19,7 @@ title: お問い合わせフォーム
     <input name="bot-field" />
   </div>
   <div class="form-group">
-    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" rows="3" required pattern="^\S+$"></textarea>
+    <input type="text" class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" rows="3" required pattern="[^\x20-\x7E]*" />
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
