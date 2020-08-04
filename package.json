@@ -7,7 +7,7 @@
     "netlify-lambda": "^2.0.1"
   },
   "scripts": {
-    "build": "netlify-lambda build functions/",
+    "build": "netlify-lambda build functions-build/",
     "serve": "netlify-lambda serve functions/"
   }
 }
