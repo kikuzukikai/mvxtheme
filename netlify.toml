@@ -1,6 +1,6 @@
 [build]
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
-command = " build"
+command = "npm run build"
 functions = "lambda"
 
 [[redirects]]
