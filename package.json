@@ -3,6 +3,6 @@
     "netlify-lambda": "^2.0.1"
   },
   "scripts": {
-    "build": "netlify-lambda build /"
+    "build": "netlify-lambda build functions"
   }
 }
