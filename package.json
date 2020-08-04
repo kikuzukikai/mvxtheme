@@ -1,0 +1,13 @@
+{
+  "name": "jekyll-theme-mobydick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kikuzukikai/jekyll-theme-mobydick.git",
+  "dependencies": {
+    "netlify-lambda": "^2.0.1"
+  },
+  "scripts": {
+    "build": "netlify-lambda build functions/",
+    "serve": "netlify-lambda serve functions/"
+  }
+}
