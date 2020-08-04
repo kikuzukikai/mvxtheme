@@ -1,5 +1,7 @@
 [build]
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
+command = "yarn build"
+functions = "functions"
 
 [[redirects]]
 from = "https://kikuzukikai.netlify.com/*"
