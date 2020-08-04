@@ -27,7 +27,7 @@ exports.handler = function(event, context, callback) {
     from: process.env.MAIL_LOGIN,
     to: '${email}',
     subject: 'お問い合わせありがとうございます',
-    text: event.body,
+    text: event.body
   };
 
   transporter.sendMail(mailOptions, function(error, info) {
