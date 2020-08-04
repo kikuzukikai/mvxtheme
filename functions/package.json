@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "nodemailer": "^6.4.11",
-    "nodemailer-smtp-transport": "^2.7.4"
-  }
-}
