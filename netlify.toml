@@ -1,7 +1,6 @@
 [build]
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
 command = "npm run build"
-functions = "lambda"
 
 [[redirects]]
 from = "https://kikuzukikai.netlify.com/*"
