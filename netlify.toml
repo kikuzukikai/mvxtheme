@@ -1,6 +1,6 @@
 [build]
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
-command = "yarn build"
+command = "yarn build --no-lockfile"
 functions = "lambda"
 publish = "dist"
 
