@@ -24,7 +24,7 @@ input[type="email"]:disabled::placeholder {
   color: var(--bg-color);
 }
 
-textarea {
+input[type="text"], textarea {
   height: 20rem;
 }
 
