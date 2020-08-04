@@ -26,6 +26,7 @@ input[type="email"]:disabled::placeholder {
 
 input[type="text"], textarea {
   height: 20rem;
+  vertical-align: top;
 }
 
 .button {
