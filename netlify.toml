@@ -2,7 +2,6 @@
 ignore = "git diff --quiet HEAD^ HEAD sub_dir/"
 command = "npm run build"
 functions = "api"
-publish = "_site"
 
 [[redirects]]
 from = "https://kikuzukikai.netlify.com/*"
