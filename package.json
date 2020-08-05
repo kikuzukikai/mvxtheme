@@ -6,6 +6,8 @@
     "nodemailer-smtp-transport": "^2.7.4"
   },
   "scripts": {
-    "build": "netlify-lambda build functions/"
+   "build": "npm run build:jekyll; npm run build:lambda;",
+   "build:jekyll": "jekyll build",
+   "build:lambda": "netlify-lambda build functions/"
   }
 }
