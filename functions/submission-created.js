@@ -3,7 +3,7 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 
 exports.handler = function(event, context, callback) {
-  const { email } = JSON.parse(event.body).payload.data
+  const { message, email } = JSON.parse(event.body).payload.data
 
   console.log(user);
 
