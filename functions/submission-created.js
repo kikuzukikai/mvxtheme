@@ -3,7 +3,7 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 
 exports.handler = function(event, context, callback) {
-  const { email, message } = JSON.parse(event.body).payload.data;
+  const { お問い合わせ内容, 返信先メールアドレス } = JSON.parse(event.body).payload.data;
 
   // OAuth認証情報
   const auth = {
@@ -27,9 +27,9 @@ exports.handler = function(event, context, callback) {
 
   let mailOptions = {
     from    : `process.env.MAIL_LOGIN`,
-    to      : `${email}`,
+    to      : `${返信先メールアドレス}`,
     subject : '【駆逐艦菊月会】お問い合わせありがとうございます',
-    text    : `お問い合わせありがとうございます。\n以下の内容でフォームを送信いたしました。\n数日中に追って担当者よりメールにて回答をお送りいたします。\n今しばらくお待ちください。\n\n------ 送信内容 ------\n【メールアドレス】\n${email}\n\n【お問い合わせ内容】\n${message}\n\n--------------------\n駆逐艦菊月会\n${url}\n`,
+    text    : `お問い合わせありがとうございます。\n以下の内容でフォームを送信いたしました。\n数日中に追って担当者よりメールにて回答をお送りいたします。\n今しばらくお待ちください。\n\n------ 送信内容 ------\nお問い合わせ内容: \n${お問い合わせ内容}\n\n返信先メールアドレス: \n${返信先メールアドレス}\n\n--------------------\n駆逐艦菊月会\n${url}\n`,
   };
 
   transporter.sendMail(mailOptions, function(error, info) {
