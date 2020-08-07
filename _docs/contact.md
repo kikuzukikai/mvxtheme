@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: お問い合わせフォーム
+permalink: /docs/contact.html
 ---
 
 - [情報提供のお願い](/docs/seek.html)も併せてご確認ください。
