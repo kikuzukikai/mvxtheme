@@ -15,19 +15,7 @@ title: お問い合わせフォーム
 
 <script>
 function onSubmit(token) {
-  alert("お問い合わせありがとうございます");
-}
-function validate(event) {
-  event.preventDefault();
-  if (!document.getElementById('message').value) {
-    alert("お問い合わせ内容を記入してください");
-  } else {
-    grecaptcha.execute();
-  }
-}
-function onload() {
-  var element = document.getElementById('submit');
-  element.onclick = validate;
+  document.getElementById("contact").submit();
 }
 </script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -37,7 +25,7 @@ function onload() {
     <input class="controls" name="bot-field" />
   </div>
   <div class="form-group">
-    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" id="message" required></textarea>
+    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" required></textarea>
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
@@ -49,9 +37,8 @@ function onload() {
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
   <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible"></div>
-  <button class="button" id="submit">送信</button>
+  <button type="submit" class="button">送信</button>
 </form>
-<script>onload();</script>
 </div>
 
 **Ticket ID:**
