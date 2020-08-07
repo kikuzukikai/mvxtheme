@@ -16,8 +16,8 @@ title: お問い合わせフォーム
 <script>
 function validate(event) {
   event.preventDefault();
-  if (!document.getElementById('contact').value) {
-    alert("記入漏れがあります");
+  if (!document.getElementById('message').value) {
+    alert("お問い合わせ内容を記入してください");
   } else {
     grecaptcha.execute();
   }
@@ -34,7 +34,7 @@ function onload() {
     <input class="controls" name="bot-field" />
   </div>
   <div class="form-group">
-    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" minlength="20" required></textarea>
+    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" id="message" required></textarea>
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
