@@ -23,7 +23,7 @@ title: お問い合わせフォーム
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
-    <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
+    <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" required />
   </div>
   <small>
     This site is protected by reCAPTCHA and the Google
