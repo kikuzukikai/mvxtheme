@@ -20,3 +20,14 @@ window.onload = function(){
   });
 };
 </script>
+
+<script>
+$(document).ready(function() {
+  $("#contact").submit(function() {
+    grecaptcha.execute();
+  });
+});
+function grecaptcha_onSubmit(token) {
+  $("#contact").submit();
+}
+</script>
