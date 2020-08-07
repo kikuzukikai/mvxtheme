@@ -5,21 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="dns-prefetch" href="https://www.kikuzukikai.org">
-    <link rel="dns-prefetch" href="https://www.google.com">
-    {% if page.url == "/docs/contact.html" %}
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-    $(document).ready(function() {
-      $("#contact").submit(function() {
-        grecaptcha.execute();
-      });
-    });
-    function onSubmit(token) {
-      document.getElementById("contact").submit();
-    }
-    </script>
-    {% endif %}
     <!-- favicon -->
     <link rel="icon" href="{{ '/assets/svg/favicon.svg' | relative_url }}" type="image/svg+xml">
     <!-- rss -->
