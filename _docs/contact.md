@@ -13,8 +13,14 @@ title: お問い合わせフォーム
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
-<div align="center">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+function onSubmit(e) {
+  var url = $("#contact").attr('action');
+  ajaxSendData(url, $("#contact").serialize());
+}
+</script>
+<div align="center">
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
@@ -36,26 +42,16 @@ title: お問い合わせフォーム
 </form>
 </div>
 <script>
-function onSubmit(e) {
-  var url = $("#contact").attr('action');
-  ajaxSendData(url, $("#contact").serialize());
-}
 (function() {
   document.getElementById("contact").addEventListener("submit", function(event) {
-    console.log('form submitted.');
     if (!grecaptcha.getResponse()) {
-      console.log('captcha not yet completed.');
-      event.preventDefault(); //prevent form submit
+      event.preventDefault();
       grecaptcha.execute();
-    } else {
-      console.log('form really submitted.');
     }
   });
 })();
 onCompleted = function() {
-  console.log('captcha completed.');
   $('#contact').submit();
-  alert('wait to check for "captcha completed" in the console.');
 }
 </script>
 
