@@ -45,7 +45,7 @@ function onload() {
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
   <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible"></div>
-  <button class="button">送信</button>
+  <button class="button" id="submit">送信</button>
 </form>
 <script>onload();</script>
 </div>
