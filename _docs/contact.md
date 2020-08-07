@@ -43,14 +43,6 @@ function onSubmit(e) {
 </div>
 <script>
 (function() {
-  document.getElementById("contact").addEventListener("submit", function(event) {
-    if (!grecaptcha.getResponse()) {
-      event.preventDefault();
-      grecaptcha.execute();
-    }
-  });
-})();
-
 onCompleted = function() {
   $('#contact').submit();
 }
