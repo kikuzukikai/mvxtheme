@@ -13,6 +13,19 @@ title: お問い合わせフォーム
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
+<script>
+function validate(event) {
+  event.preventDefault();
+  if (document.getElementById('contact').value) {
+    grecaptcha.execute();
+  } else {
+  }
+}
+function onload() {
+  var element = document.getElementById('submit');
+  element.onclick = validate;
+}
+</script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div align="center">
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
@@ -31,23 +44,11 @@ title: お問い合わせフォーム
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <button class="g-recaptcha button" data-sitekey="6LfW7bsZAAAAAD_cy31nsH-CZu2UcaGHTViJzMbK" data-callback="onSubmit" data-action="submit">送信</button>
+  <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible"></div>
+  <button class="button">送信</button>
 </form>
+<script>onload();</script>
 </div>
-<script>
-(function() {
-  document.getElementById("contact").addEventListener("submit", function(event) {
-    if (!grecaptcha.getResponse()) {
-      event.preventDefault();
-      grecaptcha.execute();
-    } else {
-    }
-  });
-})();
-onSubmit = function() {
-  $('#contact').submit();
-}
-</script>
 
 **Ticket ID:**
 - TOC
