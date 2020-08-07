@@ -37,17 +37,20 @@ function onSubmit(e) {
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi"　data-callback="onCompleted" data-size="invisible"></div>
+  <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-callback="onCompleted" data-size="invisible"></div>
   <button type="submit" class="button">送信</button>
 </form>
 </div>
 <script>
-$('#contact').submit(function(event) {
-  if (!grecaptcha.getResponse()) {
-    event.preventDefault();
-    grecaptcha.execute();
-  }
-});
+(function() {
+  document.getElementById("contact").addEventListener("submit", function(event) {
+    if (!grecaptcha.getResponse()) {
+      event.preventDefault();
+      grecaptcha.execute();
+    }
+  });
+})();
+
 onCompleted = function() {
   $('#contact').submit();
 }
