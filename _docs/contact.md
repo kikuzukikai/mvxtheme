@@ -31,10 +31,29 @@ title: お問い合わせフォーム
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <button class="g-recaptcha button" data-sitekey="6LfW7bsZAAAAAD_cy31nsH-CZu2UcaGHTViJzMbK" data-callback="onSubmit" data-action="submit">送信</button>
+  <button class="g-recaptcha button" data-sitekey="6LfW7bsZAAAAAD_cy31nsH-CZu2UcaGHTViJzMbK" data-callback="onSubmit" data-action="submit" disabled>送信</button>
 </form>
 </div>
 <script>
+const $contact = document.getElementById('contact');
+const $submit = document.getElementById('submit');
+
+$contact.addEventListener('change', update);
+$contact.addEventListener('input', update);
+
+$contact.addEventListener('submit', (e) => {
+  e.preventDefault();
+});
+
+function update(e) {
+  const isValid = $contact.checkValidity();
+  if (isValid) {
+    $submit.removeAttribute('disabled');
+    return;
+  }
+  $submit.setAttribute('disabled', 'disabled');
+}
+  
 function onSubmit(token) {
   document.getElementById("contact").submit();
 }
