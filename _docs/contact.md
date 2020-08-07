@@ -30,7 +30,7 @@ title: お問い合わせフォーム
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <div class="g-recaptcha hidden" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-size="invisible"></div>
+  <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-size="invisible"></div>
   <button class="button" data-callback="onSubmit">送信</button>
 </form>
 </div>
