@@ -35,6 +35,15 @@ title: お問い合わせフォーム
 </form>
 </div>
 <script>
+(function() {
+  document.getElementById("contact").addEventListener("submit", function(event) {
+    if (!grecaptcha.getResponse()) {
+      event.preventDefault();
+      grecaptcha.execute();
+    } else {
+    }
+  });
+})();
 onSubmit = function() {
   $('#contact').submit();
 }
