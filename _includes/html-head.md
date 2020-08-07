@@ -10,7 +10,7 @@
     {% if page.url == "/docs/contact.html" %}
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
-      $("contact").submit(function() {
+      $("#contact").submit(function() {
         grecaptcha.execute();
       });
       function onSubmit(token) {
