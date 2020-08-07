@@ -38,7 +38,7 @@ function onSubmit(e) {
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
   <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-size="invisible"></div>
-  <button type=""submit" class="button" data-callback="onSubmit">送信</button>
+  <button type="submit" class="button" data-callback="onSubmit">送信</button>
 </form>
 </div>
 
