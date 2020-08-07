@@ -14,20 +14,6 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<script>
-function onSubmit(token) {
-}
-function validate(event) {
-  event.preventDefault();
-  if (document.getElementById('contact').value) {
-    grecaptcha.execute();
-  }
-}
-function onload() {
-  var element = document.getElementById('submit');
-  element.onclick = validate;
-}
-</script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
@@ -48,8 +34,21 @@ function onload() {
   <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-callback="onSubmit" data-size="invisible"></div>
   <button type="submit" class="button">送信</button>
 </form>
-<script>onload();</script>
 </div>
+<script>
+(function() {
+  document.getElementById("contact").addEventListener("submit", function(event) {
+    console.log('form submitted.');
+    if (!grecaptcha.getResponse()) {
+      console.log('captcha not yet completed.');
+      event.preventDefault(); //prevent form submit
+      grecaptcha.execute();
+    } else {
+      console.log('form really submitted.');
+    }
+  });
+})();
+</script>
 
 **Ticket ID:**
 - TOC
