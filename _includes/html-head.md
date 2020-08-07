@@ -9,6 +9,11 @@
     <link rel="dns-prefetch" href="https://www.google.com">
     {% if page.url == "/docs/contact.html" %}
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("contact").submit();
+      }
+    </script>
     {% endif %}
     <!-- favicon -->
     <link rel="icon" href="{{ '/assets/svg/favicon.svg' | relative_url }}" type="image/svg+xml">
