@@ -31,7 +31,7 @@ permalink: /docs/contact.html
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <button class="g-recaptcha button" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-callback="onSubmit">送信</button>
+  <button type="button" class="g-recaptcha button" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi">送信</button>
 </form>
 </div>
 
