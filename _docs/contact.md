@@ -26,14 +26,7 @@ permalink: /docs/contact.html
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
     <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
   </div>
-  <p>
-    <small class="p--fine-print recaptcha-terms">
-      Protected by reCAPTCHA. See
-      <a class="p__a" href="https://www.google.com/intl/en/policies/privacy/" target="_blank" rel="external">Privacy Policy</a>
-      and
-      <a class="p__a" href="https://www.google.com/intl/en/policies/terms/" target="_blank" rel="external">Terms of Use</a>.
-    </small>
-  </p>
+  <small>Protected by reCAPTCHA. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms of Use</a>.</small>
   <button class="g-recaptcha button" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-callback="onSubmit">送信</button>
 </form>
 </div>
