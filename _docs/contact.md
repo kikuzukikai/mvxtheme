@@ -48,6 +48,11 @@ title: お問い合わせフォーム
     }
   });
 })();
+onCompleted = function() {
+  console.log('captcha completed.');
+  $('#contact').submit();
+  alert('wait to check for "captcha completed" in the console.');
+}
 </script>
 
 **Ticket ID:**
