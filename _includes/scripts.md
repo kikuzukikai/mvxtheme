@@ -21,11 +21,9 @@ window.onload = function(){
 };
 </script>
 
-{% if page.url = "/docs/contact.html" %}
 <script>
 function onSubmit(e) {
   var url = $("#contact").attr('action');
   ajaxSendData(url, $("#contact").serialize());
 }
 </script>
-{% endif %}
