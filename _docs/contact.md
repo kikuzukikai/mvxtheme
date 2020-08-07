@@ -36,6 +36,11 @@ title: お問い合わせフォーム
 </form>
 </div>
 <script>
+<script>
+function onSubmit(e) {
+  var url = $("#contact").attr('action');
+  ajaxSendData(url, $("#contact").serialize());
+}
 (function() {
   document.getElementById("contact").addEventListener("submit", function(event) {
     console.log('form submitted.');
