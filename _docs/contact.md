@@ -37,7 +37,7 @@ title: お問い合わせフォーム
 </div>
 <script>
 onSubmit = function() {
-  document.contact.submit();
+  $('#contact').submit();
 }
 </script>
 
