@@ -21,13 +21,9 @@ window.onload = function(){
 };
 </script>
 
-<script>
-$(document).ready(function() {
-  $("#contact").submit(function() {
-    grecaptcha.execute();
-  });
-});
-function grecaptcha_onSubmit(token) {
-  $("#contact").submit();
+{% if page.url = "/docs/contact.html" %}
+function onSubmit(e) {
+  var url = $("#contact").attr('action');
+  ajaxSendData(url, $("#contact").serialize());
 }
-</script>
+{% endif %}
