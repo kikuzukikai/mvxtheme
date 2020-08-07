@@ -15,7 +15,7 @@ permalink: /docs/contact.html
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<form name="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+<form name="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
   <div class="form-group hidden">
     <input type="text" class="controls" name="bot-field" />
   </div>
@@ -26,6 +26,7 @@ permalink: /docs/contact.html
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
     <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
   </div>
+  <div data-netlify-recaptcha="true"></div>
   <button type="submit" class="button">送信</button>
 </form>
 </div>
