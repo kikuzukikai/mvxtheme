@@ -16,7 +16,7 @@ title: お問い合わせフォーム
 <div align="center">
 <form name="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
-    <input name="bot-field" />
+    <input type="text" class="controls" name="bot-field" />
   </div>
   <div class="form-group">
     <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" minlength="20" required></textarea>
