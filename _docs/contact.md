@@ -16,9 +16,10 @@ title: お問い合わせフォーム
 <script>
 function validate(event) {
   event.preventDefault();
-  if (document.getElementById('contact').value) {
-    grecaptcha.execute();
+  if (!document.getElementById('contact').value) {
+    alert("記入漏れがあります");
   } else {
+    grecaptcha.execute();
   }
 }
 function onload() {
