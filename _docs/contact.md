@@ -35,27 +35,8 @@ title: お問い合わせフォーム
 </form>
 </div>
 <script>
-const $contact = document.getElementById('contact');
-const $submit = document.getElementById('submit');
-
-$contact.addEventListener('change', update);
-$contact.addEventListener('input', update);
-
-$contact.addEventListener('submit', (e) => {
-  e.preventDefault();
-});
-
-function update(e) {
-  const isValid = $contact.checkValidity();
-  if (isValid) {
-    $submit.removeAttribute('disabled');
-    return;
-  }
-  $submit.setAttribute('disabled', 'disabled');
-}
-  
-function onSubmit(token) {
-  document.getElementById("contact").submit();
+onSubmit = function() {
+  $('#contact').submit();
 }
 </script>
 
