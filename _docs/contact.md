@@ -14,12 +14,12 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<form name="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+<form name="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input name="bot-field" />
   </div>
   <div class="form-group">
-    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" minlength="20" id="message" required></textarea>
+    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" minlength="20" required></textarea>
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
