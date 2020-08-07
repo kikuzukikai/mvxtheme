@@ -13,14 +13,22 @@ title: お問い合わせフォーム
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<div align="center">
 <script>
-function onSubmit(e) {
-  var url = $("#contact").attr('action');
-  ajaxSendData(url, $("#contact").serialize());
+function onSubmit(token) {
+}
+function validate(event) {
+  event.preventDefault();
+  if (document.getElementById('contact').value) {
+    grecaptcha.execute();
+  }
+}
+function onload() {
+  var element = document.getElementById('submit');
+  element.onclick = validate;
 }
 </script>
-<div align="center">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
@@ -37,22 +45,11 @@ function onSubmit(e) {
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-callback="onCompleted" data-size="invisible"></div>
+  <div class="g-recaptcha" data-sitekey="6LdzwbsZAAAAAPI5jwGYgk0hpc0eC826l4z6pRxi" data-callback="onSubmit" data-size="invisible"></div>
   <button type="submit" class="button">送信</button>
 </form>
+<script>onload();</script>
 </div>
-<script>
-(function() {
-  document.getElementById("contact").addEventListener("submit", function(event) {
-    console.log('validation completed.');
-    event.preventDefault();
-    grecaptcha.execute();
-  });
-})();
-onCompleted = function() {
-  console.log('captcha completed.');
-}
-</script>
 
 **Ticket ID:**
 - TOC
