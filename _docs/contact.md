@@ -44,13 +44,13 @@ function onSubmit(e) {
 <script>
 (function() {
   document.getElementById("contact").addEventListener("submit", function(event) {
-      event.preventDefault();
-      grecaptcha.execute();
-    }
+    console.log('validation completed.');
+    event.preventDefault();
+    grecaptcha.execute();
   });
 })();
 onCompleted = function() {
-  $('#contact').submit();
+  console.log('captcha completed.');
 }
 </script>
 
