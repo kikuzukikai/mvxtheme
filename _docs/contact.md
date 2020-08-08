@@ -35,7 +35,7 @@ title: お問い合わせフォーム
   <button type="submit" class="button" data-callback="onSubmit">送信</button>
 </form>
 <script>
-function onSubmit(e) {
+function onSubmit(token) {
    var url = $("#contact").attr('action');
    ajaxSendData(url, $("#contact").serialize());
 }
