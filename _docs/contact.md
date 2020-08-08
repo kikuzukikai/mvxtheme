@@ -15,7 +15,7 @@ title: お問い合わせフォーム
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div align="center">
-<form name="contact" id="contact" action="?" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+<form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
   </div>
