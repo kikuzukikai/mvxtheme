@@ -13,14 +13,9 @@ title: お問い合わせフォーム
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
-<script>
-function onSubmit(token) {
-  document.getElementById("contact").submit();
-}
-</script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div align="center">
-<form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+<form name="contact" id="contact" action="?" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
   </div>
@@ -39,6 +34,17 @@ function onSubmit(token) {
   <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible"></div>
   <button type="submit" class="button">送信</button>
 </form>
+<script>
+$('contact').submit(function() {
+    event.preventDefault();
+    grecaptcha.ready(function() {
+    grecaptcha.execute('6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z', {action: '/docs/contact/success.html'}).then(function(token) {
+      $('contact').prepend('<input type="hidden" name="g-recaptcha-token" value="' + token + '">');
+      $('contact').unbind('submit').submit();
+    });;
+  });
+});
+</script>
 </div>
 
 **Ticket ID:**
