@@ -13,7 +13,6 @@ title: お問い合わせフォーム
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <div align="center">
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
@@ -33,16 +32,12 @@ title: お問い合わせフォーム
   </small>
   <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-size="invisible" data-callback="onSubmit"></div>
   <button type="submit" class="button">送信</button>
-  <input type="hidden" name="recaptchaToken" id="recaptchaToken" />
 </form>
-<script src="https://www.google.com/recaptcha/api.js?render=6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z', {action: 'homepage'}).then(function(token) {
-            var recaptchaToken = document.getElementById('recaptchaToken');
-            recaptchaToken.value = token;
-        });
-    });
+  function onSubmit(token) {
+    document.getElementById("contact").submit();
+  }
 </script>
 </div>
 
