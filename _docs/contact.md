@@ -17,9 +17,6 @@ title: お問い合わせフォーム
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 function onSubmit(token) {
-  return check();
-}
-function check(){
   if(confirm('送信してよろしいですか？')){
     document.getElementById("contact").submit();
   }
