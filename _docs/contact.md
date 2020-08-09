@@ -33,19 +33,16 @@ title: お問い合わせフォーム
   </small>
   <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-size="invisible" data-callback="onSubmit"></div>
   <button type="submit" class="button">送信</button>
+  <input type="hidden" name="recaptchaToken" id="recaptchaToken" />
 </form>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z"></script>
 <script>
-function onSubmit(token) {
-  document.getElementById("contact").addEventListener("submit", function(event) {
-    if (!grecaptcha.getResponse()) {
-      event.preventDefault();
-      grecaptcha.execute();
-    } else {
-      var url = $("#contact").attr('action');
-      ajaxSendData(url, $("#contact").serialize());
-    }
-  });
-}
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z', {action: 'homepage'}).then(function(token) {
+            var recaptchaToken = document.getElementById('recaptchaToken');
+            recaptchaToken.value = token;
+        });
+    });
 </script>
 </div>
 
