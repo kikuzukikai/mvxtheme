@@ -17,7 +17,17 @@ title: お問い合わせフォーム
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 function onSubmit(token) {
+  return check();
   document.getElementById("contact").submit();
+}
+function check(){
+  if(confirm('送信してよろしいですか？')){
+    return true;
+  }
+  else{
+    alert('キャンセルされました');
+    return false;
+  }
 }
 </script>
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
