@@ -17,19 +17,7 @@ title: お問い合わせフォーム
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 function onSubmit(token) {
-  alert("送信しました");
-}
-function validate(event) {
-  event.preventDefault();
-  if (!document.getElementById('message').value) {
-    alert("お問い合わせ内容が未入力です");
-  } else {
-    document.getElementById("contact").submit();
-  }
-}
-function onload() {
-  var element = document.getElementById('submit');
-  element.onclick = validate;
+  document.getElementById("contact").submit();
 }
 </script>
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
@@ -37,20 +25,19 @@ function onload() {
     <input class="controls" name="bot-field" />
   </div>
   <div class="form-group">
-    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" id="message" required></textarea>
+    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容"></textarea>
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
-    <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" required />
+    <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" />
   </div>
   <small>
     This site is protected by reCAPTCHA and the Google
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <button id="submit" class="g-recaptcha button" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible">送信</button>
+  <button class="g-recaptcha button" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible">送信</button>
 </form>
-<script>onload();</script>
 </div>
 
 **Ticket ID:**
