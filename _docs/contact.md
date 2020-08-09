@@ -19,6 +19,8 @@ title: お問い合わせフォーム
 function onSubmit(token) {
   if(confirm('送信してよろしいですか？')){
     document.getElementById("contact").submit();
+  } else {
+    return false;
   }
 }
 </script>
