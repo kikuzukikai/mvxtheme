@@ -21,7 +21,7 @@ function onSubmit(token) {
 }
 function validate(event) {
   event.preventDefault();
-  if (document.getElementById('contact').value) {
+  if (document.getElementById('message').value) && (document.getElementById('message').value) {
     grecaptcha.execute();
   }
 }
@@ -35,7 +35,7 @@ function onload() {
     <input class="controls" name="bot-field" />
   </div>
   <div class="form-group">
-    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" required></textarea>
+    <textarea class="controls" name="お問い合わせ内容" placeholder="お問い合わせ内容" id="message" required></textarea>
   </div>
   <div class="form-group">
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
