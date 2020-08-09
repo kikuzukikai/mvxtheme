@@ -16,11 +16,11 @@ title: お問い合わせフォーム
 <div align="center">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
-function onSubmit(token) {
+function onSubmit(event) {
   if(confirm('送信してよろしいですか？')){
     document.getElementById("contact").submit();
   } else {
-    return false;
+    event.preventDefault();
   }
 }
 </script>
