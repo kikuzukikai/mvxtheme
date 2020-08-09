@@ -38,6 +38,7 @@ title: お問い合わせフォーム
 function onSubmit(token) {
   document.getElementById("contact").addEventListener("submit", function(event) {
     if (!grecaptcha.getResponse()) {
+      event.preventDefault();
       grecaptcha.execute();
     } else {
       $("#contact").submit();
