@@ -41,7 +41,8 @@ function onSubmit(token) {
       event.preventDefault();
       grecaptcha.execute();
     } else {
-      $("#contact").submit();
+      var url = $("#contact").attr('action');
+      ajaxSendData(url, $("#contact").serialize());
     }
   });
 }
