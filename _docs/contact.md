@@ -36,8 +36,13 @@ title: お問い合わせフォーム
 </form>
 <script>
 function onSubmit(token) {
-   var url = $("#contact").attr('action');
-   ajaxSendData(url, $("#contact").serialize());
+  document.getElementById("contact").addEventListener("submit", function(event) {
+    if (!grecaptcha.getResponse()) {
+      grecaptcha.execute();
+    } else {
+      $("#contact").submit();
+    }
+  });
 }
 </script>
 </div>
