@@ -17,14 +17,14 @@ title: お問い合わせフォーム
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 function onSubmit(token) {
-  document.getElementById("contact").submit();
+  alert("送信しました");
 }
 function validate(event) {
   event.preventDefault();
   if (!document.getElementById('message').value) {
-  alert("お問い合わせ内容が未入力です");
+    alert("お問い合わせ内容が未入力です");
   } else {
-    grecaptcha.execute();
+    document.getElementById("contact").submit();
   }
 }
 function onload() {
