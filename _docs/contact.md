@@ -14,6 +14,7 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
+<script src="https://www.google.com/recaptcha/api.js?render=6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" async defer></script>
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
@@ -30,13 +31,15 @@ title: お問い合わせフォーム
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <button type="submit" class="button g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit">送信</button>
+  <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
+  <button type="submit" class="button">送信</button>
 </form>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
-  function onSubmit(token) {
-    document.getElementById("contact").submit();
-  }
+grecaptcha.ready(function() {
+  grecaptcha.execute("6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z", {action: "homepage"}).then(function(token) {
+    document.getElementById('captchaResponse').value = token;
+  });
+});
 </script>
 </div>
 
