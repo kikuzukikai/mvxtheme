@@ -21,8 +21,8 @@ function onSubmit(token) {
 }
 function validate(event) {
   event.preventDefault();
-  if (!document.getElementById('message').value && !document.getElementById('email').value) {
-  alert("未入力の項目があります");
+  if (!document.getElementById('message').value) {
+  alert("お問い合わせ内容が未入力です");
   } else {
     grecaptcha.execute();
   }
