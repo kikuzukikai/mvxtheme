@@ -14,17 +14,7 @@ title: お問い合わせフォーム
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
 
 <div align="center">
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-function onSubmit(event) {
-  if(confirm('送信してよろしいですか？')){
-    document.getElementById("contact").submit();
-  } else {
-    event.preventDefault();
-  }
-}
-</script>
-<form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+<form name="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
   </div>
@@ -35,12 +25,7 @@ function onSubmit(event) {
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
     <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" />
   </div>
-  <small>
-    This site is protected by reCAPTCHA and the Google
-    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-  </small>
-  <button class="g-recaptcha button" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible">送信</button>
+  <button type="submit" class="button">送信</button>
 </form>
 </div>
 
