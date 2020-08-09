@@ -21,7 +21,9 @@ function onSubmit(token) {
 }
 function validate(event) {
   event.preventDefault();
-  if (document.getElementById('message').value) && (document.getElementById('message').value) {
+  if (!document.getElementById('message').value) && (!document.getElementById('email').value) {
+  alert("未入力の項目があります");
+  } else {
     grecaptcha.execute();
   }
 }
@@ -48,6 +50,7 @@ function onload() {
   </small>
   <button class="g-recaptcha button" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible">送信</button>
 </form>
+<script>onload();</script>
 </div>
 
 **Ticket ID:**
