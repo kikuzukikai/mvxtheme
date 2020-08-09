@@ -18,15 +18,10 @@ title: お問い合わせフォーム
 <script>
 function onSubmit(token) {
   return check();
-  document.getElementById("contact").submit();
 }
 function check(){
   if(confirm('送信してよろしいですか？')){
-    return true;
-  }
-  else{
-    alert('キャンセルされました');
-    return false;
+    document.getElementById("contact").submit();
   }
 }
 </script>
