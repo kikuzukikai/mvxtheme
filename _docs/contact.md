@@ -15,6 +15,21 @@ title: お問い合わせフォーム
 
 <div align="center">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+function onSubmit(token) {
+  document.getElementById("contact").submit();
+}
+function validate(event) {
+  event.preventDefault();
+  if (document.getElementById('contact').value) {
+    grecaptcha.execute();
+  }
+}
+function onload() {
+  var element = document.getElementById('submit');
+  element.onclick = validate;
+}
+</script>
 <form name="contact" id="contact" action="/docs/contact/success.html" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
   <div class="form-group hidden">
     <input class="controls" name="bot-field" />
@@ -31,8 +46,7 @@ title: お問い合わせフォーム
     <a href="https://policies.google.com/privacy">Privacy Policy</a> and
     <a href="https://policies.google.com/terms">Terms of Service</a> apply.
   </small>
-  <div class="g-recaptcha" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-size="invisible"></div>
-  <button type="submit" class="button">送信</button>
+  <button class="g-recaptcha button" data-sitekey="6Lde8LsZAAAAAK2WqwddCyfadxv7F80Yz09sW98z" data-callback="onSubmit" data-size="invisible">送信</button>
 </form>
 </div>
 
