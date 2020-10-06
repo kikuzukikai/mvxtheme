@@ -5,7 +5,7 @@ function initLunr() {
       pagesIndex = index;
       lunrIndex = lunr(function() {
         var lunrConfig = this;
-        lunrConfig.use(lunr.multiLanguage('en', 'jp'));
+        lunrConfig.use(lunr.multiLanguage('en', 'ja'));
         lunrConfig.ref("href");
         lunrConfig.field("title", { boost: 10 });
         lunrConfig.field("contents");
