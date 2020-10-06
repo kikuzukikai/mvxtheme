@@ -14,12 +14,8 @@
             {% endfor %}
         </ul>
     </nav>
-    <script async src="https://cse.google.com/cse.js?cx=2c3ee17dc5f35e4e5"></script>
-    <div class="gcse-search"></div>
 </header>
 <nav id="hamburger-menu" role="navigation" aria-label="Hamburger menu">
-    <script async src="https://cse.google.com/cse.js?cx=2c3ee17dc5f35e4e5"></script>
-    <div class="gcse-search"></div>
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
         <ul class="menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="presentation" aria-label="Category name"><a href="{{ '/blog/' | relative_url }}" class="doc-link" role="link" aria-label="Blog">ブログ記事</a></li>
