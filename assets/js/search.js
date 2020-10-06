@@ -1,7 +1,7 @@
 var lunrIndex, $results, pagesIndex;
 
 function initLunr() {
-  $.getJSON("index.json").done(function(index) {
+  $.getJSON("search_data.json").done(function(index) {
       pagesIndex = index;
       lunrIndex = lunr(function() {
         var lunrConfig = this;
@@ -16,7 +16,7 @@ function initLunr() {
     })
   .fail(function(jqxhr, textStatus, error) {
     var err = textStatus + ", " + error;
-    console.error("Error getting Hugo index flie:", err);
+    console.error("Error getting Jekyll index flie:", err);
   });
 }
 
