@@ -19,7 +19,7 @@
   }
 
   li a {
-    color: $brand-color;
+    color: var(--theme-color);
     text-decoration: none;
   }
 
