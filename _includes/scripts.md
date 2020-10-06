@@ -20,3 +20,7 @@ window.onload = function(){
   });
 };
 </script>
+
+<script src="lunr.min.js"></script> <!-- lunr.js library -->
+<script src="lunr.stemmer.support.js"></script>
+<script src="lunr.ja.js"></script> <!-- or any other language you want -->
