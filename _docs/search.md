@@ -2,9 +2,6 @@
 layout: docs
 title: サイト内検索
 ---
----
-layout: default
----
 
 <form action="get" id="site_search">
   <label for="search_box">Search</label><input type="text" id="search_box">
