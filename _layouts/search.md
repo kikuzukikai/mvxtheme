@@ -30,7 +30,4 @@ layout: default
     {% endfor %}
   };
 </script>
-<script src="{{ '/assets/js/jquery-3.2.1.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/lunr.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/search.js' | relative_url }}" ></script>
 {% include deeplink.html %}
