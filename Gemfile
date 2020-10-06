@@ -28,7 +28,6 @@ group :jekyll_plugins do
    gem 'jekyll-github-metadata'
    gem 'jekyll-last-modified-at'
    gem 'jekyll-include-cache'
-   gem 'jekyll-lunr-js-search-multilingual', git: 'https://github.com/fortran-team/jekyll-lunr-js-search-multilingual'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
