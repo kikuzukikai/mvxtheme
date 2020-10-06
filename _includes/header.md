@@ -14,20 +14,8 @@
             {% endfor %}
         </ul>
     </nav>
-    <div class="searchbox" role="search" aria-label="Search">
-        <form action="{{ '/search' | relative_url }}" id="searchthis" method="get" role="form" aria-label="Search form">
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <input type="search" id="search" name="query" placeholder="Search..." role="textbox" aria-label="Search textbox"/>
-        </form>
-    </div>
 </header>
 <nav id="hamburger-menu" role="navigation" aria-label="Hamburger menu">
-    <div class="searchbox" role="search" aria-label="Search">
-        <form action="{{ '/search' | relative_url }}" id="searchthis" method="get" role="form" aria-label="Search form">
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <input type="search" id="search" name="query" placeholder="Search..." role="textbox" aria-label="Search textbox"/>
-        </form>
-    </div>
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
         <ul class="menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="presentation" aria-label="Category name"><a href="{{ '/blog/' | relative_url }}" class="doc-link" role="link" aria-label="Blog">ブログ記事</a></li>
