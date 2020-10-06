@@ -1,15 +1,5 @@
----
-layout: null
----
-{
-  {% for post in site.posts %}
-
-    "{{ post.url | slugify }}": {
-      "title": "{{ post.title | xml_escape }}",
-      "url": " {{ post.url | xml_escape }}",
-      "author": "{{ post.author | xml_escape }}",
-      "category": "{{ post.category | xml_escape }}"
-    }
-    {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-}
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "contents" .Plain "href" .URL ) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
