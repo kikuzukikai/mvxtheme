@@ -7,7 +7,7 @@ layout: compress
 {% include html-head.md %}
 <body class="body">
     <!-- header -->
-    {% include_cached header.md %}
+    {% include header.md %}
     <!-- main content -->
     <main class="container" role="main">
         {{ content }}
