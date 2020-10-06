@@ -21,6 +21,6 @@ window.onload = function(){
 };
 </script>
 
-{% include js/search/lunr.min.js %}
-{% include js/search/lunr.stemmer.support.js %}
-{% include js/search/lunr.ja.js %}
+<script src="/assets/js/search/lunr.min.js"></script>
+<script src="/assets/js/search/lunr.stemmer.support.js"></script>
+<script src="/assets/js/search/lunr.ja.js"></script>
