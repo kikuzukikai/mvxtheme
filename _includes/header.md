@@ -14,6 +14,10 @@
             {% endfor %}
         </ul>
     </nav>
+    <div class="searchbox" role="search" aria-label="Search">
+        <script async src="https://cse.google.com/cse.js?cx=2c3ee17dc5f35e4e5"></script>
+        <div class="gcse-searchbox"></div>
+    </div>
 </header>
 <nav id="hamburger-menu" role="navigation" aria-label="Hamburger menu">
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
