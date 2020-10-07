@@ -44,7 +44,9 @@ title: よくある質問
 
 ## 寄付について
 ~~現金による寄付は、今のところ、受け付ける予定はございません。~~
+
 2020年10月より[Liberapay](https://liberapay.com/kikuzukikai)にて寄付を受け付けております([寄付に関する方針変更のお知らせ](https://www.kikuzukikai.org/blog/change-of-donation-policy.html))。
+
 また、[ビットコインによる寄付](https://www.blockchain.com/btc/address/{{ site.bitcoin_address }})を現在試験的に導入しております。
 
 ## 菊月の英文表記について
