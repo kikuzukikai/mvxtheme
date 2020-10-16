@@ -13,3 +13,8 @@ title: 寄付に関する方針変更のお知らせ
 よろしくお願いいたします。
 
 <a href="https://liberapay.com/kikuzukikai/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+
+2020.10.16追記
+GitHub Sponsorsへ行っていた申請も無事通過致しました。
+
+<iframe src="https://github.com/sponsors/kikuzukikai/button" title="Sponsor kikuzukikai" height="35" width="116" style="border: 0;"></iframe>
