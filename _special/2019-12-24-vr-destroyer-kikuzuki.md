@@ -28,6 +28,15 @@ title: VR駆逐艦菊月
 そのために我々は、「神田技研」協力のもと、「菊月」の3Dモデルを、最も制限が緩く、自由度の高いライセンスの一つとして知られるMITライセンスで公開する。
 このモデルが、大勢の役に立つことを願うばかりである。
 
+<div class="sketchfab-embed-wrapper">
+    <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/f774f77d3a5446648c0ca178503b282f/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+        <a href="https://sketchfab.com/3d-models/wip-japanese-destroyer-kikuzuki-in-1942-f774f77d3a5446648c0ca178503b282f?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">[WIP] Japanese destroyer Kikuzuki in 1942</a>
+        by <a href="https://sketchfab.com/kikuzukikai?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">DD KIKUZUKI ASSOC.</a>
+        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+    </p>
+</div>
+
 ## VR化プロジェクトのねらい
 原始、祈りは石碑に刻むほかなかった。
 このVRは、技術革新の目覚ましい情報科学分野による新時代の石碑として造られるものである。
