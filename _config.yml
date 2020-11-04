@@ -94,6 +94,9 @@ permalink: /blog/:title.html
 
 # Collections
 collections:
+  authors:
+    output: true
+    permalink: /:collection/:path.html
   docs:
     output: true
     permalink: /:collection/:path.html
