@@ -7,7 +7,7 @@ permalink: /authors/
 <ul>
   {% for author in site.authors %}
   <li>
-    <h2>{{ author.name }}</h2>
+    <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
     <h3>{{ author.position }}</h3>
     {% if author.twitter %}
     <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter fa-2x"></i></a>
