@@ -3,7 +3,6 @@ layout: page
 title: 執筆者一覧
 permalink: /authors/
 ---
-<h1>執筆者一覧</h1>
 <ul>
   {% for author in site.authors %}
   <li>
