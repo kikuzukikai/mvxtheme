@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 執筆者一覧
 permalink: /authors/
 ---
