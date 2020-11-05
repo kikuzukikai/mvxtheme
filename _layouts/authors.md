@@ -18,7 +18,6 @@ layout: default
     <article class="documentation">
         <header class="doc-header">
             <h1 class="doc-title">{{ page.title | escape }}</h1>
-            <p>{{ page.position | escape }}</p>
 <p class="meta">
 {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}更新
 &nbsp;
