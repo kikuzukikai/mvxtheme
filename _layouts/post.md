@@ -7,7 +7,7 @@ layout: article
 <p class="meta">
 {% assign author = site.authors | where: 'title', page.author | first %}
 {% if author %}
-<a href="{{ author.url }}">{{ author.title }}</a> -
+<a href="{{ author.url }}">{{ author.title }}</a>
 {% endif %}
 &nbsp;
 {{ page.date | date: "%Y年%-m月%-d日" }}投稿
