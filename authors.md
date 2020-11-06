@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 執筆者一覧
+title: 投稿者一覧
 permalink: /authors/
 pagination: 
   enabled: true
