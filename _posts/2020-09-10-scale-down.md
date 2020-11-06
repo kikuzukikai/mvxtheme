@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 慰霊祭の規模縮小のお知らせ
+author: 橋本泰邦
 ---
 
 拝啓

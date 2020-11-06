@@ -2,6 +2,8 @@
 layout: authors
 title: 執筆者一覧
 permalink: /authors/
+pagination: 
+  enabled: true
 ---
 <ul>
   {% for author in site.authors %}

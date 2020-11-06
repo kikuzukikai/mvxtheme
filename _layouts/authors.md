@@ -29,6 +29,38 @@ layout: default
         </header>
         <section>
             {{ content }}
+<h2>投稿した記事</h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'author', page.title %}
+  {% for post in filtered_posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+    {% else %}
+      <span>&laquo;</span>
+    {% endif %}
+    
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span>{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="/blog/">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+      
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+    {% else %}
+      <span>&raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
             {% if page.twitter %}
             <a href="https://twitter.com/{{ page.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter fa-2x"></i></a>
             {% endif %}

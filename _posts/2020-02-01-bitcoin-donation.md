@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ビットコイン寄付の受付を開始します
+author: 堀江仁貴
 ---
 
 当サイト下部にあるアイコンと同じ[こちらのアドレス](https://www.blockchain.com/btc/address/{{ site.bitcoin_address }})へご送金お願いいたします。

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 寄付に関する方針変更のお知らせ
+author: 神楽所麟
 ---
 
 菊月保存会さんが支援金の受付を8月末に終了してしばらく経ちました([菊月保存会さんのツイート](https://twitter.com/kikuzuki_hozon/status/1297699317029863425?s=20))。

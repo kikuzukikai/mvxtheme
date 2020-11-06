@@ -113,6 +113,8 @@ menu:
     url: "/docs/"
   - title: "特設ページ"
     url: "/special/"
+  - title: "投稿者一覧"
+    url: "/authors/"
 # End
 
 # # Breadcrumb Settings

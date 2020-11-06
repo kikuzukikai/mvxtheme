@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 創作活動に関する声明
+author: 神楽所麟
 ---
 
 関係各位

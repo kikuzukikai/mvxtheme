@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 平成30年8月度調査の収支表
+author: 堀江仁貴
 ---
 
 <div class="scroll" markdown="block">
