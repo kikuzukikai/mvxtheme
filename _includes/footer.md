@@ -20,6 +20,15 @@
 <li role="listitem" aria-label="Organization link item"><a href="{{ site.github.repository_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
                 </ul>
             </li>
+            <li role="menuitem" aria-label="Organization" class="item">
+<h2>投稿者一覧</h2>
+<ul>
+{% for author in site.authors limit:3 %}
+<li role="listitem" aria-label="Author link item"><a href="{{ author.url }}">{{ author.title }}</a></li>
+{% endfor %}
+<li role="listitem" aria-label="Author link item"><a href="{{ '/authors' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
+</ul>
+            </li>
             <li role="menuitem" aria-label="Connect" class="item">
 <h2>リンク集</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
