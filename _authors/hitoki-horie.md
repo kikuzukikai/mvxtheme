@@ -5,6 +5,5 @@ position: 幹事
 twitter: horiehitoki
 facebook: horiehitoki
 ---
-## ご連絡先
-
-【hitoki.horie@kikuzuki<span class="obfuscate">-</span>kai.org】
+## 連絡先
+hitoki.horie@kikuzuki<span class="obfuscate">-</span>kai.org
