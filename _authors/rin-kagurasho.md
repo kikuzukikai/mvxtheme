@@ -6,5 +6,4 @@ twitter: kagurasho
 facebook:
 ---
 ## 連絡先
-
 rin.kagurasho@kikuzuki<span class="obfuscate">-</span>kai.org
