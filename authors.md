@@ -4,6 +4,7 @@ title: 投稿者一覧
 permalink: /authors/
 pagination: 
   enabled: true
+roster: true
 ---
 <ul>
   {% for author in site.authors %}
