@@ -6,7 +6,8 @@ pagination:
   enabled: true
 roster: true
 ---
-
+<div class="about-dl">
+  <dl>
   {% for author in site.authors %}
     <dt><a href="{{ author.url }}">{{ author.title }}</a></dt>
     <dd>{{ author.position }}<br />
@@ -18,3 +19,5 @@ roster: true
     {% endif %}
     </dd>
   {% endfor %}
+  </dl>
+</div>
