@@ -8,7 +8,7 @@ permalink: /docs/
   <dl>
     
     <dt>名称</dt>
-    <dd>駆逐艦菊月会<br />Association of Kikuzuki for Veterans and Families</dd>
+    <dd>駆逐艦菊月会<br />Destroyer Kikuzuki Association</dd>
     
     <dt>団体種類</dt>
     <dd>任意団体</dd>
