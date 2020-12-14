@@ -11,10 +11,10 @@ roster: true
     <dt><a href="{{ author.url }}">{{ author.title }}</a></dt>
     <dd>{{ author.position }}<br />
     {% if author.twitter %}
-    <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter fa-2x"></i></a>
+    <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter"></i></a>
     {% endif %}
     {% if author.facebook %}
-    <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fa-facebook fa-2x"></i></a>
+    <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fa-facebook"></i></a>
     {% endif %}
     </dd>
   {% endfor %}
