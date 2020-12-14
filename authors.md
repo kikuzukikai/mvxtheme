@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: authors
 title: 投稿者一覧
 permalink: /authors/
 pagination: 
