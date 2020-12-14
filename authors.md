@@ -9,7 +9,7 @@ roster: true
 <div class="about-dl">
   <dl>
   {% for author in site.authors %}
-    <dt><h2><a href="{{ author.url }}">{{ author.title }}</a></h2></dt>
+    <dt><a href="{{ author.url }}">{{ author.title }}</a></dt>
     <dd>{{ author.position }}<br />
     {% if author.twitter %}
     <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter"></i></a>
