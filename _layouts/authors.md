@@ -29,6 +29,8 @@ layout: default
         </header>
         <section>
             {{ content }}
+{% if page.roster %}
+{% else %}
 <h2>投稿した記事</h2>
 <ul>
   {% assign filtered_posts = site.posts | where: 'author', page.title %}
@@ -36,6 +38,8 @@ layout: default
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% endif %}
+            
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
@@ -48,7 +52,7 @@ layout: default
       {% if page == paginator.page %}
         <span>{{ page }}</span>
       {% elsif page == 1 %}
-        <a href="/blog/">{{ page }}</a>
+        <a href="/authors/">{{ page }}</a>
       {% else %}
         <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
@@ -61,6 +65,7 @@ layout: default
     {% endif %}
   </div>
   {% endif %}
+  
             {% if page.twitter %}
             <a href="https://twitter.com/{{ page.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter fa-2x"></i></a>
             {% endif %}
