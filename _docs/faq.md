@@ -43,9 +43,7 @@ title: よくある質問
 このサイトの開発を行う [Medjed.com](https://web.medjed.com/) が提供する短縮URL、またはそのドメインです。
 
 ## 寄付について
-~~現金による寄付は、今のところ、受け付ける予定はございません。~~
-
-2020年10月より[Liberapay](https://liberapay.com/kikuzukikai)にて寄付を受け付けております([寄付に関する方針変更のお知らせ](https://www.kikuzukikai.org/blog/change-of-donation-policy.html))。
+2020年10月より[Liberapay](https://liberapay.com/kikuzukikai)および[GitHub Sponsors](https://github.com/sponsors/kikuzukikai)にて寄付を受け付けております([寄付に関する方針変更のお知らせ](https://www.kikuzukikai.org/blog/change-of-donation-policy.html))。
 
 また、[ビットコインによる寄付](https://www.blockchain.com/btc/address/{{ site.bitcoin_address }})を現在試験的に導入しております。
 
