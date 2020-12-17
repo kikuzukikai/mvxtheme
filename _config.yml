@@ -74,6 +74,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-last-modified-at
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
@@ -98,6 +99,9 @@ collections:
     output: true
     permalink: /:collection/:path.html
   docs:
+    output: true
+    permalink: /:collection/:path.html
+  rules:
     output: true
     permalink: /:collection/:path.html
   special:
