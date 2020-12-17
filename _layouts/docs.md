@@ -5,7 +5,7 @@ layout: default
     <div class="doc-menu">
         <ul>
 
-### 団体概要
+<h3><a href="./docs/">団体概要</a></h3>
 
         {% for item in site.data.docs.toc %}
             <li>
@@ -17,7 +17,7 @@ layout: default
             </li>
         {% endfor %}
 
-### 会則及び規程
+<h3><a href="./rules/">会則及び規程</a></h3>
 
         {% for item in site.data.rules.toc %}
             <li>
@@ -29,7 +29,7 @@ layout: default
             </li>
         {% endfor %}
 
-### 特設ページ
+<h3><a href="./special/">特設ページ</a></h3>
 
         {% for item in site.data.special.toc %}
             <li>
