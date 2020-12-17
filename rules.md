@@ -7,19 +7,15 @@ pagination:
 ---
 <section>
   <ul class="list">
-  {% for item in site.data.list.item %}
-  {% if item.version == 2 %}
-  {% for entry in item.entry %}
+  {% for item in site.data.rules %}
     <li>
       <h2>
-        <a class="link" href="{{ entry.url | relative_url }}" role="link">{{ entry.page | escape }}</a>
+        <a class="link" href="{{ item.url | relative_url }}" role="link">{{ item.title | escape }}</a>
       </h2>
       <p class="meta">
-        {{ entry.content | strip_html | escape | truncate: 80 }}
+        {{ item.content | strip_html | escape | truncate: 80 }}
       </p>
     </li>
-  {% endfor %}
-  {% endif %}
   {% endfor %}
   </ul>
     

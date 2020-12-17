@@ -4,25 +4,31 @@ layout: default
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
-        {% for item in site.data.list.item %}
+        {% for item in site.data.docs %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
             {% else %}
                 <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
             {% endif %}
-
-        {% for entry in item.entry %}
-            <li>
-            {% if entry.url == page.url %}
-                <a href="{{ entry.url | relative_url }}" class="active doc-link" role="link">  {{ entry.page }} </a>
-            {% else %}
-                <a href="{{ entry.url | relative_url }}" class="doc-link" role="link">  {{ entry.page }} </a>
-            {% endif %}
-
             </li>
         {% endfor %}
-
+        {% for item in site.data.rules %}
+            <li>
+            {% if item.url == page.url %}
+                <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
+            {% else %}
+                <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
+            {% endif %}
+            </li>
+        {% endfor %}
+        {% for item in site.data.special %}
+            <li>
+            {% if item.url == page.url %}
+                <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
+            {% else %}
+                <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
+            {% endif %}
             </li>
         {% endfor %}
         </ul>
