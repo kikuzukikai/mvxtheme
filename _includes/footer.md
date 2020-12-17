@@ -14,7 +14,7 @@
             <li role="menuitem" aria-label="Organization" class="item">
 <h2>団体概要</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Organization link">
-<li role="listitem" aria-label="Organization link item"><a href="{{ site.url }}{{ '/docs/rules.html' | relative_url }}" role="link" aria-label="Rules">会則</a></li>
+<li role="listitem" aria-label="Organization link item"><a href="{{ site.url }}{{ '/rules/' | relative_url }}" role="link" aria-label="Rules">会則及び規程</a></li>
 <li role="listitem" aria-label="Organization link item"><a href="https://kikuzukikai.booth.pm" target="_blank" rel="noopener" role="link" aria-label="Store">オンラインストア</a></li>
 <li role="listitem" aria-label="Organization link item"><a href="{{ site.url }}{{ '/docs/faq.html' | relative_url }}" role="link" aria-label="FAQ">よくある質問</a></li>
 <li role="listitem" aria-label="Organization link item"><a href="{{ site.github.repository_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
