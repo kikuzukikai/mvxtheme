@@ -1,5 +1,5 @@
 ---
-layout: rules
+layout: docs
 title: 会則及び規程
 permalink: /rules/
 pagination: 
@@ -7,7 +7,7 @@ pagination:
 ---
 <section>
   <ul class="list">
-  {% for item in site.rules %}
+  {% for item in site.data.list.rules %}
     <li>
       <h2>
         <a class="link" href="{{ item.url | relative_url }}" role="link">{{ item.title | escape }}</a>
@@ -31,7 +31,7 @@ pagination:
       {% if page == paginator.page %}
         <span>{{ page }}</span>
       {% elsif page == 1 %}
-        <a href="/blog/">{{ page }}</a>
+        <a href="/rules/">{{ page }}</a>
       {% else %}
         <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}

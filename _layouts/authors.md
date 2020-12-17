@@ -29,6 +29,7 @@ layout: default
         </header>
         <section>
             {{ content }}
+
 {% if page.roster %}
 {% else %}
 <h2>投稿した記事</h2>
@@ -72,6 +73,7 @@ layout: default
             {% if page.facebook %}
             <a href="https://www.facebook.com/{{ page.facebook }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fa-facebook fa-2x"></i></a>
             {% endif %}
+
         </section>
     </article>
 </div>

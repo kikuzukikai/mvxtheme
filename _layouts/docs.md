@@ -4,7 +4,7 @@ layout: default
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
-        {% for item in site.docs %}
+        {% for item in site.data.list %}
             <li>
             {% if item.url == navurl %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
@@ -19,11 +19,11 @@ layout: default
         <header class="doc-header">
             <h1 class="doc-title">{{ page.title | escape }}</h1>
 <p class="meta">
-{{ page.last_modified_at | date: "%Yå¹´%-mæœˆ%-dæ—¥" }}æ›´æ–°
+{{ page.last_modified_at | date: "%Y”N%-mŒ%-d“ú" }}XV
 &nbsp;
 <i class="fa-pencil"></i>
 <a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}" alt="Edit">
-ç·¨é›†ã™ã‚‹
+•ÒW‚·‚é
 </a>
 </p>
         </header>
