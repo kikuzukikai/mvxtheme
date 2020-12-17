@@ -59,7 +59,7 @@ table tr td {
 }
 
 dl {
-    border:1px solid var(--text-color);
+    border:1px solid var(--alpha-color);
     background-color: var(--zebra-color);
     margint:5px;
 }
@@ -68,6 +68,7 @@ dl dt {
     clear: left;
     width:100px;
     font-weight:bold;
+    border:1px solid var(--alpha-color);
     :nth-child(2n-1) {
         background-color: var(--zebra-color);
     }
@@ -77,6 +78,7 @@ dl dt {
     padding:5px;
 }
 dl dd {
+    border:1px solid var(--alpha-color);
     background-color: var(--bg-color);
     margin-left:110px;  
     padding:5px;
