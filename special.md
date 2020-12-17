@@ -10,7 +10,7 @@ pagination:
 
 <section>
   <ul class="list">
-  {% for item in site.data.special %}
+  {% for item in site.data.special.toc %}
     <li>
       <h2>
         <a class="link" href="{{ item.url | relative_url }}" role="link">{{ item.title | escape }}</a>

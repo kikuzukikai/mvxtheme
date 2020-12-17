@@ -4,7 +4,10 @@ layout: default
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
-        {% for item in site.data.docs %}
+
+### 団体概要
+
+        {% for item in site.data.docs.toc %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
@@ -13,7 +16,10 @@ layout: default
             {% endif %}
             </li>
         {% endfor %}
-        {% for item in site.data.rules %}
+
+### 会則及び規程
+
+        {% for item in site.data.rules.toc %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
@@ -22,7 +28,10 @@ layout: default
             {% endif %}
             </li>
         {% endfor %}
-        {% for item in site.data.special %}
+
+### 特設ページ
+
+        {% for item in site.data.special.toc %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
