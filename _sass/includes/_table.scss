@@ -65,21 +65,9 @@ dl dt {
     float:left;
     clear: left;
     width:100px;
-    dt:nth-child(2n-1) {
-        background-color: var(--zebra-color);
-    }
-    dt:nth-child(2n) {
-        background-color: var(--bg-color);
-    }
     padding:5px;
 }
 dl dd {
-    dd:nth-child(2n-1) {
-        background-color: var(--zebra-color);
-    }
-    dd:nth-child(2n) {
-        background-color: var(--bg-color);
-    }
     margin-left:110px;  
     padding:5px;
 }
