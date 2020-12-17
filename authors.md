@@ -10,8 +10,8 @@ roster: true
   <dl>
   {% for author in site.authors %}
     <dt>
-    <p class="time">{{ author.position }}</p><br />
-    <a href="{{ author.url }}">{{ author.title }}</a>
+    <p class="meta">{{ author.position }}</p>
+    <h2><a href="{{ author.url }}">{{ author.title }}</a></h2>
     </dt>
     <dd>
     {% if author.twitter %}
