@@ -11,7 +11,7 @@ layout: default
             {% else %}
                 <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
             {% endif %}
-        {% for entry in item.entry %}
+	    {% for entry in item.entry %}
 	        <li>
 	            {% if entry.url == navurl %}
 	                <a href="{{ entry.url | relative_url }}" class="active doc-link" role="link">  {{ entry.title }} </a>
@@ -19,6 +19,7 @@ layout: default
 	                <a href="{{ entry.url | relative_url }}" class="doc-link" role="link">  {{ entry.title }} </a>
 	            {% endif %}
 	        </li>
+	    {% endfor %}
             </li>
         {% endfor %}
         </ul>
