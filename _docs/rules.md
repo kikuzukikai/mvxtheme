@@ -1,10 +1,10 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: redirected
+layout: docs
 title: 会則
 sitemap: false
-permalink: /docs/rules.html
-redirect_to: /rules/constitution.html
+redirect_from:
+  - /rules/constitution.html
+  - path: /docs/rules.html
+    params:
+      - from: old
 ---
