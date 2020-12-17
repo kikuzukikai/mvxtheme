@@ -1,32 +1,32 @@
-docs:
+﻿docs:
   - title: 団体概要
     url: /docs/
     subfolderitems:
-      - page: お問い合わせフォーム
+      - title: お問い合わせフォーム
         url: /contact.html
-      - page: よくある質問
+      - title: よくある質問
         url: /faq.html
-      - page: 情報提供のお願い
+      - title: 情報提供のお願い
         url: /seek.html
 rules:
   - title: 会則及び規程
     url: /rules/
     subfolderitems:
-      - page: 会則
+      - title: 会則
         url: /constitution.html
-      - page: 支援規程
+      - title: 支援規程
         url: /patronage.html
-      - page: プライバシーポリシー
+      - title: プライバシーポリシー
         url: /privacy.html
 special:
   - title: 特設ページ
     url: /special/
     subfolderitems:
-      - page: 陸奥鉄鍛え倣い元帥刀(号 青海波)
+      - title: 陸奥鉄鍛え倣い元帥刀(号 青海波)
         url: /japanese-sword-seigaiha.html
-      - page: 駆逐艦菊月最終時復元図面
+      - title: 駆逐艦菊月最終時復元図面
         url: /kikuzuki-blueprint.html
-      - page: 駆逐艦菊月会慰霊祭
+      - title: 駆逐艦菊月会慰霊祭
         url: /memorial-service.html
-      - page: VR駆逐艦菊月
+      - title: VR駆逐艦菊月
         url: /vr-destroyer-kikuzuki.html
