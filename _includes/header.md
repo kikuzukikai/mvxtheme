@@ -34,6 +34,7 @@
                 {% endfor %}
                 </ul>
             </li>
+            <li role="presentation" aria-label="Category name"><a href="{{ '/authors/' | relative_url }}" class="doc-link" role="link" aria-label="Authors">投稿者一覧</a></li>
         </ul>
     </div>
 </nav>
