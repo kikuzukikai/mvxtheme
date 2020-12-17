@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: rules
 title: 会則
 ---
 

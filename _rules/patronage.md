@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: rules
 title: 支援規程
 ---
 ## 趣旨
