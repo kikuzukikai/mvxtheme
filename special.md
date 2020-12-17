@@ -10,13 +10,13 @@ pagination:
 
 <section>
   <ul class="list">
-  {% for item in site.data.list.special %}
+  {% for entry in site.data.list.toc.special %}
     <li>
       <h2>
-        <a class="link" href="{{ item.url | relative_url }}" role="link">{{ item.title | escape }}</a>
+        <a class="link" href="{{ entry.url | relative_url }}" role="link">{{ entry.title | escape }}</a>
       </h2>
       <p class="meta">
-        {{ item.content | strip_html | escape | truncate: 80 }}
+        {{ entry.content | strip_html | escape | truncate: 80 }}
       </p>
     </li>
   {% endfor %}
