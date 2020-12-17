@@ -5,7 +5,7 @@ layout: default
     <div class="doc-menu">
         <ul>
 
-<li>団体概要</li>
+<li class="category">団体概要</li>
 
         {% for item in site.docs %}
             <li>
@@ -17,7 +17,7 @@ layout: default
             </li>
         {% endfor %}
 
-<li>会則及び規程</li>
+<li class="category">会則及び規程</li>
 
         {% for item in site.rules %}
             <li>
@@ -29,7 +29,7 @@ layout: default
             </li>
         {% endfor %}
 
-<li>特設ページ</li>
+<li class="category">特設ページ</li>
 
         {% for item in site.special %}
             <li>
