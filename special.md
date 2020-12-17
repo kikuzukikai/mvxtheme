@@ -10,7 +10,8 @@ pagination:
 
 <section>
   <ul class="list">
-  {% for entry in site.data.list.toc.special %}
+  {% for entry in site.data.list.item.entry %}
+  {% if entry.dir == special %}
     <li>
       <h2>
         <a class="link" href="{{ entry.url | relative_url }}" role="link">{{ entry.title | escape }}</a>
@@ -19,6 +20,7 @@ pagination:
         {{ entry.content | strip_html | escape | truncate: 80 }}
       </p>
     </li>
+  {% endif %}
   {% endfor %}
   </ul>
     

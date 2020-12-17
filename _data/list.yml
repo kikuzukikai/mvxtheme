@@ -1,30 +1,40 @@
-﻿toc:
+﻿item:
   - title: 団体概要
     url: /docs/
-    docs:
+    entry:
       - title: お問い合わせフォーム
         url: /docs/contact.html
+        dir: docs
       - title: よくある質問
         url: /docs/faq.html
+        dir: docs
       - title: 情報提供のお願い
         url: /docs/seek.html
+        dir: docs
   - title: 会則及び規程
     url: /rules/
-    rules:
+    entry:
       - title: 会則
         url: /rules/constitution.html
+        dir: rules
       - title: 支援規程
         url: /rules/patronage.html
+        dir: rules
       - title: プライバシーポリシー
         url: /rules/privacy.html
+        dir: rules
   - title: 特設ページ
     url: /special/
-    special:
+    entry:
       - title: 陸奥鉄鍛え倣い元帥刀(号 青海波)
         url: /special/japanese-sword-seigaiha.html
+        dir: special
       - title: 駆逐艦菊月最終時復元図面
         url: /special/kikuzuki-blueprint.html
+        dir: special
       - title: 駆逐艦菊月会慰霊祭
         url: /special/memorial-service.html
+        dir: special
       - title: VR駆逐艦菊月
         url: /special/vr-destroyer-kikuzuki.html
+        dir: special

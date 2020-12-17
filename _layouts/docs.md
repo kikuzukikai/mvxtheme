@@ -11,6 +11,18 @@ layout: default
             {% else %}
                 <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
             {% endif %}
+
+        {% for entry in site.data.list.item.entry %}
+            <li>
+            {% if entry.url == page.url %}
+                <a href="{{ entry.url | relative_url }}" class="active doc-link" role="link">  {{ entry.title }} </a>
+            {% else %}
+                <a href="{{ entry.url | relative_url }}" class="doc-link" role="link">  {{ entry.title }} </a>
+            {% endif %}
+
+            </li>
+        {% endfor %}
+
             </li>
         {% endfor %}
         </ul>
