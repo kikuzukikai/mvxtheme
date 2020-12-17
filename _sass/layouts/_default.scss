@@ -29,9 +29,10 @@ a {
     color: darken(#39c, 25%);
     text-decoration: none;
   }
-  .active {
-    font-weight: bold;
-  }
+}
+
+.active {
+  font-weight: bold;
 }
 
 :target {
