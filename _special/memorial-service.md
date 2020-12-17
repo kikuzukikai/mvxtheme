@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: 駆逐艦菊月会慰霊祭
 ---
 

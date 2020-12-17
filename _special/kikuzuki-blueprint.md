@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: 駆逐艦菊月最終時復元図面
 ---
 

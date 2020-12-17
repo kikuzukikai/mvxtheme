@@ -1,5 +1,5 @@
 ---
-layout: rules
+layout: docs
 title: プライバシーポリシー
 ---
 

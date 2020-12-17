@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 title: 陸奥鉄鍛え倣い元帥刀(号 青海波)
 ---
 
