@@ -1,4 +1,4 @@
----
+ï»¿---
 layout: default
 ---
 <div class="doc-container">
@@ -19,11 +19,11 @@ layout: default
         <header class="doc-header">
             <h1 class="doc-title">{{ page.title | escape }}</h1>
 <p class="meta">
-{{ page.last_modified_at | date: "%Y”N%-mŒ%-d“ú" }}XV
+{{ page.last_modified_at | date: "%Yå¹´%-mæœˆ%-dæ—¥" }}æ›´æ–°
 &nbsp;
 <i class="fa-pencil"></i>
 <a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}" alt="Edit">
-•ÒW‚·‚é
+ç·¨é›†ã™ã‚‹
 </a>
 </p>
         </header>
