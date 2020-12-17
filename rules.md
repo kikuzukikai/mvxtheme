@@ -6,7 +6,7 @@ pagination:
   enabled: true
 ---
 <section class="blog">
-  <ul>
+  <ul class="list">
   {% for item in site.rules %}
     <li>
       <h2>
