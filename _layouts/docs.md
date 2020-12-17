@@ -5,9 +5,9 @@ layout: default
     <div class="doc-menu">
         <ul>
 
-<h2><a href="/docs/">団体概要</a></h2>
+<li>団体概要</li>
 
-        {% for item in site.data.docs.toc %}
+        {% for item in site.docs %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
@@ -17,9 +17,9 @@ layout: default
             </li>
         {% endfor %}
 
-<h2><a href="/rules/">会則及び規程</a></h2>
+<li>会則及び規程</li>
 
-        {% for item in site.data.rules.toc %}
+        {% for item in site.rules %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
@@ -29,9 +29,9 @@ layout: default
             </li>
         {% endfor %}
 
-<h2><a href="/special/">特設ページ</a></h2>
+<li>特設ページ</li>
 
-        {% for item in site.data.special.toc %}
+        {% for item in site.special %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>

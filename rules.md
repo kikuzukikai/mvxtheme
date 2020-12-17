@@ -7,7 +7,7 @@ pagination:
 ---
 <section>
   <ul class="list">
-  {% for item in site.data.rules.toc %}
+  {% for item in site.rules %}
     <li>
       <h2>
         <a class="link" href="{{ item.url | relative_url }}" role="link">{{ item.title | escape }}</a>
