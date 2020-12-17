@@ -23,10 +23,9 @@
             <li role="menuitem" aria-label="Organization" class="item">
 <h2>投稿者一覧</h2>
 <ul>
-{% for author in site.authors limit:3 %}
+{% for author in site.authors limit:4 %}
 <li role="listitem" aria-label="Author link item"><a href="{{ author.url }}">{{ author.title }}</a></li>
 {% endfor %}
-<li role="listitem" aria-label="Author link item"><a href="{{ '/authors' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
 </ul>
             </li>
             <li role="menuitem" aria-label="Connect" class="item">
