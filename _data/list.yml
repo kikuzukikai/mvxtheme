@@ -1,5 +1,4 @@
 ﻿toc:
-docs:
   - title: 団体概要
     url: /docs/
     entry:
@@ -9,7 +8,6 @@ docs:
         url: /faq.html
       - title: 情報提供のお願い
         url: /seek.html
-rules:
   - title: 会則及び規程
     url: /rules/
     entry:
@@ -19,7 +17,6 @@ rules:
         url: /patronage.html
       - title: プライバシーポリシー
         url: /privacy.html
-special:
   - title: 特設ページ
     url: /special/
     entry:
