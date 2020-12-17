@@ -68,7 +68,12 @@ dl dt {
     clear: left;
     width:100px;
     font-weight:bold;
-    background-color: var(--zebra-color);
+    :nth-child(2n-1) {
+        background-color: var(--zebra-color);
+    }
+    :nth-child(2n) {
+        background-color: var(--bg-color);
+    }
     padding:5px;
 }
 dl dd {
