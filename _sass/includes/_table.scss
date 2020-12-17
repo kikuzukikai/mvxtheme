@@ -24,7 +24,7 @@ table {
 table,
 th,
 td {
-    border: 1px solid var(--zebra-color);
+    border: 1px solid var(--text-color);
 }
 
 table tr:nth-child(2n-1) {
@@ -59,9 +59,7 @@ table tr td {
 }
 
 dl {
-    border-bottom:1px solid var(--zebra-color);
-    border-left:1px solid var(--zebra-color);
-    border-right:1px solid var(--zebra-color);
+    border:1px solid var(--text-color);
     background-color: var(--zebra-color);
     margint:5px;
 }
@@ -71,12 +69,10 @@ dl dt {
     width:100px;
     font-weight:bold;
     background-color: var(--zebra-color);
-    border-top:1px solid var(--zebra-color);
     padding:5px;
 }
 dl dd {
     background-color: var(--bg-color);
-    border-top:1px solid var(--zebra-color);
     margin-left:110px;  
     padding:5px;
 }
