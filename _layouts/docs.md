@@ -6,20 +6,11 @@ layout: default
         <ul>
         {% for item in site.data.list.toc %}
             <li>
-            {% if item.url == navurl %}
+            {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
             {% else %}
                 <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
             {% endif %}
-	    {% for entry in item.entry %}
-	        <li>
-	            {% if entry.url == navurl %}
-	                <a href="{{ entry.url | relative_url }}" class="active doc-link" role="link">  {{ entry.title }} </a>
-	            {% else %}
-	                <a href="{{ entry.url | relative_url }}" class="doc-link" role="link">  {{ entry.title }} </a>
-	            {% endif %}
-	        </li>
-	    {% endfor %}
             </li>
         {% endfor %}
         </ul>
