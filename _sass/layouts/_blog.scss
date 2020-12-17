@@ -7,10 +7,10 @@
   margin-bottom: $blog-margin;
   color: var(--text-color);
 
-  > .list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 
     li {
       margin-bottom: $blog-list-margin;
