@@ -8,10 +8,10 @@ pagination:
 <section>
   <ul class="list">
   {% for entry in site.data.list.item.entry %}
-  {% if entry.dir == rules %}
+  {% if entry.version == 2 %}
     <li>
       <h2>
-        <a class="link" href="{{ entry.url | relative_url }}" role="link">{{ entry.title | escape }}</a>
+        <a class="link" href="{{ entry.url | relative_url }}" role="link">{{ entry.page | escape }}</a>
       </h2>
       <p class="meta">
         {{ entry.content | strip_html | escape | truncate: 80 }}

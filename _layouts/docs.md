@@ -12,12 +12,12 @@ layout: default
                 <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
             {% endif %}
 
-        {% for entry in site.data.list.item.entry %}
+        {% for entry in item.entry %}
             <li>
             {% if entry.url == page.url %}
-                <a href="{{ entry.url | relative_url }}" class="active doc-link" role="link">  {{ entry.title }} </a>
+                <a href="{{ entry.url | relative_url }}" class="active doc-link" role="link">  {{ entry.page }} </a>
             {% else %}
-                <a href="{{ entry.url | relative_url }}" class="doc-link" role="link">  {{ entry.title }} </a>
+                <a href="{{ entry.url | relative_url }}" class="doc-link" role="link">  {{ entry.page }} </a>
             {% endif %}
 
             </li>
