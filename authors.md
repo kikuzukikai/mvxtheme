@@ -10,7 +10,7 @@ roster: true
   <dl>
   {% for author in site.authors %}
     <dt>
-    <h2><a href="{{ author.url }}">{{ author.title }}</a></h2>
+    <h2><a href="{{ author.url }}">{{ author.title }}</a></h2><br />
     <p class="meta">{{ author.position }}</p>
     </dt>
     <dd>
