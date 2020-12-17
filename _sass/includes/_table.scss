@@ -65,20 +65,20 @@ dl dt {
     float:left;
     clear: left;
     width:100px;
-    :nth-child(2n-1) {
+    dt:nth-child(2n-1) {
         background-color: var(--zebra-color);
     }
-    :nth-child(2n) {
+    dt:nth-child(2n) {
         background-color: var(--bg-color);
     }
     padding:5px;
 }
 dl dd {
-    :nth-child(2n-1) {
-        background-color: var(--bg-color);
-    }
-    :nth-child(2n) {
+    dd:nth-child(2n-1) {
         background-color: var(--zebra-color);
+    }
+    dd:nth-child(2n) {
+        background-color: var(--bg-color);
     }
     margin-left:110px;  
     padding:5px;
