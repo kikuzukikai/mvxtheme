@@ -4,7 +4,7 @@ layout: default
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
-        {% for item in site.data.list.toc %}
+        {% for item in site.data.list.item %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
