@@ -2,7 +2,8 @@
 layout: rules
 title: 会則及び規程
 permalink: /rules/
-pagination: true
+pagination: 
+  enabled: true
 ---
 <section class="blog">
   <ul class="list">
