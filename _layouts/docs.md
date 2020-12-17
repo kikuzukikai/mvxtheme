@@ -8,6 +8,7 @@ layout: default
 <li class="category">団体概要</li>
 
         {% for item in site.docs %}
+        {% unless item.unless %}
             <li>
             {% if item.url == page.url %}
                 <a href="{{ item.url | relative_url }}" class="active doc-link" role="link">  {{ item.title }} </a>
@@ -15,6 +16,7 @@ layout: default
                 <a href="{{ item.url | relative_url }}" class="doc-link" role="link">  {{ item.title }} </a>
             {% endif %}
             </li>
+        {% endunless %}
         {% endfor %}
 
 <li class="category">会則及び規程</li>
