@@ -10,8 +10,9 @@ pagination:
 
 <section>
   <ul class="list">
-  {% for entry in site.data.list.item.entry %}
-  {% if entry.version == 3 %}
+  {% for item in site.data.list.item %}
+  {% if item.version == 3 %}
+  {% for entry in item.entry %}
     <li>
       <h2>
         <a class="link" href="{{ entry.url | relative_url }}" role="link">{{ entry.page | escape }}</a>
@@ -20,6 +21,7 @@ pagination:
         {{ entry.content | strip_html | escape | truncate: 80 }}
       </p>
     </li>
+  {% endfor %}
   {% endif %}
   {% endfor %}
   </ul>
