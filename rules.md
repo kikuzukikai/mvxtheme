@@ -5,7 +5,7 @@ permalink: /rules/
 pagination: 
   enabled: true
 ---
-<section class="blog">
+<section>
   <ul class="list">
   {% for item in site.rules %}
     <li>
