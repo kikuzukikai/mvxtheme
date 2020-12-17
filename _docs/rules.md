@@ -3,6 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: redirected
+title: 会則
 sitemap: false
 permalink: /docs/rules.html
 redirect_to: /rules/constitution.html
