@@ -1,4 +1,4 @@
-.opencollective-banner body {
+#opencollective-banner body {
   font-family: $base-font-family;
   font-weight: 300;
   font-size: 16px;
@@ -7,12 +7,12 @@
   background-color: transparent;
 }
 
-.opencollective-banner h2 {
+#opencollective-banner h2 {
   font-family: $head-font-family;
   font-weight: 300;
 }
 
-.opencollective-banner a {
+#opencollective-banner a {
   color: var(--link-color);
   &:hover {
     color: darken(#39c, 25%);
