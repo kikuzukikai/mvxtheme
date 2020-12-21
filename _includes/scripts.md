@@ -20,10 +20,3 @@ window.onload = function(){
   });
 };
 </script>
-
-{% capture main %}
-{% include css/main.scss %}
-{% endcapture %}
-<style>
-{{ main | scssify }}
-</style>
