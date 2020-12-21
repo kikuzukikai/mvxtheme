@@ -1,0 +1,25 @@
+#opencollective-banner {
+
+body {
+  font-family: $base-font-family;
+  font-weight: 300;
+  font-size: 16px;
+  height: 100%;
+  line-height: $base-line-height;
+  background-color: var(--bg-color);
+}
+
+h2 {
+  font-family: $head-font-family;
+  font-weight: 300;
+}
+
+a {
+  color: var(--link-color);
+  &:hover {
+    color: darken(#39c, 25%);
+    text-decoration: none;
+  }
+}
+
+}
