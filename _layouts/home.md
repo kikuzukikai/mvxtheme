@@ -11,7 +11,7 @@ layout: default
     <section class="backers" role="document">
         <div class="opencollective">
 <h2>支援者一覧</h2>
-<object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/sponsor.svg"></object>
+<object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/sponsor.svg"></object><br />
 <object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/backer.svg"></object>
         </div>
     </section>
