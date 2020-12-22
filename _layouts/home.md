@@ -10,8 +10,8 @@ layout: default
     </section>
     <section class="backers" role="document">
         <div class="opencollective">
-<h2>支援者一覧</h2>
-<a href="https://opencollective.com/kikuzukikai">Open Collectiveで駆逐艦菊月会に貢献する</a><br />
+<h1>支援者一覧</h1>
+<p><a href="https://opencollective.com/kikuzukikai">Open Collectiveで駆逐艦菊月会に貢献する</a></p>
 <object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/sponsor.svg"></object><br />
 <object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/backer.svg"></object>
         </div>
