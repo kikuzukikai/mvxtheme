@@ -10,9 +10,8 @@ layout: default
     </section>
     <section class="backers" role="document">
         <div class="opencollective">
-<h2>スポンサー</h2>
+<h2>支援者一覧</h2>
 <object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/sponsor.svg"></object>
-<h2>バッカー</h2>
 <object type="image/svg+xml" data="https://opencollective.com/kikuzukikai/tiers/backer.svg"></object>
         </div>
     </section>
