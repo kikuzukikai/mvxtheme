@@ -10,31 +10,28 @@ layout: default
     </section>
     <section class="backers" role="document">
         <div class="opencollective">
-            
-## スポンサー
-[![](https://opencollective.com/kikuzukikai/sponsors/0/avatar)](https://opencollective.com/kikuzukikai/sponsors/0/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/1/avatar)](https://opencollective.com/kikuzukikai/sponsors/1/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/2/avatar)](https://opencollective.com/kikuzukikai/sponsors/2/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/3/avatar)](https://opencollective.com/kikuzukikai/sponsors/3/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/4/avatar)](https://opencollective.com/kikuzukikai/sponsors/4/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/5/avatar)](https://opencollective.com/kikuzukikai/sponsors/5/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/6/avatar)](https://opencollective.com/kikuzukikai/sponsors/6/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/7/avatar)](https://opencollective.com/kikuzukikai/sponsors/7/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/8/avatar)](https://opencollective.com/kikuzukikai/sponsors/8/website)
-[![](https://opencollective.com/kikuzukikai/sponsors/9/avatar)](https://opencollective.com/kikuzukikai/sponsors/9/website)
-
-## バッカー
-[![](https://opencollective.com/kikuzukikai/backers/0/avatar)](https://opencollective.com/kikuzukikai/backers/0/website)
-[![](https://opencollective.com/kikuzukikai/backers/1/avatar)](https://opencollective.com/kikuzukikai/backers/1/website)
-[![](https://opencollective.com/kikuzukikai/backers/2/avatar)](https://opencollective.com/kikuzukikai/backers/2/website)
-[![](https://opencollective.com/kikuzukikai/backers/3/avatar)](https://opencollective.com/kikuzukikai/backers/3/website)
-[![](https://opencollective.com/kikuzukikai/backers/4/avatar)](https://opencollective.com/kikuzukikai/backers/4/website)
-[![](https://opencollective.com/kikuzukikai/backers/5/avatar)](https://opencollective.com/kikuzukikai/backers/5/website)
-[![](https://opencollective.com/kikuzukikai/backers/6/avatar)](https://opencollective.com/kikuzukikai/backers/6/website)
-[![](https://opencollective.com/kikuzukikai/backers/7/avatar)](https://opencollective.com/kikuzukikai/backers/7/website)
-[![](https://opencollective.com/kikuzukikai/backers/8/avatar)](https://opencollective.com/kikuzukikai/backers/8/website)
-[![](https://opencollective.com/kikuzukikai/backers/9/avatar)](https://opencollective.com/kikuzukikai/backers/9/website)
-        
+<h2>スポンサー</h2>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/0/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/0/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/1/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/1/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/2/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/2/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/3/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/3/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/4/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/4/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/5/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/5/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/6/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/6/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/7/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/7/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/8/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/8/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/sponsors/9/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/sponsors/9/avatar"></a>
+<h2>バッカー</h2>
+  <a href="https://opencollective.com/kikuzukikai/backers/0/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/0/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/1/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/1/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/2/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/2/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/3/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/3/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/4/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/4/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/5/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/5/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/6/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/6/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/7/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/7/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/8/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/8/avatar"></a>
+  <a href="https://opencollective.com/kikuzukikai/backers/9/website" target="_blank"><img src="https://opencollective.com/kikuzukikai/backers/9/avatar"></a>
         </div>
     </section>
 </article>
