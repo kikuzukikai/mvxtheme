@@ -11,7 +11,7 @@ layout: default
     <section class="backers" role="document">
         <div class="opencollective">
 <h1>支援者一覧</h1>
-<p><a href="https://opencollective.com/kikuzukikai">Open Collectiveで駆逐艦菊月会に貢献する</a></p>
+<p><a href="https://opencollective.com/kikuzukikai">Open Collectiveで駆逐艦菊月会を支援する</a></p>
 <p><object data="https://opencollective.com/{{ site.github.owner_name }}/tiers/sponsor.svg"></object></p>
 <p><object data="https://opencollective.com/{{ site.github.owner_name }}/tiers/backer.svg"></object></p>
         </div>
