@@ -13,10 +13,10 @@ layout: default
 <h1>支援者一覧</h1>
 <p><a href="https://opencollective.com/{{ site.github.owner_name }}#support">OpenCollectiveで{{ site.title }}を支援する</a></p>
 <h2>スポンサー</h2>
-<small>毎月100米ドル以上の支援で、こちらにあなたのサイトへのリンクが掲載されます。</small>
+<small><strong>1万円/年</strong>以上の支援で、こちらにあなたのサイトへのリンクが掲載されます。</small>
 <p><object data="https://opencollective.com/{{ site.github.owner_name }}/tiers/sponsor.svg"></object></p>
 <h2>後援者</h2>
-<small>毎月5米ドル以上100米ドル未満の支援で、こちらにあなたのTwitterアカウントへのリンクが掲載されます。</small>
+<small><strong>500円/月</strong>以上の支援で、こちらにあなたのTwitterアカウントへのリンクが掲載されます。</small>
 <p><object data="https://opencollective.com/{{ site.github.owner_name }}/tiers/backer.svg"></object></p>
         </div>
     </section>
