@@ -11,9 +11,14 @@ layout: default
     <section class="backers" role="document">
         <div class="opencollective">
 <h1>支援者一覧</h1>
-<p><a href="https://opencollective.com/{{ site.github.owner_name }}">Open Collectiveで{{ site.title }}を支援する</a></p>
+<p><a href="https://opencollective.com/{{ site.github.owner_name }}">OpenCollectiveで{{ site.title }}を支援する</a></p>
+<h2>スポンサー</h2>
+<small>毎月100米ドル以上の支援でこちらにあなたのサイトへのリンクが掲載されます。</small>
 <p><object data="https://opencollective.com/{{ site.github.owner_name }}/tiers/sponsor.svg"></object></p>
+<h2>後援者</h2>
+<small>毎月5米ドル以上100米ドル未満の支援でこちらにあなたのTwitterアカウントへのリンクが掲載されます。</small>
 <p><object data="https://opencollective.com/{{ site.github.owner_name }}/tiers/backer.svg"></object></p>
+<small>このほか、匿名による支援や一度きりの寄付も受け付けております。</small>
         </div>
     </section>
 </article>
