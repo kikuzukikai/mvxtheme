@@ -10,6 +10,7 @@ layout: default
     </section>
     <section class="backers" role="document">
 <h2>更新情報</h2>
-<p>寄付フォームを開設しました: <a href="https://donate.kikuzukikai.org">donate.kikuzukikai.org</a></p>
+<p>寄付フォームを開設しました。対応しているカードは次の通りです: Visa, Mastercard, American Express, JCB, Diners Club, DISCOVER (2021年1月19日更新)</p>
+<p><a href="https://donate.kikuzukikai.org">donate.kikuzukikai.org</a></p>
     </section>
 </article>
