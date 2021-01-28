@@ -31,7 +31,6 @@ if (dDay == 0) {
   document.write("An error has occurred!");
 }
 </script>
-
 </strong>
 
 ※当日午前10時45分までに参集殿前受付をお済ませください。参加費は3千円です。
