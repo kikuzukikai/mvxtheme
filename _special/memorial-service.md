@@ -11,7 +11,7 @@ var monthStr = 11;
 var dayStr = 3;
 var jsMonth = monthStr - 1 ;
 var date = new Date(yearStr, jsMonth , dayStr);
-var dDay = date.getDate()
+var dDay = date.getDate();
 if (dDay = 0) {
   document.write("今年の慰霊祭は11月3日の午前11時より斎行します。");
 } else if (dDay = 1) {
