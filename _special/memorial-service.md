@@ -2,6 +2,14 @@
 layout: docs
 title: 駆逐艦菊月会慰霊祭
 ---
+
+<script>
+var date_array = ["日","月","火","水","木","金","土"];
+var xdate = new Date(getFullYear + "-11-03");
+var xday = xdate.getDay();
+document.write(xdate + "は" + date_array[xday] + "曜日です。");
+</script>
+
 開催予定日時については以下のリンクをご参照ください。
 
 [令和2年度以降の靖國神社での当会慰霊祭について]({{ "/docs/faq.html#令和2年度以降の靖國神社での当会慰霊祭について" | relative_url }})
