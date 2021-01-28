@@ -31,8 +31,8 @@ if (dDay == 0) {
   document.write("An error has occurred!");
 }
 </script>
-</strong>
 当日10時45分までに参集殿前受付をお済ませください。
+</strong>
 
 斎行予定日時の求め方については以下のリンクをご参照ください。
 
