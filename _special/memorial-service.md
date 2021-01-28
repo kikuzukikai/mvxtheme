@@ -13,19 +13,19 @@ var jsMonth = monthStr - 1 ;
 var date = new Date(yearStr, jsMonth , dayStr);
 var dDay = date.getDate();
 if (dDay = 0) {
-  document.write("今年の慰霊祭は11月3日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月3日の午前11時より斎行します。");
 } else if (dDay = 1) {
-  document.write("今年の慰霊祭は11月3日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月3日の午前11時より斎行します。");
 } else if (dDay = 2) {
-  document.write("今年の慰霊祭は11月1日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月1日の午前11時より斎行します。");
 } else if (dDay = 3) {
-  document.write("今年の慰霊祭は11月7日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月7日の午前11時より斎行します。");
 } else if (dDay = 4) {
-  document.write("今年の慰霊祭は11月6日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月6日の午前11時より斎行します。");
 } else if (dDay = 5) {
-  document.write("今年の慰霊祭は11月3日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月3日の午前11時より斎行します。");
 } else if (dDay = 6) {
-  document.write("今年の慰霊祭は11月3日の午前11時より斎行します。");
+  document.write(year + "年の慰霊祭は11月3日の午前11時より斎行します。");
 } else {
   document.write("An error has occurred!");
 }
