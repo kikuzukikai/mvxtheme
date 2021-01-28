@@ -7,9 +7,21 @@ title: よくある質問
 {:toc}
 
 ## 令和2年度以降の靖國神社での当会慰霊祭について
-会則に定める開催予定日時「11月の第1日曜日または連休の一部たる文化の日」は以下のページをご参照ください。
+令和2年度以降の開催予定日時は以下の通りです。
 
-- [駆逐艦菊月会慰霊祭]({{ '/special/memorial-service.html' | relative_url }})
+<div class="scroll" markdown="block">
+
+| 11月3日の曜日 | 開催予定日       | 開始予定時刻      |
+|:------------|:---------------|:-----------------|
+| 日曜日の年    | 11月3日         | 午前11時ごろ      |
+| 月曜日の年    | 11月3日         | 午前11時ごろ      |
+| 火曜日の年    | 11月1日         | 午前11時ごろ      |
+| 水曜日の年    | 10月31日        | 午前11時ごろ      |
+| 木曜日の年    | 11月6日         | 午前11時ごろ      |
+| 金曜日の年    | 11月5日         | 午後1時(13時)ごろ |
+| 土曜日の年    | 11月4日         | 午後1時(13時)ごろ |
+
+</div>
 
 ## 第三者による菊月船体の一部移動について
 菊月の船体のほとんどは、ソロモン諸島セントラル州フロリダ島(ンゲラスレ島、ジェラスール島とも)のトウキョウベイ湾内にあります。
@@ -43,7 +55,7 @@ title: よくある質問
 このサイトの開発を行う [Medjed.com](https://web.medjed.com/) が提供する短縮URL、またはそのドメインです。
 
 ## 寄付について
-2020年10月より[Liberapay](https://liberapay.com/kikuzukikai)および[GitHub Sponsors](https://github.com/sponsors/kikuzukikai)にて寄付を受け付けております([寄付に関する方針変更のお知らせ](https://www.kikuzukikai.org/blog/change-of-donation-policy.html))。
+2020年10月より[Liberapay](https://liberapay.com/kikuzukikai)および[GitHub Sponsors](https://github.com/sponsors/kikuzukikai)ほかにて寄付を受け付けております([寄付に関する方針変更のお知らせ](https://www.kikuzukikai.org/blog/change-of-donation-policy.html))。
 
 また、[ビットコインによる寄付](https://www.blockchain.com/btc/address/{{ site.bitcoin_address }})を現在試験的に導入しております。
 
