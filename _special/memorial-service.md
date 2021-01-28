@@ -2,6 +2,8 @@
 layout: docs
 title: 駆逐艦菊月会慰霊祭
 ---
+
+[]({{ "/docs/faq.html#令和2年度以降の靖國神社での当会慰霊祭について" | relative_url }})
 ## 令和元年度
 - [2019年04月17日公開]({{ "/blog/memorial-service.html" | relative_url }}) 告知
 - [2019年05月05日公開]({{ "/blog/memorial-address.html" | relative_url }}) 祭文
