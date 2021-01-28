@@ -39,6 +39,8 @@ if (dDay == 0) {
 
 [令和2年度以降の靖國神社での当会慰霊祭について]({{ "/docs/faq.html#令和2年度以降の靖國神社での当会慰霊祭について" | relative_url }})
 
+慰霊祭にはどなたでもご参列いただくことができます。ご参列を希望される方は当会(contact@kikuzuki<span class="obfuscate">-</span>kai.org)までお気軽にお問合せくださいませ。
+
 ## 令和元年度
 - [2019年04月17日公開]({{ "/blog/memorial-service.html" | relative_url }}) 告知
 - [2019年05月05日公開]({{ "/blog/memorial-address.html" | relative_url }}) 祭文
