@@ -4,10 +4,14 @@ title: 駆逐艦菊月会慰霊祭
 ---
 
 <script>
-var date_array = ["日","月","火","水","木","金","土"];
-var xdate = new Date(getFullYear + "-11-03");
-var xday = xdate.getDay();
-document.write(xdate + "は" + date_array[xday] + "曜日です。");
+var today = new Date();
+var year = today.getFullYear();
+var yearStr = year;
+var monthStr = 11;
+var dayStr = 3;
+var jsMonth = monthStr - 1 ;
+var date = new Date(yearStr, jsMonth , dayStr);
+document.write(date.getDate());
 </script>
 
 開催予定日時については以下のリンクをご参照ください。
