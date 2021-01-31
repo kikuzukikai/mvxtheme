@@ -9,7 +9,7 @@ layout: default
 <p><a href="{{site.url}}/docs/contact.html">匿名でのお問い合わせはこちらから</a></p>
     </section>
     <section class="backers" role="document">
-<h2>掲示板</h2>
+<h1>掲示板</h1>
 {% include_cached bulletin.md %}
     </section>
 </article>
