@@ -11,6 +11,6 @@ layout: default
     <section class="backers" role="document">
 <h2>掲示板</h2>
 <p id="output"></p>
-{% include_cached bulletin.md %}
+{% include bulletin.md %}
     </section>
 </article>
