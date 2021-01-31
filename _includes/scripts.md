@@ -11,6 +11,37 @@ function openMenu(id){
 </script>
 
 <script>
+var today = new Date();
+var year = today.getFullYear();
+var yearStr = year;
+var monthStr = 11;
+var dayStr = 3;
+var jsMonth = monthStr - 1 ;
+var date = new Date(yearStr, jsMonth , dayStr);
+var dDay = date.getDate();
+window.onload = function onLoad() {
+  target = document.getElementById("output");
+         if (dDay == 0) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>3日</strong>の午前11時より斎行します。");
+  } else if (dDay == 1) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>3日</strong>の午前11時より斎行します。");
+  } else if (dDay == 2) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>1日</strong>の午前11時より斎行します。");
+  } else if (dDay == 3) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>7日</strong>の午前11時より斎行します。");
+  } else if (dDay == 4) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>6日</strong>の午前11時より斎行します。");
+  } else if (dDay == 5) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>3日</strong>の午前11時より斎行します。");
+  } else if (dDay == 6) {
+    target.innerHTML(year + "年の慰霊祭は11月<strong>3日</strong>の午前11時より斎行します。");
+  } else {
+    target.innerHTML("An error has occurred!");
+  }
+}
+</script>
+
+<script>
 {% include js/elevator.min.js %}
 </script>
 <script>
