@@ -11,5 +11,6 @@ layout: default
     <section class="backers" role="document">
 <h1>掲示板</h1>
 {% include_cached bulletin.md %}
+<small>掲示期間は1年程度とします。</small>
     </section>
 </article>
