@@ -31,5 +31,6 @@ var dDay = date.getDate();
 </ol>
 <p><a href="/special/memorial-service.html">慰霊祭の関連記事はこちら</a></p>
 <hr>
-<p><strong>寄付フォームを開設しました。</strong>対応しているカードは次の通りです: Visa, Mastercard, American Express, JCB, Diners Club, DISCOVER (2021年1月19日更新)</p>
+<p><strong>寄付フォームを開設しました。</strong></p>
+<p>対応しているカードは次の通りです: Visa, Mastercard, American Express, JCB, Diners Club, DISCOVER (2021年1月19日更新)</p>
 <p><a href="https://donate.kikuzukikai.org">donate.kikuzukikai.org</a></p>
