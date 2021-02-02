@@ -1,4 +1,4 @@
-<h2 style="text-decoration: underline wavy;"><script>
+<h2 style="text-decoration: underline wavy 1px;"><script>
 var today = new Date();
 var year = today.getFullYear();
 var yearStr = year;
