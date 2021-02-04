@@ -49,7 +49,7 @@
 <li role="listitem" aria-label="Social link item"><a href="{{ site.github.owner_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub"><i class="fa-github fa-2x"></i></a></li>
         </ul>
     </div>
-    <div class="copyright" role="contentinfo" aria-label="Copyright"><p class="copyright">&copy;&nbsp;{{ 'now' | date: "%Y" }}&nbsp;<a href="{{ site.url }}">{{ site.title }}</a>, Maintained by <a href="https://web.medjed.com/" target="_blank" rel="noopener">Medjed.com</a></p>
+    <div class="copyright" role="contentinfo" aria-label="Copyright"><p class="copyright">&copy;&nbsp;{{ 'now' | date: "%Y" }}&nbsp;<a href="{{ site.url }}">{{ site.title }}</a>, Maintained by <a href="https://web.medjed.com/" target="_blank" rel="noopener">Medjed.com</a>.</p>
         <div class="right">
 <a href="{{ '/sitemap.xml' | relative_url }}" target="_blank" rel="noopener" role="link" aria-label="Site map">サイトマップ</a>
 &nbsp;&bull;&nbsp;
