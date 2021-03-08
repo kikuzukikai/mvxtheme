@@ -25,6 +25,7 @@ title: お問い合わせフォーム
     <label><input type="checkbox" onclick="connecttext('email',this.checked);" checked /> 非公開または返信を希望する:</label>
     <input type="email" class="controls" name="返信先メールアドレス" placeholder="返信先メールアドレス" id="email" required />
   </div>
+  <label><input type="checkbox" required /> <a href="/rules/privacy.html" target="_blank" rel="noopener">プライバシーポリシー</a>について理解し、同意します。</label>
   <button type="submit" class="button">送信</button>
 </form>
 </div>
