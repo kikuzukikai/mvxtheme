@@ -28,24 +28,42 @@ i {
 .fa-github:before {
   content: "\e903";
   color: #333;
+  @media (prefers-color-scheme: dark){
+    color: #fff;
+  }
 }
 .fa-instagram:before {
   content: "\e904";
   color: #d93177;
+  @media (prefers-color-scheme: dark){
+    color: #fff;
+  }
 }
 .fa-facebook:before {
   content: "\e905";
   color: #3b5998;
+  @media (prefers-color-scheme: dark){
+    color: #fff;
+  }
 }
 .fa-twitter:before {
   content: "\e906";
   color: #1da1f2;
+  @media (prefers-color-scheme: dark){
+    color: #fff;
+  }
 }
 .fa-bitcoin:before {
   content: "\e907";
   color: #f7931a;
+  @media (prefers-color-scheme: dark){
+    color: #fff;
+  }
 }
 .fa-youtube:before {
   content: "\e908";
   color: #ff0000;
+  @media (prefers-color-scheme: dark){
+    color: #fff;
+  }
 }
