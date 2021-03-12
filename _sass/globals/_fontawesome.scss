@@ -31,8 +31,10 @@ i {
 }
 .fa-instagram:before {
   content: "\e904";
-  color: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  color: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fa-facebook:before {
   content: "\e905";
