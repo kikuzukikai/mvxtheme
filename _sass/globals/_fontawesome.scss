@@ -27,19 +27,26 @@ i {
 }
 .fa-github:before {
   content: "\e903";
+  color: #333;
 }
 .fa-instagram:before {
   content: "\e904";
+  color: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  color: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
 }
 .fa-facebook:before {
   content: "\e905";
+  color: #3b5998;
 }
 .fa-twitter:before {
   content: "\e906";
+  color: #1da1f2;
 }
 .fa-bitcoin:before {
   content: "\e907";
+  color: #f7931a;
 }
 .fa-youtube:before {
   content: "\e908";
+  color: #ff0000;
 }
