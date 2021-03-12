@@ -46,6 +46,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-top: $header-height + $header-border-width;
+  min-height: 600px;
 
   > #back-to-top {
     @include flex-valign(center);
