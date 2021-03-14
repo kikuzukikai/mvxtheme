@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: 沿革
+title: 団体沿革
 ---
 
 ## 1982年
