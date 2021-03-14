@@ -74,10 +74,12 @@ a {
 
 p {
   margin-bottom:1em;
-  ul,
-  ol {
+}
+
+ul,
+ol {
+  margin-bottom:1em;
   list-style-position: inside;
-  }
 }
 
 .default-content {
