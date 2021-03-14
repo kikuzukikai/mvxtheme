@@ -39,7 +39,7 @@ permalink: /docs/
 
 ## 駆逐艦菊月会のあゆみ
 
-- [沿革](/docs/history.html)もご参照ください。
+- [団体沿革](/docs/history.html)もご参照ください。
 
 <div class="scroll" markdown="block">
 
