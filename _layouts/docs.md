@@ -1,11 +1,11 @@
-﻿---
+---
 layout: default
 ---
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
 
-<li class="category">団体概要</li>
+<li class="category"><a href="/docs/">団体概要</a></li>
 
         {% for item in site.docs %}
         {% unless item.unless %}
@@ -19,7 +19,7 @@ layout: default
         {% endunless %}
         {% endfor %}
 
-<li class="category">会則及び規程</li>
+<li class="category"><a href="/rules/">会則及び規程</a></li>
 
         {% for item in site.rules %}
             <li>
@@ -31,7 +31,7 @@ layout: default
             </li>
         {% endfor %}
 
-<li class="category">特設ページ</li>
+<li class="category"><a href="/special/">特設ページ</a></li>
 
         {% for item in site.special %}
             <li>
