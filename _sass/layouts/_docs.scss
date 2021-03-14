@@ -15,9 +15,10 @@
     width: $doc-menu-width;
     position: absolute;
 
-    .category {
+    .category a {
       font-weight: bold;
       margin-bottom: 0;
+      color: var(--text-color);
     }
 
     ul {
