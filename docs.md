@@ -39,6 +39,8 @@ permalink: /docs/
 
 ## 駆逐艦菊月会のあゆみ
 
+- [沿革](/docs/history.html)もご参照ください。
+
 <div class="scroll" markdown="block">
 
 | 西暦 |  和暦  | 月 | 日 | 出来事                       | 場所             | 備考     |
@@ -57,5 +59,3 @@ permalink: /docs/
 | 2021 | 令和03 | 01 | 01 | 英語名称を改定               | 東京都荒川区     |          |
 
 </div>
-
-- [沿革](/docs/history.html)もご参照ください。
