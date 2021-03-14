@@ -58,4 +58,4 @@ permalink: /docs/
 
 </div>
 
-[沿革](/docs/history.html)もご参照ください。
+- [沿革](/docs/history.html)もご参照ください。
