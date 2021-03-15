@@ -9,7 +9,7 @@ to = "https://www.kikuzukikai.org/:splat"
 status = 301
 force = true
 
-[[headers]]
-for = "/*"
-[headers.values]
-cache-control = "public, max-age=31536000"
+# [[headers]]
+# for = "/*"
+# [headers.values]
+# cache-control = "public, max-age=31536000"
