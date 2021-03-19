@@ -118,6 +118,11 @@
         padding: 8px 0 8px 30px;
         box-sizing: border-box;
         width: 100%;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
       }
       .sub-menu a {
         color: var(--text-color);
@@ -144,20 +149,6 @@
       #menubar2:checked ~ #links2 li {
         height: 44px;
         opacity: 1;
-      }
-      label:after {
-        -webkit-transform: rotate(270deg);
-        -moz-transform: rotate(270deg);
-        -ms-transform: rotate(270deg);
-        -o-transform: rotate(270deg);
-        transform: rotate(270deg);
-      }
-      input[type=checkbox]:checked + label:after {
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
       }
     }
   }
