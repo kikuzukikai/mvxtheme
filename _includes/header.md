@@ -28,7 +28,6 @@
                 {% endunless %}
                 {% endfor %}
                 </ul>
-                <hr>
             </li> 
             <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
                 <label for="menubar2">特設ページ一覧</label>
@@ -38,7 +37,6 @@
                     <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>
                 {% endfor %}
                 </ul>
-                <hr>
             </li>
             <li role="presentation" aria-label="Category name"><a href="{{ '/blog/' | relative_url }}" class="doc-link" role="link" aria-label="Blog">ブログ記事</a></li>
             <li role="presentation" aria-label="Category name"><a href="{{ '/authors/' | relative_url }}" class="doc-link" role="link" aria-label="Authors">投稿者一覧</a></li>
