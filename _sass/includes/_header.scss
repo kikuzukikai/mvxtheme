@@ -112,10 +112,9 @@
       }
       label{
         color: var(--bg-color);
-        background: var(--text-color);
-        text-decoration: none;
+        background: var(--theme-color);
         display: inline-block;
-        padding: 8px 0 8px 30px;
+        padding: 0 0 0 30px;
         box-sizing: border-box;
         width: 100%;
         -webkit-transform: rotate(180deg);
