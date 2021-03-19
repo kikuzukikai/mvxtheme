@@ -19,7 +19,7 @@
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
         <ul class="menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="presentation" aria-label="Category name"><a href="{{ '/docs/' | relative_url }}" class="doc-link" role="link" aria-label="Docs">団体概要</a>
-                <label for="menubar1">団体概要一覧</label>
+                <label for="menubar1">子ページ一覧</label>
                 <input type="checkbox" id="menubar1" class="accordion" />
                 <ul id="links1" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.docs %}
@@ -28,9 +28,10 @@
                 {% endunless %}
                 {% endfor %}
                 </ul>
-            </li> 
+            </li>
+            <hr>
             <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
-                <label for="menubar2">特設ページ一覧</label>
+                <label for="menubar2">子ページ一覧</label>
                 <input type="checkbox" id="menubar2" class="accordion" />
                 <ul id="links2" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.special %}
@@ -38,6 +39,7 @@
                 {% endfor %}
                 </ul>
             </li>
+            <hr>
             <li role="presentation" aria-label="Category name"><a href="{{ '/blog/' | relative_url }}" class="doc-link" role="link" aria-label="Blog">ブログ記事</a></li>
             <li role="presentation" aria-label="Category name"><a href="{{ '/authors/' | relative_url }}" class="doc-link" role="link" aria-label="Authors">投稿者一覧</a></li>
         </ul>
