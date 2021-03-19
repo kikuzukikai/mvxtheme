@@ -146,9 +146,17 @@
         opacity: 1;
       }
       label:after {
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
         transform: rotate(270deg);
       }
       input[type=checkbox]:checked + label:after {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
         transform: rotate(180deg);
       }
     }
