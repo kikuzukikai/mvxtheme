@@ -136,11 +136,11 @@
         height: auto;
         opacity: 1;
       }
-      label:after i {
-        transform:rotate(135deg);
+      label:after {
+        transform: rotate(270deg);
       }
-      input[type=checkbox]:checked + label:after i {
-        transform:rotate(45deg);
+      input[type=checkbox]:checked + label:after {
+        transform: rotate(180deg);
       }
     }
   }
