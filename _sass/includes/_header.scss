@@ -133,7 +133,7 @@
       }
       #menubar1:checked ~ #links1 li,
       #menubar2:checked ~ #links2 li {
-        height: auto;
+        height: 44px;
         opacity: 1;
       }
       label:after {
