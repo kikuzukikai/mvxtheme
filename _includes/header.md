@@ -30,7 +30,7 @@
                 </ul>
             </li> 
             <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
-                <label for="menu_bar2">展開する</label>
+                <label for="menubar2">展開する</label>
                 <input type="radio" id="menubar2" class="accordion" />
                 <ul id="links2" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.special %}
