@@ -133,8 +133,14 @@
       }
       #menubar1:checked ~ #links1 li,
       #menubar2:checked ~ #links2 li {
-        height: 44px;
+        height: auto;
         opacity: 1;
+      }
+      label:after{
+        transform:rotate(135deg);
+      }
+      input[type=checkbox]:checked + label:after{
+        transform:rotate(45deg);
       }
     }
   }
