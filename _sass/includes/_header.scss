@@ -111,17 +111,11 @@
         display: none;
       }
       label{
-        color: var(--bg-color);
-        background: var(--theme-color);
+        color: var(--text-color);
         display: inline-block;
-        padding: 0 0 0 30px;
+        padding: 8px 0 8px 30px;
         box-sizing: border-box;
         width: 100%;
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
       }
       .sub-menu a {
         color: var(--text-color);
