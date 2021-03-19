@@ -19,6 +19,8 @@
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
         <ul class="menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="presentation" aria-label="Category name"><a href="{{ '/docs/' | relative_url }}" class="doc-link" role="link" aria-label="Docs">団体概要</a>
+                <label for="menubar1">展開する</label>
+                <input type="radio" id="menubar1" class="accordion" />
                 <ul class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.docs %}
                 {% unless item.unless %}
@@ -28,6 +30,8 @@
                 </ul>
             </li>
             <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
+                <label for="menu_bar2">展開する</label>
+                <input type="radio" id="menubar2" class="accordion" />
                 <ul class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.special %}
                     <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>
