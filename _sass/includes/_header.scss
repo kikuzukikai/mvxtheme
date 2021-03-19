@@ -106,7 +106,10 @@
         padding: 8px 0 8px 15px;
         box-sizing: border-box;
         width: 100%;
-      } 
+      }
+      input {
+        display: none;
+      }
       .sub-menu a {
         color: var(--text-color);
         text-decoration: none;
@@ -118,6 +121,19 @@
       ul a:hover {
         color: var(--bg-color);
         background-color: var(--link-color);
+      }
+      .menu li {
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      #menubar1:checked ~ #links1 li,
+      #menubar2:checked ~ #links2 li {
+        opacity: 1;
       }
     }
   }
