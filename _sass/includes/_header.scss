@@ -147,12 +147,11 @@
   }
 }
 
-i:after {
+.fa-rotate-180 {
   display: inline-block;
   transform: rotate(180deg);
-  float: right;
 }
-.accordion:checked ~ i:after {
+.accordion:checked ~ .fa-rotate-180 {
   display: inline-block;
   transform: rotate(0deg);
 }
