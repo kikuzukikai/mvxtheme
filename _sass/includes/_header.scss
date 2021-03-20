@@ -147,17 +147,9 @@
   }
 }
 
-input[type=checkbox] + label::before {
-  font-family: 'fontawesome';
-  content: "\e902";
+.fa-rotate-180 {
   display: inline-block;
   transform: rotate(180deg);
-}
-input[type=checkbox]:checked + label::before {
-  font-family: 'fontawesome';
-  content: "\e902";
-  display: inline-block;
-  transform: rotate(0deg);
 }
 
 @include media-query-min($on-tablet + 1) {
