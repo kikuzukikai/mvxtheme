@@ -143,13 +143,14 @@
         height: 44px;
         opacity: 1;
       }
+    }
+  }
+}
+
 .fa-rotate-180 {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-}
-    }
-  }
 }
 
 @include media-query-min($on-tablet + 1) {
