@@ -143,7 +143,7 @@
         height: 44px;
         opacity: 1;
       }
-.sub-menu label:after{
+.menu label:after{
   content:"";
   display:block;
   width:8px;
@@ -159,7 +159,7 @@
   bottom: 15%;
   margin: auto;
 }
-.sub-menu input[type=checkbox]:checked + label:after{
+.menu input[type=checkbox]:checked + label:after{
   content:"";
   display:block;
   width:8px;
