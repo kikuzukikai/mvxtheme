@@ -151,6 +151,10 @@
   display: inline-block;
   transform: rotate(180deg);
 }
+input[type=checkbox]:checked + .fa-rotate-180 {
+  display: inline-block;
+  transform: rotate(0deg);
+}
 
 @include media-query-min($on-tablet + 1) {
   .header {
