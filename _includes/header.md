@@ -19,7 +19,7 @@
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
         <ul class="menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
             <li role="presentation" aria-label="Category name"><a href="{{ '/docs/' | relative_url }}" class="doc-link" role="link" aria-label="Docs">団体概要</a>
-                <label for="menubar1">子ページ一覧</label>
+                <label for="menubar1"><i class="fa-angle-up fa-rotate-180"></i> 子ページ一覧</label>
                 <input type="checkbox" id="menubar1" class="accordion" />
                 <ul id="links1" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.docs %}
@@ -31,7 +31,7 @@
             </li>
             <hr>
             <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
-                <label for="menubar2">子ページ一覧</label>
+                <label for="menubar2"><i class="fa-angle-up fa-rotate-180"></i> 子ページ一覧</label>
                 <input type="checkbox" id="menubar2" class="accordion" />
                 <ul id="links2" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.special %}
