@@ -147,11 +147,12 @@
   }
 }
 
-.fa-rotate-180 {
+i:after {
   display: inline-block;
   transform: rotate(180deg);
+  float: right;
 }
-input[type=checkbox]:checked + .fa-rotate-180 {
+.accordion:checked ~ i:after {
   display: inline-block;
   transform: rotate(0deg);
 }
