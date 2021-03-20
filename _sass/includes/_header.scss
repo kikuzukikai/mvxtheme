@@ -146,9 +146,7 @@
     }
   }
 }
-i .fa-rotate-180 {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
+.fa-rotate-180 {
   transform: rotate(180deg);
 }
 @include media-query-min($on-tablet + 1) {
