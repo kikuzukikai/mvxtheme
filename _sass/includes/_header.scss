@@ -146,9 +146,12 @@
     }
   }
 }
+
 .fa-rotate-180 {
+  display: inline-block;
   transform: rotate(180deg);
 }
+
 @include media-query-min($on-tablet + 1) {
   .header {
     padding: 0 $base-desktop-padding;
