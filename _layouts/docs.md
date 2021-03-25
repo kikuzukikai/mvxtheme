@@ -4,13 +4,9 @@ layout: default
 <div class="doc-container">
     <div class="doc-menu">
         <ul>
-<li class="category"><h2>
-{% if item.url == page.url %}
-    <a href="/docs/" class="active">団体概要</a>
-{% else %}
+<li class="category">
     <a href="/docs/">団体概要</a>
-{% endif %}
-</h2></li>
+</li>
         {% for item in site.docs %}
         {% unless item.unless %}
             <li>
@@ -23,13 +19,9 @@ layout: default
         {% endunless %}
         {% endfor %}
 
-<li class="category"><h2>
-{% if item.url == page.url %}
-    <a href="/rules/" class="active">会則及び規程</a>
-{% else %}
+<li class="category">
     <a href="/rules/">会則及び規程</a>
-{% endif %}
-</h2></li>
+</li>
 
         {% for item in site.rules %}
             <li>
@@ -41,13 +33,9 @@ layout: default
             </li>
         {% endfor %}
 
-<li class="category"><h2>
-{% if item.url == page.url %}
-    <a href="/special/" class="active">特設ページ</a>
-{% else %}
+<li class="category">
     <a href="/special/">特設ページ</a>
-{% endif %}
-</h2></li>
+</li>
 
         {% for item in site.special %}
             <li>
