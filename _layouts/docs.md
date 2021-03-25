@@ -5,7 +5,7 @@ layout: default
     <div class="doc-menu">
         <ul>
 <li class="category">
-    <a href="/docs/">団体概要</a>
+    <a href="/docs/"><i class="fa-angle-up fa-rotate-180"></i>&nbsp;団体概要</a>
 </li>
         {% for item in site.docs %}
         {% unless item.unless %}
@@ -20,7 +20,7 @@ layout: default
         {% endfor %}
 
 <li class="category">
-    <a href="/rules/">会則及び規程</a>
+    <a href="/rules/"><i class="fa-angle-up fa-rotate-180"></i>&nbsp;会則及び規程</a>
 </li>
 
         {% for item in site.rules %}
@@ -34,7 +34,7 @@ layout: default
         {% endfor %}
 
 <li class="category">
-    <a href="/special/">特設ページ</a>
+    <a href="/special/"><i class="fa-angle-up fa-rotate-180"></i>&nbsp;特設ページ</a>
 </li>
 
         {% for item in site.special %}
