@@ -16,7 +16,7 @@
     position: absolute;
 
     .category a {
-      font-family: serif;
+      font-family: $head-font-family;
       font-weight: bold;
       margin-bottom: 0;
       color: var(--text-color);
