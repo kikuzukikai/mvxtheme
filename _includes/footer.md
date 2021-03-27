@@ -33,7 +33,7 @@
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
 
 <li role="listitem" aria-label="Connect link item"><a href="https://gunkanmusashikai.org/" target="_blank" rel="noopener" role="link">軍艦武藏会</a></li>
-<li role="listitem" aria-label="Connect link item"><a href="https://japan-solomon.com/" target="_blank" rel="noopener" role="link">全國ソロモン会</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="http://www.japan-solomon.com/" target="_blank" rel="noopener" role="link">全國ソロモン会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://gojikai1927.wixsite.com/mihonoseki" target="_blank" rel="noopener" role="link">美保関沖事件慰霊の会</a></li>
                 </ul>
             </li>
@@ -42,7 +42,7 @@
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
 
 <li role="listitem" aria-label="Connect link item"><a href="https://ddmlabo014.wixsite.com/ddmlabo" target="_blank" rel="noopener" role="link">駆逐艦模型研究室</a></li>
-<li role="listitem" aria-label="Connect link item"><a href="https://www.jusenin.or.jp/" target="_blank" rel="noopener" role="link">寿仙院</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="http://www.jusenin.or.jp/" target="_blank" rel="noopener" role="link">寿仙院</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="http://www.kanda-giken.co.jp/" target="_blank" rel="noopener" role="link">株式会社神田技研</a></li>
                 </ul>
             </li>
