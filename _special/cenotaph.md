@@ -7,4 +7,4 @@ title: 駆逐艦菊月慰霊碑
  (駆逐艦菊月会 幹事補 神楽所麟)
 - 建立者: 駆逐艦菊月会
 - 建立(予定)日: 令和4年5月5日
-- クラウドファンディングサイト: [https://cenotaph-cf.kikuzukikai.org](cenotaph-cf.kikuzukikai.org)
+- クラウドファンディングサイト: [cenotaph-cf.kikuzukikai.org](https://cenotaph-cf.kikuzukikai.org)
