@@ -37,13 +37,14 @@ title: 特定商取引法に基づく表記
     <dd>各カード会社引き落とし日</dd>
     
     <dt>引渡時期</dt>
-    <dd>寄付金のため該当しません。</dd>
+    <dd>寄付金のため該当しません(返礼品の設定がある場合は寄付金募集終了後1年以内)。</dd>
 
     <dt>寄付受付額</dt>
     <dd>1円より</dd>
 
     <dt>ページURL</dt>
     <dd><a href="https://donate.kikuzukikai.org">donate.kikuzukikai.org</a></dd>
+    <dd><a href="https://cenotaph-cf.kikuzukikai.org">cenotaph-cf.kikuzukikai.org</a></dd>
 
   </dl>
 </div>
