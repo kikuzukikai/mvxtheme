@@ -6,7 +6,6 @@ permalink: /portal/
 
 <div class="default-content">
     <h1>会員ポータル</h1>
-    <p><strong>リダイレクトしています。</strong></p>
-    <p><a href="javascript:document.location='https://note.com/kikuzukikai/circle'+location.hash;">自動的に新しいURLへ遷移しない場合は、お手数ですがこちらをクリックしてください。</a></p>
+    <p><strong>外部サービスに移動します。</strong></p>
+    <p><a href="https://note.com/" target="_blank" rel="noopener">note</a>にログインの上、<a href="https://note.com/kikuzukikai/circle">こちら</a>をクリックしてください。</p>
 </div>
-<script>document.location='https://note.com/kikuzukikai/circle'+location.hash;</script>
