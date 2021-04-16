@@ -122,6 +122,8 @@ menu:
     url: "/special/"
   - title: "投稿者一覧"
     url: "/authors/"
+  - title: "会員ポータル"
+    url: "/portal/"
 # End
 
 # # Breadcrumb Settings
