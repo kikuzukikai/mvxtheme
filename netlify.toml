@@ -12,9 +12,9 @@ force = true
 [[redirects]]
 from = "/*"
 to = "/portal/:splat"
-status = 200
-force = true
-conditions = {Role = ["admin, guest"]}
+status = 302
+force = false
+Role = ["*"]
 
 # [[headers]]
 # for = "/*"
