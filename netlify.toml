@@ -20,7 +20,7 @@ conditions = {Role = ["admin", "guest"]}
 from = "/portal/*"
 to = "/401.html"
 status = 401
-force = true
+force = false
 
 # [[headers]]
 # for = "/*"
