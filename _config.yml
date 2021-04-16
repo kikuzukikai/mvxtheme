@@ -24,7 +24,6 @@ url: "https://www.kikuzukikai.org" # the base hostname & protocol for your site,
 
 repository: kikuzukikai/jekyll-theme-mobydick
 
-locale: "ja"
 timezone: Asia/Tokyo
 
 google_site_verification: p8zEhEVzQxtHFKy0QJlzy3Li0t5Ptxar3bp6Y18bTmY
