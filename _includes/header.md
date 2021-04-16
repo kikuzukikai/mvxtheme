@@ -14,7 +14,7 @@
             {% endfor %}
         </ul>
     </nav>
-    <div class="hands-on-area"><div class="single-button"><div data-netlify-identity-button></div></div></div>
+    <div data-netlify-identity-button></div>
 </header>
 <nav id="hamburger-menu" role="navigation" aria-label="Hamburger menu">
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
