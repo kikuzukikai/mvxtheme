@@ -44,6 +44,6 @@
             <li role="presentation" aria-label="Category name"><a href="{{ '/authors/' | relative_url }}" class="doc-link" role="link" aria-label="Authors">投稿者一覧</a></li>
         </ul>
         <hr>
-        <div class="hands-on-area"><div class="single-button"><div data-netlify-identity-button><a class="netlify-identity-button" href="#">ログイン</a></div></div></div>
+        <div class="hands-on-area"><div class="single-button"><div data-netlify-identity-button><span class="obfuscate">ログイン</span></div></div></div>
     </div>
 </nav>
