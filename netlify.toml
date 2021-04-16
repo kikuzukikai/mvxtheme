@@ -13,7 +13,7 @@ force = true
 from = "/*"
 to = "/portal"
 status = 200
-force = false
+force = true
 conditions = {Role = ["admin", "guest"]}
 
 [[redirects]]
