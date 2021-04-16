@@ -7,14 +7,10 @@
 		  padding: 8px 12px;
 		  outline: 0;
 		  cursor: pointer;
-		  border: 2px solid #007a70;
 		  border-radius: 4px;
-		  background-color: #00ad9F;
+		  background-color: var(--theme-color);
 		  color: white;
 		  transition: background-color 0.2s ease;
-		  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-		  font-size: 16px;
-		  font-weight: 500;
 		  line-height: 24px;
 		  text-align: center;
 		  text-decoration: none;
@@ -23,7 +19,7 @@
 
 		[data-netlify-identity-button] a:hover,
 		[data-netlify-identity-button] a:focus {
-		  background-color: #007a70;
+		  background-color: var(--theme-color);
 		  text-decoration: none;
 		}
 
@@ -54,5 +50,5 @@
 		}
 
 		#netlify-identity-widget {
-			z-index: 9999;
+			z-index: 9999 !important;
 		}
