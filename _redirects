@@ -1,2 +1,2 @@
-/*  /portal/* 200!  Role=admin,guest
-/*
+/portal/* 200! Role=admin,guest
+/portal/* /* 401!
