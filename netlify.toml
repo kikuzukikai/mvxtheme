@@ -10,14 +10,14 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/portal/"
-to = "/portal/"
+from = "/portal/*"
+to = "/portal/:splat"
 status = 200
 force = true
 conditions = {Role = ["admin", "guest"]}
 
 [[redirects]]
-from = "/portal/"
+from = "/portal/*"
 to = "/401.html"
 status = 401
 force = true
