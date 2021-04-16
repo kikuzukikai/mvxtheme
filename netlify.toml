@@ -14,7 +14,7 @@ from = "/*"
 to = "/portal/:splat"
 status = 302
 force = false
-Role = ["*"]
+conditions = {Role = [""]}
 
 # [[headers]]
 # for = "/*"
