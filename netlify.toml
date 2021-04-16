@@ -9,6 +9,19 @@ to = "https://www.kikuzukikai.org/:splat"
 status = 301
 force = true
 
+[[redirects]]
+from = "/*"
+to = "/portal"
+status = 302
+force = true
+conditions = {Role = "admin,guest"}
+
+[[redirects]]
+from = "/portal"
+to = "/401.html"
+status = 401
+force = true
+
 # [[headers]]
 # for = "/*"
 # [headers.values]
