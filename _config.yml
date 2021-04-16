@@ -79,7 +79,9 @@ plugins:
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: "%Y年%-m月%-d日"
-
+include:
+  - _redirects
+  
 exclude:
   - Gemfile
   - README.md
