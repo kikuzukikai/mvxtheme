@@ -1,2 +1,2 @@
 /portal 302! Role=admin,guest
-/portal / 401!
+/portal /401.html 401!
