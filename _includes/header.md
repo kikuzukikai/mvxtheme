@@ -14,7 +14,6 @@
             {% endfor %}
         </ul>
     </nav>
-    <div data-netlify-identity-button class="identity"></div>
 </header>
 <nav id="hamburger-menu" role="navigation" aria-label="Hamburger menu">
     <div class="doc-nav" role="navigation" aria-label="Site navigation">
@@ -43,9 +42,6 @@
             <hr>
             <li role="presentation" aria-label="Category name"><a href="{{ '/blog/' | relative_url }}" class="doc-link" role="link" aria-label="Blog">ブログ記事</a></li>
             <li role="presentation" aria-label="Category name"><a href="{{ '/authors/' | relative_url }}" class="doc-link" role="link" aria-label="Authors">投稿者一覧</a></li>
-            <li role="presentation" aria-label="Category name"><a href="{{ '/portal/' | relative_url }}" class="doc-link" role="link" aria-label="Portal">会員ポータル</a></li>
         </ul>
-        <hr>
-        <div class="hands-on-area"><div class="single-button"><div data-netlify-identity-button></div></div></div>
     </div>
 </nav>
