@@ -10,9 +10,10 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/portal"
+from = "/*"
+to = "/portal"
 status = 200
-force = true
+force = false
 conditions = {Role = ["admin", "guest"]}
 
 [[redirects]]
