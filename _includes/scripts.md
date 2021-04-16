@@ -1,3 +1,5 @@
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+
 <script>
 var hamburgerMenu=openMenu("hamburger-menu");
 function openMenu(id){
