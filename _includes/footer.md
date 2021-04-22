@@ -40,6 +40,7 @@
 <h2>関係団体(その他)</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
 <li role="listitem" aria-label="Connect link item"><a href="https://ddmlabo014.wixsite.com/ddmlabo" target="_blank" rel="noopener" role="link">駆逐艦模型研究室</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="https://web.medjed.com/" target="_blank" rel="noopener" role="link">Medjed.com</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="http://www.jusenin.or.jp/" target="_blank" rel="noopener" role="link">寿仙院</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="http://www.kanda-giken.co.jp/" target="_blank" rel="noopener" role="link">株式会社神田技研</a></li>
                 </ul>
