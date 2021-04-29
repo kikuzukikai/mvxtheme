@@ -8,21 +8,3 @@ from = "https://kikuzukikai.netlify.com/*"
 to = "https://www.kikuzukikai.org/:splat"
 status = 301
 force = true
-
-[[redirects]]
-from = "/portal/*"
-to = "/portal/:splat"
-status = 200
-force = true
-conditions = {Role = ["admin", "guest"]}
-
-[[redirects]]
-from = "/portal/*"
-to = "/401.html"
-status = 401
-force = false
-
-# [[headers]]
-# for = "/*"
-# [headers.values]
-# cache-control = "public, max-age=31536000"
