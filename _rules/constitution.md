@@ -1,4 +1,4 @@
-届---
+---
 layout: docs
 title: 会則
 ---
