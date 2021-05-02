@@ -45,7 +45,6 @@ title: 特定商取引法に基づく表記
     <dt>ページURL</dt>
     <dd><a href="https://donate.kikuzukikai.org">donate.kikuzukikai.org</a></dd>
     <dd><a href="https://cenotaph-cf.kikuzukikai.org">cenotaph-cf.kikuzukikai.org</a></dd>
-    <dd><a href="https://join.kikuzukikai.org">join.kikuzukikai.org</a></dd>
 
   </dl>
 </div>
