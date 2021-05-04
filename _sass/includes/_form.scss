@@ -86,23 +86,7 @@ textarea {
   width: 100%;
   background: transparent;
   padding: 5px 0 6px 0;
-  border-bottom: 1px solid var(--alpha-color);
-}
-
-.form.join .input::-webkit-input-placeholder {
-  color: var(--alpha-color);
-}
-
-.form.join .input::-moz-placeholder {
-  color: var(--alpha-color);
-}
-
-.form.join .input:-ms-input-placeholder {
-  color: var(--alpha-color);
-}
-
-.form.join .input:focus {
-  border-color: var(--theme-color);
+  border-bottom: 1px solid var(--theme-color);
 }
 
 .form.join input,
