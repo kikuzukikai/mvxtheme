@@ -2,6 +2,6 @@
 ---
 
 User-agent: *
-Disallow: {{ site.url }}/docs/submitted.html
+Disallow:
 
 Sitemap: {{ site.url }}/sitemap.xml
