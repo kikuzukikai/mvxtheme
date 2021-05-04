@@ -1,6 +1,6 @@
 ---
 layout: default
-title: お問い合わせを送信しました
+title: フォームを送信しました
 permalink: /docs/submitted.html
 ---
 
