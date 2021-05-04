@@ -39,7 +39,7 @@ textarea {
 }
 
 .form.join fieldset {
-  border: 1px solid var(--theme-color);
+  border: 2px solid var(--theme-color);
   padding: 15px;
   border-radius: 6px;
 }
@@ -86,7 +86,7 @@ textarea {
   width: 100%;
   background: transparent;
   padding: 5px 0 6px 0;
-  border-bottom: 1px solid var(--theme-color);
+  border-bottom: 2px solid var(--theme-color);
 }
 
 .form.join input,
