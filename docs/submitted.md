@@ -1,7 +1,8 @@
 ---
 layout: default
 title: フォームを送信しました
-permalink: /docs/submitted.html
+sitemap: false
+unless: true
 ---
 
 <div class="default-content">
