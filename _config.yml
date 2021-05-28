@@ -115,6 +115,8 @@ menu:
     url: "/blog/"
   - title: "団体概要"
     url: "/docs/"
+  - title: "会則及び規程"
+    url: "/rules/"
   - title: "特設ページ"
     url: "/special/"
   - title: "投稿者一覧"
