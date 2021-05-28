@@ -2,18 +2,17 @@
 layout: default
 ---
 <section class="blog">
-	{{ content }}
-    	<ul>
-	{% for org_hash in site.data.links %}
-	{% assign org = org_hash[1] %}
-		<li>
-    			<a href="{{ site.url }}/links#{{ org.name }}">
-      				{{ org.name }}
-    			</a>
-			({{ org.links | size }} members)
-		</li>
-	{% endfor %}
-	</ul>
+  {{ content }}
+  {% for group in site.data.links %}
+    <h2>{{ group.name }}</h2>
+    <ul>
+    {% for link in site.data.links.[1] %}
+      <li>
+        <a href="{{ link.url }}">{{ link.name }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
@@ -27,7 +26,7 @@ layout: default
     {% if page == paginator.page %}
       <span>{{ page }}</span>
     {% elsif page == 1 %}
-      <a href="/blog/">{{ page }}</a>
+      <a href="/links/">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
@@ -40,3 +39,14 @@ layout: default
   {% endif %}
 </div>
 {% endif %}
+
+<script>
+{% include js/anchor.min.js %}
+</script>
+<script>anchors.add('h1, h2, h3, h4, h5, h6');</script>
+
+<script>
+function connecttext( textid, ischecked ) {
+  document.getElementById(textid).disabled = !ischecked;
+}
+</script>
