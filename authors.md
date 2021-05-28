@@ -6,6 +6,7 @@ pagination:
   enabled: true
 roster: true
 ---
+<section>
 <div class="about-dl">
   <dl>
   {% for author in site.authors %}
@@ -24,3 +25,4 @@ roster: true
   {% endfor %}
   </dl>
 </div>
+</section>
