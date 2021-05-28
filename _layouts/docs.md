@@ -60,9 +60,7 @@ layout: default
 </a>
 </p>
         </header>
-        <section>
             {{ content }}
-        </section>
     </article>
 </div>
 
