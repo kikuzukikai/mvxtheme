@@ -30,7 +30,7 @@
                 </ul>
             </li>
             <hr>
-            <li role="presentation" aria-label="Category name"><a href="{{ '/rules/' | relative_url }}" class="doc-link" role="link" aria-label="Rules">会則及び規定</a>
+            <li role="presentation" aria-label="Category name"><a href="{{ '/rules/' | relative_url }}" class="doc-link" role="link" aria-label="Rules">会則及び規程</a>
                 <label for="menubar2"><i class="fa-angle-up fa-rotate-180"></i>&nbsp;子ページ一覧</label>
                 <input type="checkbox" id="menubar2" class="accordion" />
                 <ul id="links2" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
