@@ -2,37 +2,37 @@
  * Copyright (c) 2017 MvvmCross
  */
 
-  h2 {
-    font-size: 1.5rem;
-  }
+h2 {
+  font-size: 1.5rem;
+}
 
-  section {
-    padding-top: $home-section-padding;
-    padding-bottom: $home-section-padding;
-    text-align: center;
-    color: var(--text-color);
+section {
+  padding-top: $home-section-padding;
+  padding-bottom: $home-section-padding;
+  text-align: center;
+  color: var(--text-color);
     
-    &:nth-child(2n) {
-      background-color: var(--zebra-color);
-    }
+  &:nth-child(2n) {
+    background-color: var(--zebra-color);
   }
+}
 
-  .home {
-    h1,
-    h2,
-    p {
-      margin-top: $home-text-margin;
-      margin-bottom: $home-text-margin;
-    }
+.home {
+  h1,
+  h2,
+  p {
+    margin-top: $home-text-margin;
+    margin-bottom: $home-text-margin;
   }
+}
 
-  > .landing {
-    color: var(--text-color);
-    padding-top: $home-landing-padding;
-    padding-bottom: $home-landing-padding;
-  }
+> .landing {
+  color: var(--text-color);
+  padding-top: $home-landing-padding;
+  padding-bottom: $home-landing-padding;
+}
 
-  > .backers {
+> .backers {
   img {
     max-width: 100%;
   }
