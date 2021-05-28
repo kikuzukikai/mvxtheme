@@ -107,9 +107,6 @@ collections:
   special:
     output: true
     permalink: /:collection/:path.html
-  links:
-    output: true
-    permalink: /:collection/:title.html
 # End
 
 # Site menu settings
