@@ -1,15 +1,15 @@
 group:
   - title: サイト概要
-  - links:
+  - link:
     - name: オンラインストア
-      link: https://kikuzukikai.booth.pm/
+      url: https://kikuzukikai.booth.pm/
 group:
   - title: 関係団体(戦友会)
-  - links:
+  - link:
     - name: 軍艦武藏会
-      link: https://gunkanmusashikai.org/
+      url: https://gunkanmusashikai.org/
 group:
   - title: 関係団体(その他)
-  - links:
+  - link:
     - name: 駆逐艦模型研究室
-      link: https://ddmlabo014.wixsite.com/ddmlabo
+      url: https://ddmlabo014.wixsite.com/ddmlabo
