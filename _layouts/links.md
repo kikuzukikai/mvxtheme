@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+<div class="doc-container">
+<article class="documentation">
 <section class="blog">
-<header>
+<header class="doc-header">
 <h1 class="doc-title">{{ page.title | escape }}</h1>
 <p class="meta">
 {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}更新
@@ -27,6 +29,7 @@ layout: default
   {% endfor %}
 </section>
 </article>
+</div>
 
 <script>
 {% include js/anchor.min.js %}
