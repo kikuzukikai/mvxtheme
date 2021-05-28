@@ -2,6 +2,7 @@
 layout: docs
 title: お問い合わせフォーム
 ---
+<section>
 
 - [情報提供のお願い](/docs/seek.html)も併せてご確認ください。
 - 匿名でのお問い合わせにもお答えできるようになりました。
@@ -12,6 +13,9 @@ title: お問い合わせフォーム
 いただいた個人情報は、こちらからご連絡する目的以外では使用いたしません。
 
 また、お問い合わせの内容によっては回答までにお時間を頂く場合がございますので、予めご了承ください。
+
+</section>
+<section>
 
 <div align="center">
 <form name="contact" action="/docs/submitted.html" method="POST" netlify-honeypot="captcha" data-netlify="true">
@@ -29,6 +33,9 @@ title: お問い合わせフォーム
   <button type="submit" class="button">送信</button>
 </form>
 </div>
+
+</section>
+<section>
 
 **Ticket ID:**
 - TOC
@@ -88,3 +95,5 @@ HP内の事で一件確認したいことがあります。
 いいえ。当該図案に関する譲渡契約は無く、また著作者人格権は消滅しておりません。
 
 -->
+
+</section>
