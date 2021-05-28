@@ -4,7 +4,7 @@ layout: default
 <section class="blog">
   {{ content }}
   {% for group in site.data.links %}
-    <h2>{{ group.name }}</h2>
+    <h2>{{ group.title}}</h2>
     <ul>
     {% for link in site.data.links.group[1].links %}
       <li>
