@@ -37,6 +37,7 @@ permalink: /docs/
   </dl>
 </div>
 </section>
+<br />
   
 ## 駆逐艦菊月会のあゆみ
 
