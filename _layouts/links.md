@@ -3,7 +3,6 @@ layout: default
 ---
 <div class="doc-container">
 <article class="documentation">
-<section class="blog">
 <header class="doc-header">
 <h1 class="doc-title">{{ page.title | escape }}</h1>
 <p class="meta">
@@ -15,6 +14,7 @@ layout: default
 </a>
 </p>
 </header>
+<section class="blog">
   {{ content }}
   {% for item in site.data.links.toc %}
     <h3>{{ item.title }}</h3>
