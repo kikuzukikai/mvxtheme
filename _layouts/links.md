@@ -39,6 +39,7 @@ layout: default
   {% endif %}
 </div>
 {% endif %}
+</section>
 
 <script>
 {% include js/anchor.min.js %}
