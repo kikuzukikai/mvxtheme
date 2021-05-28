@@ -12,12 +12,12 @@
                 </ul>
             </li>
             <li role="menuitem" aria-label="Site" class="item">
-<h2>サイト概要</h2>
+<h2>菊月会内部</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Site link">
 <li role="listitem" aria-label="Site link item"><a href="https://kikuzukikai.booth.pm" target="_blank" rel="noopener" role="link" aria-label="Store">オンラインストア</a></li>
 <li role="listitem" aria-label="Site link item"><a href="{{ site.url }}{{ '/docs/faq.html' | relative_url }}" role="link" aria-label="FAQ">よくある質問</a></li>
 <li role="listitem" aria-label="Site link item"><a href="{{ site.github.repository_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
-<li role="listitem" aria-label="Site link item"><a href="{{ '/links#サイト概要' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
+<li role="listitem" aria-label="Site link item"><a href="{{ '/links#菊月会内部' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
                 </ul>
             </li>
             <li role="menuitem" aria-label="Author" class="item">
@@ -30,21 +30,21 @@
 </ul>
             </li>
             <li role="menuitem" aria-label="Connect" class="item">
-<h2>関係団体(戦友会)</h2>
+<h2>関係戦友会</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
 <li role="listitem" aria-label="Connect link item"><a href="http://www.japan-solomon.com/" target="_blank" rel="noopener" role="link">全国ソロモン会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://gunkanmusashikai.org/" target="_blank" rel="noopener" role="link">軍艦武藏会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://gojikai1927.wixsite.com/mihonoseki" target="_blank" rel="noopener" role="link">美保関沖事件慰霊の会</a></li>
-<li role="listitem" aria-label="Connect link item"><a href="{{ '/links#関係団体-戦友会' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="{{ '/links#関係戦友会' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
                 </ul>
             </li>
             <li role="menuitem" aria-label="Connect" class="item">
-<h2>関係団体(その他)</h2>
+<h2>関係法人等</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
 <li role="listitem" aria-label="Connect link item"><a href="https://ddmlabo014.wixsite.com/ddmlabo" target="_blank" rel="noopener" role="link">駆逐艦模型研究室</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="http://www.jusenin.or.jp/" target="_blank" rel="noopener" role="link">寿仙院</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="http://www.kanda-giken.co.jp/" target="_blank" rel="noopener" role="link">株式会社神田技研</a></li>
-<li role="listitem" aria-label="Connect link item"><a href="{{ '/links#関係団体-その他' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="{{ '/links#関係法人等' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
                 </ul>
             </li>
         </ul>
