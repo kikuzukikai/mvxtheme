@@ -36,7 +36,9 @@ permalink: /docs/
   
   </dl>
 </div>
-
+</section>
+<section class="history">
+  
 ## 駆逐艦菊月会のあゆみ
 
 - [団体沿革](/docs/history.html)もご参照ください。
