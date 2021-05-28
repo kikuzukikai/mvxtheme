@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<article class="documentation">
 <header class="doc-header">
 <h1 class="doc-title">{{ page.title | escape }}</h1>
 <p class="meta">
@@ -15,17 +16,18 @@ layout: default
 <section class="blog">
   {{ content }}
   {% for item in site.data.links.toc %}
-    <h2>{{ item.title }}</h2>
+    <h3>{{ item.title }}</h3>
       <ul class="list">
         {% for entry in item.subfolderitems %}
           <li>
-            <h3><a href="{{ entry.url }}">{{ entry.page }}</a></h3>
+            <h2><a href="{{ entry.url }}">{{ entry.page }}</a></h2>
             <p class="meta">{{ entry.url }}</p>
           </li>
         {% endfor %}
       </ul>
   {% endfor %}
 </section>
+</article>
 
 <script>
 {% include js/anchor.min.js %}
