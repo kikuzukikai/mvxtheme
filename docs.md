@@ -37,7 +37,6 @@ permalink: /docs/
   </dl>
 </div>
 </section>
-<section>
   
 ## 駆逐艦菊月会のあゆみ
 
@@ -61,4 +60,3 @@ permalink: /docs/
 | 2021 | 令和03 | 01 | 01 | 英語名称を改定               | 東京都荒川区     |          |
 
 </div>
-</section>
