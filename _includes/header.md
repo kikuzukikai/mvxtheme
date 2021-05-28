@@ -30,10 +30,22 @@
                 </ul>
             </li>
             <hr>
-            <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
+            <li role="presentation" aria-label="Category name"><a href="{{ '/rules/' | relative_url }}" class="doc-link" role="link" aria-label="Rules">会則及び規定</a>
                 <label for="menubar2"><i class="fa-angle-up fa-rotate-180"></i>&nbsp;子ページ一覧</label>
                 <input type="checkbox" id="menubar2" class="accordion" />
                 <ul id="links2" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
+                {% for item in site.rules %}
+                {% unless item.unless %}
+                    <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>
+                {% endunless %}
+                {% endfor %}
+                </ul>
+            </li>
+            <hr>
+            <li role="presentation" aria-label="Category name"><a href="{{ '/special/' | relative_url }}" class="doc-link" role="link" aria-label="Special">特設ページ</a>
+                <label for="menubar3"><i class="fa-angle-up fa-rotate-180"></i>&nbsp;子ページ一覧</label>
+                <input type="checkbox" id="menubar3" class="accordion" />
+                <ul id="links3" class="sub-menu" role="menu" aria-hidden="true" aria-label="Navigation menu">
                 {% for item in site.special %}
                     <li role="menuitem" aria-label="Navigation menu item"><a href="{{ item.url | relative_url }}" class="doc-link" role="link" aria-label="{{ item.title }}">{{ item.title }}</a></li>
                 {% endfor %}
