@@ -6,7 +6,7 @@ layout: default
   {% for group in site.data.links %}
     <h2>{{ group.title}}</h2>
     <ul>
-    {% for link in site.data.links.group[1].links %}
+    {% for link in site.data.links.group[1] %}
       <li>
         <a href="{{ link.url }}">{{ link.name }}</a>
       </li>
