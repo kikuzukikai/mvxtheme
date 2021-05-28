@@ -27,7 +27,6 @@ layout: default
 </a>
 </p>
         </header>
-        <section>
             {{ content }}
 
 {% if page.roster %}
@@ -74,7 +73,6 @@ layout: default
             <a href="https://www.facebook.com/{{ page.facebook }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fa-facebook fa-2x"></i></a>
             {% endif %}
 
-        </section>
     </article>
 </div>
 
