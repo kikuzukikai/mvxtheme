@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<section class="blog">
+
 <article class="documentation">
 <header class="doc-header">
 <h1 class="doc-title">{{ page.title | escape }}</h1>
@@ -13,7 +15,7 @@ layout: default
 </a>
 </p>
 </header>
-<section class="blog">
+
   {{ content }}
   {% for item in site.data.links.toc %}
     <h3>{{ item.title }}</h3>
@@ -26,8 +28,10 @@ layout: default
         {% endfor %}
       </ul>
   {% endfor %}
-</section>
+
 </article>
+
+</section>
 
 <script>
 {% include js/anchor.min.js %}
