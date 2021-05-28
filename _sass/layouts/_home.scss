@@ -33,59 +33,30 @@
   }
 
   > .backers {
-    img {
-      max-width: 100%;
-    }
-
-    .opencollective object {
-      max-width: 1140px;
-    }
+  img {
+    max-width: 100%;
   }
 }
 
 @include media-query-max($on-mobile) {
-  .home {
-    > section {
-      padding-left: $base-mobile-padding;
-      padding-right: $base-mobile-padding;
-      padding-top: $home-section-padding - 20;
-      padding-bottom: $home-section-padding - 20;
-    }
-
-    .company-gallerys {
-      .gallery {
-        width: 100%;
-      }
-    }
+  section {
+    padding-left: $base-mobile-padding;
+    padding-right: $base-mobile-padding;
+    padding-top: $home-section-padding - 20;
+    padding-bottom: $home-section-padding - 20;
   }
 }
 
 @media screen and (min-width: $on-mobile + 1) and (max-width: $on-desktop - 1) {
-  .home {
-    > section {
-      padding-left: $base-tablet-padding;
-      padding-right: $base-tablet-padding;
-    }
-
-    .company-gallerys {
-      .gallery {
-        width: (100% / 2);
-      }
-    }
+  section {
+    padding-left: $base-tablet-padding;
+    padding-right: $base-tablet-padding;
   }
 }
 
 @include media-query-min($on-desktop) {
-  .home {
-    > section {
+  section {
       padding-left: $base-desktop-padding;
       padding-right: $base-desktop-padding;
-    }
-
-    .company-gallerys {
-      .gallery {
-        width: (100% / 3);
-      }
-    }
   }
 }
