@@ -1,8 +1,4 @@
 toc:
-  - title: サイト概要
-    subfolderitems:
-      - page: オンラインストア
-        url: https://kikuzukikai.booth.pm/
   - title: 関係団体(戦友会)
     subfolderitems:
       - page: 全国ソロモン会
@@ -21,3 +17,7 @@ toc:
         url: http://www.kanda-giken.co.jp/
       - page: Medjed.com
         url: https://web.medjed.com/
+  - title: サイト概要
+    subfolderitems:
+      - page: オンラインストア
+        url: https://kikuzukikai.booth.pm/
