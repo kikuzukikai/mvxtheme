@@ -12,12 +12,12 @@
                 </ul>
             </li>
             <li role="menuitem" aria-label="Site" class="item">
-<h2>菊月会内部</h2>
+<h2>菊月会関係</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Site link">
 <li role="listitem" aria-label="Site link item"><a href="https://kikuzukikai.booth.pm" target="_blank" rel="noopener" role="link" aria-label="Booth">オンラインストア</a></li>
 <li role="listitem" aria-label="Site link item"><a href="https://prtimes.jp/main/html/searchrlp/company_id/31198" role="link" aria-label="PR TIMES">プレスリリース</a></li>
 <li role="listitem" aria-label="Site link item"><a href="{{ site.github.repository_url }}" target="_blank" rel="noopener" role="link" aria-label="GitHub">このサイトのソースコード</a></li>
-<li role="listitem" aria-label="Site link item"><a href="{{ '/links#菊月会内部' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
+<li role="listitem" aria-label="Site link item"><a href="{{ '/links#菊月会関係' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
                 </ul>
             </li>
             <li role="menuitem" aria-label="Author" class="item">
