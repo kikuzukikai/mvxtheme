@@ -4,7 +4,7 @@ layout: default
 <section class="blog">
   {{ content }}
   {% for item in site.data.links.toc %}
-    <h3>{{ item.title }}</h3>
+    <h2>{{ item.title }}</h2>
       <ul>
         {% for entry in item.subfolderitems %}
           <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
