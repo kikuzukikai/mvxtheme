@@ -16,18 +16,20 @@ layout: default
 </header>
 <section class="blog">
   {{ content }}
-  {% for item in site.data.links.toc %}
-    <h3>{{ item.title }}</h3>
-      <ul class="list">
-        {% for entry in item.subfolderitems %}
-          <li>
-            <h2><a href="{{ entry.url }}">{{ entry.page }}</a></h2>
-            <p class="meta">{{ entry.url }}</p>
-          </li>
-        {% endfor %}
-      </ul>
-  {% endfor %}
 </section>
+{% for item in site.data.links.toc %}
+<section class="blog">
+  <h3>{{ item.title }}</h3>
+    <ul class="list">
+      {% for entry in item.subfolderitems %}
+        <li>
+          <h2><a href="{{ entry.url }}">{{ entry.page }}</a></h2>
+          <p class="meta">{{ entry.url }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+</section>
+{% endfor %}
 </article>
 </div>
 
