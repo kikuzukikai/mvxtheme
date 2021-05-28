@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="doc-container">
-<article class="documentation">
+<article class="list">
 <header class="doc-header">
 <h1 class="doc-title">{{ page.title | escape }}</h1>
 <p class="meta">
