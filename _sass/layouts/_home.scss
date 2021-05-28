@@ -6,16 +6,16 @@
     font-size: 1.5rem;
   }
 
+  section :nth-child(2n) {
+      background-color: var(--zebra-color);
+  }
+
   .home {
   > section {
     padding-top: $home-section-padding;
     padding-bottom: $home-section-padding;
     text-align: center;
     color: var(--text-color);
-
-    &:nth-child(2n) {
-      background-color: var(--zebra-color);
-    }
 
     h1,
     h2,
