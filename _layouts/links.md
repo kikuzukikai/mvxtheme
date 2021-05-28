@@ -14,9 +14,7 @@ layout: default
 </a>
 </p>
 </header>
-<section class="blog">
-  {{ content }}
-</section>
+{{ content }}
 {% for item in site.data.links.toc %}
 <section class="blog">
   <h3>{{ item.title }}</h3>
