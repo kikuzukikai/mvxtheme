@@ -1,15 +1,21 @@
-group:
+toc:
   - title: サイト概要
-  - link:
-    - name: オンラインストア
-      url: https://kikuzukikai.booth.pm/
-group:
+    subfolderitems:
+      - page: オンラインストア
+        url: https://kikuzukikai.booth.pm/
   - title: 関係団体(戦友会)
-  - link:
-    - name: 軍艦武藏会
-      url: https://gunkanmusashikai.org/
-group:
+    subfolderitems:
+      - page: 全國ソロモン会
+        url: http://www.japan-solomon.com/
+      - page: 軍艦武藏会
+        url: https://gunkanmusashikai.org/
+      - page: 美保関沖事件慰霊の会
+        url: https://gojikai1927.wixsite.com/mihonoseki
   - title: 関係団体(その他)
-  - link:
-    - name: 駆逐艦模型研究室
-      url: https://ddmlabo014.wixsite.com/ddmlabo
+    subfolderitems:
+      - page: 駆逐艦模型研究室
+        url: https://ddmlabo014.wixsite.com/ddmlabo
+      - page: 寿仙院
+        url: http://www.jusenin.or.jp/
+      - page: 株式会社神田技研
+        url: http://www.kanda-giken.co.jp/
