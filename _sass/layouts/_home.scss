@@ -15,6 +15,26 @@ section {
   &:nth-child(2n) {
     background-color: var(--zebra-color);
   }
+}
+
+.home {
+  text-align: center;
+  h1,
+  h2,
+  p {
+    margin-top: $home-text-margin;
+    margin-bottom: $home-text-margin;
+  }
+
+  > section {
+    padding-top: $home-section-padding;
+    padding-bottom: $home-section-padding;
+
+    color: var(--text-color);
+    
+    &:nth-child(2n) {
+      background-color: var(--zebra-color);
+    }
 
   > .landing {
     color: var(--text-color);
@@ -27,16 +47,6 @@ section {
       max-width: 100%;
     }
   } 
-}
-
-.home {
-  text-align: center;
-  h1,
-  h2,
-  p {
-    margin-top: $home-text-margin;
-    margin-bottom: $home-text-margin;
-  }
 }
 
 @include media-query-max($on-mobile) {
