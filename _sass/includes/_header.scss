@@ -139,7 +139,8 @@
         transition: all 0.5s;
       }
       #menubar1:checked ~ #links1 li,
-      #menubar2:checked ~ #links2 li {
+      #menubar2:checked ~ #links2 li,
+      #menubar3:checked ~ #links3 li {
         height: 44px;
         opacity: 1;
       }
