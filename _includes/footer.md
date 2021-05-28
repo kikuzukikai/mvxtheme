@@ -32,7 +32,7 @@
             <li role="menuitem" aria-label="Connect" class="item">
 <h2>関係団体(戦友会)</h2>
                 <ul role="menu" aria-hidden="true" aria-label="Connect link">
-<li role="listitem" aria-label="Connect link item"><a href="http://www.japan-solomon.com/" target="_blank" rel="noopener" role="link">全國ソロモン会</a></li>
+<li role="listitem" aria-label="Connect link item"><a href="http://www.japan-solomon.com/" target="_blank" rel="noopener" role="link">全国ソロモン会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://gunkanmusashikai.org/" target="_blank" rel="noopener" role="link">軍艦武藏会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="https://gojikai1927.wixsite.com/mihonoseki" target="_blank" rel="noopener" role="link">美保関沖事件慰霊の会</a></li>
 <li role="listitem" aria-label="Connect link item"><a href="{{ '/links#関係団体-戦友会' | relative_url }}" role="link" aria-label="Read more">&raquo; 続きを読み込む</a></li>
