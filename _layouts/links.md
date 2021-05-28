@@ -3,15 +3,13 @@ layout: default
 ---
 <section class="blog">
   {{ content }}
-  {% for group in site.data.links %}
-    <h2>{{ group.title}}</h2>
-    <ul>
-    {% for link in site.data.links.group[1] %}
-      <li>
-        <a href="{{ link.url }}">{{ link.name }}</a>
-      </li>
-    {% endfor %}
-    </ul>
+  {% for item in site.data.links.toc %}
+    <h3>{{ item.title }}</h3>
+      <ul>
+        {% for entry in item.subfolderitems %}
+          <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+        {% endfor %}
+      </ul>
   {% endfor %}
 
 {% if paginator.total_pages > 1 %}
