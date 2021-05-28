@@ -21,7 +21,7 @@ layout: default
 <section class="blog">
   <h3>{{ item.title }}</h3>
     <ul class="list">
-      {% for entry in item.subfolderitems %}
+      {% for entry in item.items %}
         <li>
           <h2><a href="{{ entry.url }}">{{ entry.page }}</a></h2>
           <p class="meta">{{ entry.url }}</p>
