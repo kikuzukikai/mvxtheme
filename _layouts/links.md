@@ -21,8 +21,8 @@ layout: default
     <ul class="list">
       {% for entry in item.items %}
         <li>
-          <h2><a href="{{ entry.url }}">{{ entry.page }}</a></h2>
-          <p class="meta">{{ entry.url | truncate:40 }}</p>
+          <h2><a href="//{{ entry.url }}">{{ entry.page }}</a></h2>
+          <p class="meta">{{ entry.url | truncate: 40 }}</p>
         </li>
       {% endfor %}
     </ul>
