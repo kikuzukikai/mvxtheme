@@ -17,3 +17,4 @@ title: 駆逐艦菊月慰霊碑
 
 ## 関連記事
 - [慰霊碑CFの概要]({{ site.url }}/blog/outline-of-cenotaph-cf.html)
+- [慰霊碑CF達成のお礼]({{ site.url }}/blog/gratitude.html)
