@@ -3,25 +3,35 @@ toc:
     items:
       - page: 全国ソロモン会
         url: www.japan-solomon.com
+        protocol: http
       - page: 軍艦武藏会
         url: gunkanmusashikai.org
+        protocol: https
       - page: 美保関沖事件慰霊の会
         url: gojikai1927.wixsite.com/mihonoseki
+        protocol: https
   - title: 関係法人等
     items:
       - page: 駆逐艦模型研究室
         url: ddmlabo014.wixsite.com/ddmlabo
+        protocol: https
       - page: 寿仙院
         url: www.jusenin.or.jp
+        protocol: http
       - page: 株式会社神田技研
         url: www.kanda-giken.co.jp
+        protocol: http
       - page: Medjed.com
         url: web.medjed.com
+        protocol: https
   - title: 菊月会関係
     items:
       - page: オンラインストア
         url: kikuzukikai.booth.pm
+        protocol: https
       - page: プレスリリース
         url: prtimes.jp/main/html/searchrlp/company_id/31198
+        protocol: https
       - page: このサイトのソースコード
         url: github.com/kikuzukikai/jekyll-theme-mobydick
+        protocol: https
