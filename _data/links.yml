@@ -23,3 +23,5 @@ toc:
         url: https://kikuzukikai.booth.pm/
       - page: プレスリリース
         url: https://prtimes.jp/main/html/searchrlp/company_id/31198
+      - page: このサイトのソースコード
+        url: https://github.com/kikuzukikai/jekyll-theme-mobydick
