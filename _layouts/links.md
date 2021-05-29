@@ -22,7 +22,7 @@ layout: default
       {% for entry in item.items %}
         <li>
           <h2><a href="{{ entry.url }}">{{ entry.page }}</a></h2>
-          <p class="meta">{{ entry.url }}</p>
+          <p class="meta">{{ entry.url | truncate:30 }}</p>
         </li>
       {% endfor %}
     </ul>
