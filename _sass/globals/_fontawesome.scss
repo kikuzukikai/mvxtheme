@@ -1,3 +1,7 @@
+.no-symbol {
+  content: "\20E0";
+}
+
 @font-face {
   font-family: 'fontawesome';
   src:
@@ -10,10 +14,6 @@ i {
   font-family: 'fontawesome' !important;
   font-style: normal;
   font-weight: normal;
-}
-
-.fa-blank {
-  content: "\0020";
 }
 
 .fa-2x {
