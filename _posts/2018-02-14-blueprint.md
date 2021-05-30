@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 菊月「復元図」頒布のお知らせ
-author: 堀江仁貴
+author: 中西雄亮
 ---
 
-[プレスリリース](https://prtimes.jp/main/html/rd/p/000000001.000031198.html)の通り、駆逐艦菊月の復元図を2018年2月17日(土)より[オンラインショップ](https://ec.kikuzukikai.org)にて頒布開始いたします。
+[プレスリリース](https://prtimes.jp/main/html/rd/p/000000001.000031198.html)の通り、駆逐艦菊月の復元図を2018年2月17日(土)より[オンラインストア](https://store.kikuzukikai.org)にて頒布開始いたします。
 
 【仕様】
 
