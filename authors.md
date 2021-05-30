@@ -17,12 +17,12 @@ roster: true
     {% if author.twitter %}
     <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener" role="link" aria-label="Twitter"><i class="fa-twitter fa-2x"></i></a>
     {% else %}
-    <i class="fa-blank fa-2x"></i>
+    <i class="no-symbol fa-2x"></i>
     {% endif %}
     {% if author.facebook %}
     <a href="https://www.facebook.com/{{ author.facebook }}" target="_blank" rel="noopener" role="link" aria-label="Facebook"><i class="fa-facebook fa-2x"></i></a>
     {% else %}
-    <i class="fa-blank fa-2x"></i>
+    <i class="no-symbol fa-2x"></i>
     {% endif %}
     </dd>
   {% endfor %}
