@@ -98,6 +98,11 @@ collections:
   authors:
     output: true
     permalink: /:collection/:path.html
+    order: 
+      - yasukuni-hashimoto.md
+      - hitoki-horie.md
+      - yusuke-nakanishi.md
+      - rin-kagurasho.md
   docs:
     output: true
     permalink: /:collection/:path.html
