@@ -4,7 +4,7 @@ command = "npm run build"
 functions = "api"
 
 [[redirects]]
-from = "https://kikuzukikai.netlify.com/*"
+from = "https://kikuzukikai.netlify.app/*"
 to = "https://www.kikuzukikai.org/:splat"
 status = 301
 force = true
