@@ -82,6 +82,10 @@ ol {
   list-style-position: inside;
 }
 
+ul li::before {
+  content: "\273F";
+}
+
 .default-content {
   padding: 40px;
   text-align: center;
