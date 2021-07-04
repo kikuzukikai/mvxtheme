@@ -82,7 +82,7 @@ ol {
   list-style-position: inside;
 }
 
-ul li::before {
+ul li::marker {
   content: "\273F";
 }
 
