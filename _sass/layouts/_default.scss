@@ -82,8 +82,8 @@ ol {
   list-style-position: inside;
 }
 
-ul li::marker {
-  content: "\273F";
+ul li {
+  list-style-type: "\273F";
 }
 
 .default-content {
