@@ -24,3 +24,4 @@ title: 駆逐艦菊月慰霊碑
 ## 関連記事
 - [慰霊碑CFの概要]({{ site.url }}/blog/outline-of-cenotaph-cf.html)
 - [慰霊碑CF達成のお礼]({{ site.url }}/blog/gratitude.html)
+- [慰霊碑の建立資金を受け取りました]({{ site.url }}/blog/received-the-funds.html)
