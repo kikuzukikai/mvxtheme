@@ -1,0 +1,11 @@
+---
+layout: post
+title: 慰霊碑用地の永代使用権を取得しました
+author: 堀江仁貴
+---
+
+本日、駆逐艦菊月会は、慰霊碑用地として[浅草 寿仙院](http://www.jusenin.or.jp)境内地の永代使用料を納め、同地使用の権利を取得いたしました。
+
+また、慰霊碑関連の情報は今後[こちらのページ](https://www.kikuzukikai.org/special/cenotaph.html)へ集約いたします。
+
+引き続きよろしくお願いいたします。
